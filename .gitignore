@@ -1,0 +1,11 @@
+# Dart and Flutter
+.dart_tool/
+build/
+.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# Release signing (never committed)
+app/android/key.properties
+*.jks
+*.keystore

@@ -1,0 +1,29 @@
+name: argueless
+description: "Practise curiosity and cooperation, a few minutes a day."
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.6
+  argueless_core:
+    path: ../packages/argueless_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # The practice content: subjects, rubrics and scenarios. See
+    # docs/content/README.md for the format and how it is generated.
+    - assets/content/
+    # Every version's notes, shown on the about page.
+    - assets/changelog.json

@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "emotion",
+  "scenarios": [
+    {
+      "id": "em-01",
+      "title": "The One-Word Reply",
+      "setting": "Partner · text messages",
+      "difficulty": 1,
+      "situation": "You spend ten minutes writing a thoughtful message about weekend plans. Your partner replies with a single word: \"Fine.\" You are standing in the kitchen with the kettle going, staring at the full stop.",
+      "firstThought": "Fine? After all that effort? They obviously don't care what I think.",
+      "reframes": [
+        "I'm feeling a little stung, and that's worth noticing before I reply.",
+        "A one-word reply might just mean they're busy, not annoyed.",
+        "They may be tired or distracted, and \"fine\" is all they had energy for.",
+        "I'm reading a tone into text that may not be there.",
+        "We both want a good weekend, so I can check in rather than guess.",
+        "If it were me typing on a rough day, I'd probably be brief too."
+      ],
+      "phrases": [
+        "Your reply felt short to me. Is everything okay, or just a busy day?",
+        "Fine works for me. Is there anything you'd change about the plan?",
+        "I may be reading too much into a text. How are you doing?",
+        "I put a lot into that message and your answer stung a bit. Can we chat later?",
+        "Want to call quickly? Text makes everything sound flatter than it is.",
+        "What would make this weekend feel good for you?"
+      ],
+      "roleplay": {
+        "partner": "Sam, your partner",
+        "opening": "Sorry, I was in the middle of something. What's up?",
+        "partnerReply": "Oh, no, I wasn't annoyed. Work's been loud today and I skimmed it. Honestly I'd love the plan, I just didn't have the brain to say so. Thanks for checking."
+      },
+      "takeaway": "Short replies often say more about the day than about me."
+    },
+    {
+      "id": "em-02",
+      "title": "Talked Over Again",
+      "setting": "Work · team meeting",
+      "difficulty": 2,
+      "situation": "Halfway through explaining your idea in a team meeting, a colleague jumps in and finishes your sentence, taking it in a slightly different direction. You notice your jaw tightening and your face getting warm.",
+      "firstThought": "Here we go again. They never let me finish a single thought.",
+      "reframes": [
+        "My jaw is tight and my face is hot. I'm getting wound up.",
+        "They may be jumping in because they're excited, not to silence me.",
+        "Maybe they think they're helping me get to the point faster.",
+        "I'm adding \"never\" and \"again\" to a moment that may be a one-off.",
+        "We both want this idea to land well with the team.",
+        "Their different direction might hold something I hadn't considered."
+      ],
+      "phrases": [
+        "Let me just finish my thought, then I'd love to hear yours.",
+        "Sounds like you're excited about this. What are you picturing?",
+        "I'd like to complete that point, and then we can build on your angle together.",
+        "I think we may be heading in different directions. Can we line them up?",
+        "Hold that thought, I'm nearly there. I want your take on the whole thing.",
+        "Did I lose you somewhere? You seemed eager to jump in."
+      ],
+      "roleplay": {
+        "partner": "Priya, a colleague on your team",
+        "opening": "Right, so basically what you're saying is we should push the launch back, yes?",
+        "partnerReply": "Oh, sorry, did I cut you off? I got ahead of myself. I thought you were heading to the delay. Go on, what were you actually going to say?"
+      },
+      "takeaway": "A tight jaw is my cue to get curious, not to defend."
+    },
+    {
+      "id": "em-03",
+      "title": "That Little Sigh",
+      "setting": "Family · evening at home",
+      "difficulty": 1,
+      "situation": "You offer to help your sister choose a paint colour for her living room. She lets out a long sigh and says nothing, still looking at the swatches on the table. The room goes quiet.",
+      "firstThought": "Great, now I'm the annoying one for trying to help.",
+      "reframes": [
+        "I feel a flash of embarrassment, and that's okay to notice.",
+        "That sigh might be about the decision, not about me.",
+        "She may be overwhelmed by too many choices.",
+        "I'm making the sigh mean something about my help before I know.",
+        "We both want a room she loves.",
+        "If I felt stuck, I might sigh at a pile of swatches too."
+      ],
+      "phrases": [
+        "That sounded like a heavy sigh. Is it the colours or something else?",
+        "Want me to help narrow these down, or would you rather think alone?",
+        "Choosing paint can be a lot. What's making it feel hard?",
+        "I'm happy to just keep you company if that's more useful.",
+        "Which of these do you keep coming back to?",
+        "I wasn't sure if my help landed well. Tell me if I'm crowding you."
+      ],
+      "roleplay": {
+        "partner": "Jo, your older sister",
+        "opening": "Ugh. Sorry. I've been staring at these for two weeks and they all look beige.",
+        "partnerReply": "It's not you, honestly. I just feel like I'm going to get it wrong and be stuck with it. Maybe you could just tell me which one you like?"
+      },
+      "takeaway": "A sigh is often about the situation, not about me."
+    },
+    {
+      "id": "em-04",
+      "title": "Left Off the Invite",
+      "setting": "Friends · group chat",
+      "difficulty": 2,
+      "situation": "Scrolling through photos, you see that three friends from your group went out for dinner on Saturday. Nobody mentioned it to you. One of them has just posted a cheerful thank-you message to the table, and you feel a familiar sinking feeling.",
+      "firstThought": "They clearly didn't want me there. I'm always the one left out.",
+      "reframes": [
+        "I feel hurt and a bit lonely, and I can say so to myself.",
+        "It may have been a last-minute plan that nobody thought to widen.",
+        "They might have assumed I was busy or wouldn't be interested.",
+        "One dinner doesn't prove that I'm always left out.",
+        "I want to stay close to these friends, and they probably want that too.",
+        "If I'd been the organiser, I might have forgotten someone without meaning to."
+      ],
+      "phrases": [
+        "I saw the photos from Saturday and felt a little left out. How did that come together?",
+        "That looks like a great night. I'd love to join the next one.",
+        "Was that a spur-of-the-moment thing? I'm curious how it got planned.",
+        "I noticed I felt a bit sad seeing that. Can I tell you why?",
+        "Next time you're organising something, count me in. I'd really like to come.",
+        "Did I miss a message somewhere, or was it a small get-together?"
+      ],
+      "roleplay": {
+        "partner": "Marcus, a friend from the group",
+        "opening": "Hey! Saw you liked the dinner photos. It was great, you'd have loved the place.",
+        "partnerReply": "Oh no, it was totally last-minute, someone cancelled a booking and we grabbed it. I should have thought of you. Do you want to organise a proper one soon?"
+      },
+      "takeaway": "Naming the hurt gently beats stewing in it quietly."
+    },
+    {
+      "id": "em-05",
+      "title": "The Slow Burn Email",
+      "setting": "Work · email from a manager",
+      "difficulty": 3,
+      "situation": "Your manager emails the whole team a list of corrections, and two of the items are clearly about a report you wrote. Your cheeks flush and your fingers hover over the keyboard, drafting a sharp reply. It's 4:45 on a Friday.",
+      "firstThought": "She's calling me out in front of everyone. I'm not taking this.",
+      "reframes": [
+        "My chest is tight and I want to snap. That's a cue to pause.",
+        "She may have bundled everything into one email to save time, not to shame me.",
+        "She's probably under pressure from above and passing the corrections along fast.",
+        "Corrections on a report are about the work, not my worth.",
+        "We both want the report to be right before it goes out.",
+        "She might not realise how that email lands for the person it's about."
+      ],
+      "phrases": [
+        "Thanks for the corrections. Could we go through the two on my report on Monday?",
+        "I'll fix those today. Can I check which ones are most urgent?",
+        "I noticed the list went to everyone. Next time could you flag mine to me directly?",
+        "I want to make sure I understand what you're looking for. Can I call you?",
+        "I'm a bit rattled by the group email, and I'd like to talk it through, not reply right now.",
+        "What's the best way for me to catch these before they reach you?"
+      ],
+      "roleplay": {
+        "partner": "Dana, your manager",
+        "opening": "Hi, got a minute? I wanted to talk about those corrections I sent round.",
+        "partnerReply": "Thanks for coming to me first. I was rushing before the weekend and I didn't think about how it read to the group. I'd like to hear what you'd find more helpful."
+      },
+      "takeaway": "Pause before replying. The draft I send on Monday is kinder."
+    },
+    {
+      "id": "em-06",
+      "title": "Sarcasm at the Barbecue",
+      "setting": "Friends · garden barbecue",
+      "difficulty": 2,
+      "situation": "You arrive with a homemade salad. A friend's partner glances at it and says, \"Oh, a salad. How brave. Real food will be along shortly.\" A couple of people laugh. You feel the heat rise to your ears as you put the bowl down.",
+      "firstThought": "That was a dig. I'm not going to let them make a fool of me.",
+      "reframes": [
+        "I feel embarrassed in front of others, and that's why my ears are hot.",
+        "They may think they're being funny and have no idea it stung.",
+        "Teasing may be how they bond, even if it misses with me.",
+        "I'm not sure it was a dig. I could ask rather than assume.",
+        "I want to enjoy this afternoon with these people.",
+        "Maybe the joke covers their own nerves about meeting new people."
+      ],
+      "phrases": [
+        "That one landed a bit sharp for me. Were you joking?",
+        "I put some effort into that salad. I'd love you to try it.",
+        "Ha, I can take teasing, but that stung a little. Just so you know.",
+        "I'm not sure how that was meant. Can you help me out?",
+        "Salad's my contribution. What did you bring to the table?",
+        "I'm feeling a bit self-conscious now. Can we start over with a drink?"
+      ],
+      "roleplay": {
+        "partner": "Tom, a friend's partner",
+        "opening": "Ha, don't mind me. I just can't resist a bit of banter. You okay?",
+        "partnerReply": "Ah, I didn't mean anything by it. I get chatty when I'm nervous around new people. Sorry if it came across wrong. Honestly, that looks great. Pass me a fork."
+      },
+      "takeaway": "Saying \"that stung\" lightly can turn a jab into a conversation."
+    },
+    {
+      "id": "em-07",
+      "title": "Teenager Slams the Door",
+      "setting": "Family · hallway at home",
+      "difficulty": 3,
+      "situation": "You ask your sixteen-year-old whether they've finished their homework. They roll their eyes, say \"Can you just stop?\" and go to their room, shutting the door harder than necessary. You're left in the hallway with your pulse thumping.",
+      "firstThought": "The disrespect! I'm not going to let them talk to me like that.",
+      "reframes": [
+        "My pulse is racing and I want to bang on that door. I should cool down first.",
+        "They might be overwhelmed with school and my question felt like another weight.",
+        "Slamming a door may be what stress looks like at sixteen.",
+        "If I've asked a few times today, it may feel like nagging to them.",
+        "We both want them to feel capable and not nagged.",
+        "Maybe their sharp words are covering worry about something I can't see."
+      ],
+      "phrases": [
+        "I could tell that question landed badly. Can we talk when you're ready?",
+        "I think I've been checking in a lot. Is it feeling like nagging?",
+        "I got pretty wound up just now, so I'm going to take a minute. Then I'd like to talk.",
+        "What would help with homework this week? You decide.",
+        "You seem stressed lately. Is anything weighing on you?",
+        "I want to be on your side here. How can I ask differently?"
+      ],
+      "roleplay": {
+        "partner": "Alex, your sixteen-year-old",
+        "opening": "I know, I know. I'm just tired of being asked about it every five minutes.",
+        "partnerReply": "It's just a lot right now. I've got two tests and I haven't told you because I didn't want to make it a thing. Can you just not ask for a bit? I'll tell you if I need help."
+      },
+      "takeaway": "A slammed door often hides a tired, stressed person."
+    },
+    {
+      "id": "em-08",
+      "title": "The Silent Queue",
+      "setting": "Service · coffee shop counter",
+      "difficulty": 1,
+      "situation": "You're ordering at a busy coffee shop. The barista is moving fast, face tight, and hands you the wrong drink without looking up. You can see a long line building behind you and a pile of cups at their elbow.",
+      "firstThought": "Can't they even be bothered to look at me? Rude.",
+      "reframes": [
+        "I'm a bit irritated and in a hurry, and I can notice that.",
+        "They might be flat out with a rush and have no space to look up.",
+        "Their tight face may mean stress, not dislike of me.",
+        "A wrong cup is a small thing I could simply mention kindly.",
+        "We both want this line to move and everyone to get their drink.",
+        "If I'd been on my feet for hours in a rush, I'd be curt too."
+      ],
+      "phrases": [
+        "Looks like you're slammed. I think I ordered the oat latte, no rush.",
+        "Busy morning, huh? Thanks for working through it.",
+        "Sorry to add to the pile, I think this one's mixed up with someone else's.",
+        "Take your time. I'm happy to wait for the right one.",
+        "That looks like a tough rush. Anything I can do to make it easier?",
+        "Quick check on my order when you have a second, no problem if not."
+      ],
+      "roleplay": {
+        "partner": "Lee, the barista",
+        "opening": "Sorry, was that the oat latte? We're short-staffed and it's chaos today.",
+        "partnerReply": "Oh, thank you for being nice about it. Honestly, you're the first person this morning who didn't snap at me. Give me thirty seconds and I'll make it right, and it's on me."
+      },
+      "takeaway": "A kind word to a stressed stranger costs me almost nothing."
+    }
+  ]
+}

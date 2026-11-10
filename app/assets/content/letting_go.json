@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "letting-go",
+  "scenarios": [
+    {
+      "id": "lg-01",
+      "title": "The Wrong Capital",
+      "setting": "Friends · dinner table",
+      "difficulty": 1,
+      "situation": "You are at a friend's dinner party. Someone confidently says Sydney is the capital of Australia while passing the potatoes. Everyone else nods along, and you can feel the correction rising in your throat.",
+      "firstThought": "Oh no, that's wrong, and I can't let it slide.",
+      "reframes": [
+        "Maybe I should check my own certainty before I jump in.",
+        "They might just be tired and chatting, not giving a geography lecture.",
+        "We all want a pleasant dinner more than a perfect fact sheet.",
+        "I might be missing why this came up in the first place.",
+        "This itch to correct is telling me I like feeling smart.",
+        "From their side, a public correction over potatoes might sting."
+      ],
+      "phrases": [
+        "Funny, I always mix those two up. Shall we look it up?",
+        "What made you think of Sydney? I'm curious where that came from.",
+        "I thought it was Canberra, but I'm happy to be wrong. Want to check?",
+        "Australia is such a big place. Have you been there?",
+        "Does it matter for what we're talking about, or are we just wandering?",
+        "I might be off, but Canberra rings a bell for me. What do you think?"
+      ],
+      "roleplay": {
+        "partner": "Marcus, a friend of the host",
+        "opening": "Sydney's the capital, obviously. Everyone knows that. Pass the gravy, would you?",
+        "partnerReply": "Huh, Canberra? Now that you say it, I think I did hear that once. Let's look it up. Are you good with trivia in general?"
+      },
+      "takeaway": "A shared laugh beats a perfect fact at dinner."
+    },
+    {
+      "id": "lg-02",
+      "title": "Explain It Again, Please",
+      "setting": "Work · team meeting",
+      "difficulty": 2,
+      "situation": "A newer colleague is walking the team through how the spreadsheet macro works. You wrote that macro two years ago. They have a step slightly wrong, and your hand is already half raised.",
+      "firstThought": "I built this thing. They're getting it wrong in front of everyone.",
+      "reframes": [
+        "Maybe their version works in a way I have forgotten about.",
+        "They are trying hard to help the team, and that is a good thing.",
+        "We both want the team to use this correctly.",
+        "I might be missing a change someone made after I left it.",
+        "My irritation is telling me my pride is attached to this macro.",
+        "From their side, being corrected mid-sentence feels like being caught out."
+      ],
+      "phrases": [
+        "Thanks for walking us through this. Can I add one detail at the end?",
+        "That's a clear way to explain it. How did you find that step?",
+        "I think I remember that step working a bit differently. Can we test it together?",
+        "Could I share what I remember from when I built it?",
+        "Nice summary. What parts are still confusing for you?",
+        "Let me know if you'd like the background on why it was set up this way."
+      ],
+      "roleplay": {
+        "partner": "Priya, a newer teammate",
+        "opening": "So step three recalculates the totals first, and then we filter. Does that match what everyone has seen?",
+        "partnerReply": "Oh, it filters first? I wondered why the numbers looked off sometimes. Thanks, that's really useful. Could you show me after the meeting?"
+      },
+      "takeaway": "Adding to someone's explanation lands better than interrupting it."
+    },
+    {
+      "id": "lg-03",
+      "title": "Whose Story Is It",
+      "setting": "Partner · telling a story to friends",
+      "difficulty": 2,
+      "situation": "Your partner is telling friends the story of your lost-luggage trip to Lisbon. They say it rained the whole week, but you clearly remember sun on day three. Everyone is laughing, and you are itching to fix it.",
+      "firstThought": "That's not how it happened, and they know it.",
+      "reframes": [
+        "My memory of that week might be shakier than I think.",
+        "They may be telling it the way it felt, not the way the weather went.",
+        "We both want the friends to enjoy this story.",
+        "I might be missing what made the rain the memorable part for them.",
+        "This urge to correct is telling me I want my version heard too.",
+        "From their side, a story is more about the laugh than the forecast."
+      ],
+      "phrases": [
+        "Ha, it felt like constant rain, didn't it? Tell them about the umbrella.",
+        "You tell it better than I do. What was your favourite part?",
+        "I remember a bit of sun on day three. Did I imagine that?",
+        "I love hearing how you remember that trip. Go on.",
+        "Can I add the bit about the taxi driver?",
+        "Later, remind me what you remember most about Lisbon. I'm curious."
+      ],
+      "roleplay": {
+        "partner": "Sam, your partner",
+        "opening": "And it poured the entire week! We never even dried out. Right, love?",
+        "partnerReply": "Ha, okay, maybe there was one sunny afternoon. But the rain is what I remember. Honestly, I like that you remember the good bits."
+      },
+      "takeaway": "A shared story can hold two versions."
+    },
+    {
+      "id": "lg-04",
+      "title": "Not How I'd Do It",
+      "setting": "Friends · planning a trip",
+      "difficulty": 1,
+      "situation": "Your friend Jo is planning a weekend camping trip and has picked a site two hours away. You know a closer one with better trails. Jo has already made the booking and is excited about it.",
+      "firstThought": "My idea is clearly better. Why didn't they ask me?",
+      "reframes": [
+        "Maybe I don't know everything Jo weighed when choosing.",
+        "Jo probably picked this place for a reason that matters to them.",
+        "We both want a weekend that feels like a real escape.",
+        "I might be missing something about this site that is great.",
+        "My disappointment is telling me I wanted a say in the plan.",
+        "From Jo's side, the booking was a gift and a lot of effort."
+      ],
+      "phrases": [
+        "This sounds exciting. What drew you to that site?",
+        "I know a spot with some good trails nearby. Want to hear about it sometime?",
+        "I'm in. Tell me what you're most looking forward to.",
+        "Can I help plan the food or the hikes?",
+        "What should I bring to make it better for you?",
+        "Thanks for organizing this. I'm happy to follow your lead."
+      ],
+      "roleplay": {
+        "partner": "Jo, a close friend",
+        "opening": "I booked the lake site! It's a bit of a drive, but the sunsets there are supposed to be unreal.",
+        "partnerReply": "Oh nice, I'd love to hear about the other spot too, maybe for the next trip. For now, want to take charge of the hikes?"
+      },
+      "takeaway": "Your plan can wait. Their excitement is worth joining."
+    },
+    {
+      "id": "lg-05",
+      "title": "Someone Is Wrong Online",
+      "setting": "Online · neighbourhood group chat",
+      "difficulty": 3,
+      "situation": "In the neighbourhood group chat, a stranger says the new bike lane was paid for by a tax you know was never raised. Three people have already liked the post. Your thumbs are hovering over a long, fact-filled reply.",
+      "firstThought": "This is misinformation, and somebody has to set it straight.",
+      "reframes": [
+        "I might have this detail wrong, so let me check my sources.",
+        "They may genuinely believe it because someone told them the same.",
+        "We both want the neighbourhood to spend money wisely.",
+        "I might be missing what actually worries them about the lane.",
+        "My pulse is telling me this is more about winning than helping.",
+        "From their side, a public correction from a stranger may feel like an attack."
+      ],
+      "phrases": [
+        "Where did you see that? I'd like to read it too.",
+        "I thought it came from the city budget, but I could be wrong. Anyone have a link?",
+        "What bothers you most about the new lane?",
+        "Happy to share what I found if it's useful. No pressure.",
+        "I might have missed something. Can you point me to the source?",
+        "Whatever the funding, I'd love to hear how the lane affects your street."
+      ],
+      "roleplay": {
+        "partner": "Gary, a neighbour you have never met",
+        "opening": "They raised taxes to build that bike lane, and now parking is a nightmare. Typical.",
+        "partnerReply": "Fair enough, I read it on a friend's post, so I may have it wrong. But parking really is the issue for me. Any idea who we talk to?"
+      },
+      "takeaway": "Curiosity about the worry beats a pile of facts."
+    },
+    {
+      "id": "lg-06",
+      "title": "Maybe I Am Wrong",
+      "setting": "Family · Sunday kitchen",
+      "difficulty": 3,
+      "situation": "Your mother says the pie crust needs cold butter, not melted. You have made this pie for years with melted butter and everyone loves it. Last time, though, the crust came out a little tough.",
+      "firstThought": "My way works fine. She is just being fussy again.",
+      "reframes": [
+        "She might actually know something I haven't learned yet.",
+        "She is probably offering help because she cares about the pie.",
+        "We both want this pie to turn out great.",
+        "I might be missing why last time's crust was tough.",
+        "My defensiveness is telling me I'm sensitive about my cooking.",
+        "From her side, sharing a family trick is a way of connecting."
+      ],
+      "phrases": [
+        "Why cold butter? I'd love to understand what it changes.",
+        "Last time my crust was a bit tough. Do you think that's why?",
+        "Show me how you do it? I'll try it your way.",
+        "Maybe we can bake two and compare them.",
+        "Where did you learn that trick?",
+        "I've always done it this way, but I'm open. What do you notice?"
+      ],
+      "roleplay": {
+        "partner": "Mum, your mother",
+        "opening": "You're melting the butter again? Cold, love, it has to be cold. That's why it goes tough.",
+        "partnerReply": "Well, let's do one each! I'll show you how to rub it in with your fingertips. You might find you like it better, or maybe not."
+      },
+      "takeaway": "Sometimes the other person has the better trick."
+    },
+    {
+      "id": "lg-07",
+      "title": "The Fixer at the Counter",
+      "setting": "Service · hardware store",
+      "difficulty": 2,
+      "situation": "You ask a store clerk where the wood glue is. She says aisle 9, and you are almost sure it is aisle 11, because you were just there last week. A little line is forming behind you.",
+      "firstThought": "She is wrong, and I'm going to waste ten minutes.",
+      "reframes": [
+        "Maybe they moved things around since last week.",
+        "She works here all day, so she may know something I don't.",
+        "We both want me out of here with the right glue.",
+        "I might be missing a new display near aisle 9.",
+        "My impatience is telling me I'm tired and in a hurry.",
+        "From her side, a customer doubting her would feel unfair."
+      ],
+      "phrases": [
+        "Thanks. I thought it was in aisle 11. Did it move?",
+        "I'll check nine first. Anything else I should look for there?",
+        "Is there a map I can grab, in case I get lost?",
+        "Great, thanks. Do you carry the waterproof kind too?",
+        "I might be remembering the wrong one. Could you point me?",
+        "Thanks for your help. I'll flag you down if I can't find it."
+      ],
+      "roleplay": {
+        "partner": "Lena, a store clerk",
+        "opening": "Wood glue? That's aisle nine, on the left near the clamps.",
+        "partnerReply": "Oh, aisle eleven used to have it. We moved it last Tuesday. Good catch on remembering, though. Want me to walk you over?"
+      },
+      "takeaway": "Check before you correct. Both of you may be right."
+    },
+    {
+      "id": "lg-08",
+      "title": "The Teenager Has a Point",
+      "setting": "Family · car ride",
+      "difficulty": 3,
+      "situation": "Your fifteen-year-old says homework reminders on your phone are pointless because they ignore them anyway. You know that reminders help, and you are ready to deliver a short speech about responsibility. They are looking out the window.",
+      "firstThought": "They don't get it. I've got to explain why this matters.",
+      "reframes": [
+        "Maybe my reminders aren't working the way I assume.",
+        "They may be tired of feeling nagged, not careless.",
+        "We both want homework to stop being a daily fight.",
+        "I might be missing what's actually getting in their way.",
+        "My urge to lecture is telling me I'm worried about their future.",
+        "From their side, a reminder can feel like a lack of trust."
+      ],
+      "phrases": [
+        "What would help you remember, if not my reminders?",
+        "Fair point. What is it about them that doesn't work?",
+        "I worry about homework piling up. How do you see it?",
+        "Want to try it your way for a week and see how it goes?",
+        "Tell me what a good evening looks like for you.",
+        "I'm listening. What would make this easier?"
+      ],
+      "roleplay": {
+        "partner": "Noah, your fifteen-year-old",
+        "opening": "Those reminders are pointless. I just swipe them away. It's so annoying.",
+        "partnerReply": "Honestly, it's the pinging that gets me. If I picked my own time, I'd probably just do it. Can we try that for a week?"
+      },
+      "takeaway": "Listening first can turn a lecture into a plan."
+    }
+  ]
+}

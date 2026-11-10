@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "rebuttal",
+  "scenarios": [
+    {
+      "id": "rb-01",
+      "title": "The Wrong Number",
+      "setting": "Work · planning meeting",
+      "difficulty": 2,
+      "situation": "Your manager Priya is announcing a launch date to the whole team. You spot that it rests on a vendor lead time of two weeks, but your last email from the vendor said six. She is already reaching for the calendar invite.",
+      "firstThought": "If I speak up now, I'll look like I'm undermining her in front of everyone.",
+      "reframes": [
+        "Maybe I misread that email. I should check my own assumption before I object.",
+        "Priya probably wants a date that holds, same as me.",
+        "We both want a launch that actually happens on time.",
+        "She may have newer information from the vendor that I haven't seen.",
+        "This knot in my stomach is telling me the stakes matter to me.",
+        "From her side, a wrong date discovered later would be far worse than a question now."
+      ],
+      "phrases": [
+        "Before we send that invite, can I check one number with you?",
+        "I might be missing an update. My last note from the vendor said six weeks.",
+        "I want this date to hold. Can we confirm the lead time first?",
+        "Here's what I'm seeing on my end. Does it match yours?",
+        "Tell me if I'm wrong, but I think the vendor timeline changed.",
+        "Poke holes in this: if lead time is six weeks, does the date still work?"
+      ],
+      "roleplay": {
+        "partner": "Priya, your manager",
+        "opening": "Great, so we're locked for the fifteenth. Anyone have a problem with that before I send the invite?",
+        "partnerReply": "Hm, six weeks? I was going off a call last month. Good catch to raise it now. Can you forward me that email so we can sort it out together?"
+      },
+      "takeaway": "Speak up: the deadline is built on a wrong number."
+    },
+    {
+      "id": "rb-02",
+      "title": "Tuesday's Big Toast",
+      "setting": "Family · retirement party",
+      "difficulty": 1,
+      "situation": "At your dad's retirement party, his old friend Walt tells the room a story where your dad was the hero of a project. You remember it differently, and your aunt actually did most of the work. Everyone is laughing and clapping.",
+      "firstThought": "That's not how it happened, and someone ought to say so.",
+      "reframes": [
+        "Does the exact credit matter tonight, or is this really about celebrating Dad?",
+        "Walt likely tells it kindly, the way he remembers it.",
+        "We all want Dad to feel honoured today.",
+        "My memory could be incomplete too. I wasn't there for all of it.",
+        "This itch to correct is about fairness to my aunt, and that's worth noticing.",
+        "From Dad's side, tonight is about gratitude, not a fact check."
+      ],
+      "phrases": [
+        "Great story, Walt. I'd love to hear more about that project.",
+        "That sounds like Dad. What was your favourite part of working with him?",
+        "I'll have to ask Aunt Jo what she remembers. It sounds like a fun one.",
+        "Thanks for telling that. It means a lot to him tonight.",
+        "I never heard that version. How did it all start?",
+        "Cheers to Dad. And to everyone who made that project happen."
+      ],
+      "roleplay": {
+        "partner": "Walt, your dad's old friend",
+        "opening": "And that's how your father saved the whole project, single-handed! Isn't that right, kid?",
+        "partnerReply": "Ha, well, he had help, your aunt for one, I won't deny it. Between us, she was the real engine. Let's get her up here and toast them both."
+      },
+      "takeaway": "Let this one go. Tonight is about celebrating, not scorekeeping."
+    },
+    {
+      "id": "rb-03",
+      "title": "Ladder Without a Spotter",
+      "setting": "Neighbours · driveway",
+      "difficulty": 3,
+      "situation": "Your neighbour Marcus is up on a tall ladder trimming a branch, leaning far out with a chainsaw. The ladder sits on loose gravel and nobody is holding it. His kid is playing right below.",
+      "firstThought": "He's going to think I'm a nosy busybody, but he's going to get hurt.",
+      "reframes": [
+        "Safety isn't a trivial point. This is worth the awkwardness.",
+        "Marcus probably just wants the job done before dinner, not to take a risk.",
+        "We both want nobody hurt, especially his kid.",
+        "From up there, Marcus may not feel the gravel shifting.",
+        "This jittery feeling is my gut telling me to act.",
+        "From his side, an offer of help would feel friendly, not bossy."
+      ],
+      "phrases": [
+        "Hey Marcus, that gravel looks slippery. Want me to hold the ladder?",
+        "I've got ten minutes. Can I spot you while you finish that branch?",
+        "Mind if I steer the kids over to my yard while you saw?",
+        "That ladder looks like it's shifting. Can we check it together?",
+        "Here's what I'm worried about: the gravel. Does it feel solid to you?",
+        "I'd feel better holding the base while you cut. Mind if I do?"
+      ],
+      "roleplay": {
+        "partner": "Marcus, your neighbour",
+        "opening": "Oh, hey! Don't worry, I've done this a hundred times. Just a quick trim, almost done.",
+        "partnerReply": "Okay, okay, I hear you. The gravel is a bit squirrelly now that you say it. Sure, grab the base. And thanks for caring, I didn't think about the kid."
+      },
+      "takeaway": "Speak up: safety is worth a moment of awkwardness."
+    },
+    {
+      "id": "rb-04",
+      "title": "Quiet Voice, Loud Room",
+      "setting": "Work · brainstorm session",
+      "difficulty": 2,
+      "situation": "In a brainstorm, Devon keeps talking over Amara, the newest teammate. Each time she starts an idea, he finishes it his own way. You liked her half-sentence about customer onboarding, and now the group is moving on.",
+      "firstThought": "It's not my place. Devon's senior, and I don't want to start drama.",
+      "reframes": [
+        "Is it really drama to ask for her idea? Or is that just good teamwork?",
+        "Devon may be excited, not trying to silence her.",
+        "We both want the best ideas on the whiteboard.",
+        "Maybe Amara is fine with it, and I should check rather than assume.",
+        "My irritation is telling me something about fairness matters here.",
+        "From Devon's view, he's likely just helping fill in the gaps."
+      ],
+      "phrases": [
+        "Amara, I liked where you were going with onboarding. Can you finish that thought?",
+        "Devon, great energy. Can we hear the rest of Amara's idea first?",
+        "I want to make sure we catch everything. Amara, what were you about to say?",
+        "I think her point about onboarding is worth more time. Could we circle back?",
+        "Here's what I heard Amara start to say. Did I get that right?",
+        "Let's give Amara the floor for a minute. I'm curious where she's headed."
+      ],
+      "roleplay": {
+        "partner": "Devon, your senior teammate",
+        "opening": "Right, so the onboarding thing is basically a tutorial, we just add a quick video. Next topic?",
+        "partnerReply": "Oh, sure, sorry Amara, go ahead. I jumped in there. What were you thinking? Might be bigger than a video, honestly."
+      },
+      "takeaway": "Speak up: someone's idea is being steamrolled."
+    },
+    {
+      "id": "rb-05",
+      "title": "Let Him Have the Recipe",
+      "setting": "Family · kitchen after a funeral",
+      "difficulty": 1,
+      "situation": "Your grandmother passed last week. Your uncle Ray is telling everyone her famous soup used cardamom, while you clearly remember it was cinnamon. His voice catches while he describes standing next to her at the stove.",
+      "firstThought": "It was cinnamon. If nobody corrects him, the recipe will be lost.",
+      "reframes": [
+        "Does the spice matter more than what this memory means to him?",
+        "He's probably holding on to her however he can.",
+        "We both want to keep Grandma close right now.",
+        "I could be wrong. Maybe she changed it over the years.",
+        "This urge to fix is a bit of my own grief looking for something to do.",
+        "From his side, the details are the comfort, and facts can wait."
+      ],
+      "phrases": [
+        "I love picturing you two at the stove. What else do you remember?",
+        "That soup was something. What did it smell like when she made it?",
+        "Maybe we can write down the recipe together sometime soon.",
+        "She'd be happy we're all still talking about her cooking.",
+        "Thanks for sharing that, Ray. It means a lot to hear.",
+        "Tell me more about those afternoons with her."
+      ],
+      "roleplay": {
+        "partner": "Ray, your uncle",
+        "opening": "She always let me stir while she added the cardamom. I can still smell it. Silly, isn't it?",
+        "partnerReply": "Not silly at all, thank you. Maybe we all piece her recipe back together some weekend. You remember bits too, don't you? We could compare notes."
+      },
+      "takeaway": "Let this one go. The recipe can wait, grief can't."
+    },
+    {
+      "id": "rb-06",
+      "title": "The Group Chat Verdict",
+      "setting": "Friends · group chat",
+      "difficulty": 3,
+      "situation": "Your friend Jess posts in the group chat that she's quitting her stable job to launch a candle business next month, with no savings plan. Everyone replies with fireworks emojis. You're worried, but you also remember she's been unhappy there for years.",
+      "firstThought": "Everyone's cheering a bad plan. If I say something, I'm the party pooper.",
+      "reframes": [
+        "Before I push back, do I actually know her plan? Maybe she has one.",
+        "Jess probably wants support, and maybe some courage, more than a debate.",
+        "We both want her to end up happy and okay.",
+        "I might be missing details she hasn't shared in the chat.",
+        "My worry is a sign that I care about her, which is a good thing.",
+        "From her side, a public pile-on or a public cheer both feel loud. Private might land better."
+      ],
+      "phrases": [
+        "Jess, I'm excited for you. Can I call you later and hear the plan?",
+        "Congrats on the bold step. What does your first six months look like?",
+        "I'm in your corner. Can I share one thing I'm wondering about, just between us?",
+        "Tell me what made you decide now. I'd love to understand.",
+        "I want this to work for you. Have you thought about a runway of savings?",
+        "Poke holes in this: could you start part-time before leaving fully?"
+      ],
+      "roleplay": {
+        "partner": "Jess, your friend",
+        "opening": "Thanks for the call! So, honestly, I know it's scary. Did you want to say something about the plan?",
+        "partnerReply": "Okay, that's fair. I've got about four months saved, but I hadn't thought about going part-time first. Maybe I could keep a few shifts. Let's talk it through."
+      },
+      "takeaway": "Ask first, then speak up privately, with care."
+    },
+    {
+      "id": "rb-07",
+      "title": "Pineapple on Everything",
+      "setting": "Friends · pizza night",
+      "difficulty": 1,
+      "situation": "At pizza night, your friend Theo loudly insists pineapple is the best topping and that anyone who disagrees has no taste. You think it belongs nowhere near a pizza. Everyone is laughing and grabbing slices.",
+      "firstThought": "He's so wrong about this, and I can't let the table think he's right.",
+      "reframes": [
+        "Does it matter? It's pizza, and nobody's life changes here.",
+        "Theo is probably teasing, enjoying a playful debate.",
+        "We both just want a fun night with good food.",
+        "Maybe I haven't tried a really good pineapple pizza.",
+        "That little spark of competitiveness is just me wanting to win, and that's fine.",
+        "From his side, this is a harmless bit he does every time."
+      ],
+      "phrases": [
+        "Not my pick, but I'll watch you enjoy it. What got you into it?",
+        "Okay, I'll try one bite and report back honestly.",
+        "Sweet and salty, I can see the appeal. Who else is on Team Pineapple?",
+        "We can agree to disagree and still share the pie.",
+        "Tell me your best case. I'm listening.",
+        "Pass me the plain one, and you keep the pineapple one."
+      ],
+      "roleplay": {
+        "partner": "Theo, your friend",
+        "opening": "Come on, admit it. Pineapple is elite. Anyone who says otherwise just has no imagination!",
+        "partnerReply": "Ha, fair enough, you're allowed to be wrong. Seriously though, try this slice with the salty ham. If you hate it I'll buy the next round of plain."
+      },
+      "takeaway": "Let this one go. Some tastes are just tastes."
+    },
+    {
+      "id": "rb-08",
+      "title": "The Refund Wall",
+      "setting": "Service · electronics store counter",
+      "difficulty": 2,
+      "situation": "You're returning a blender that broke on day two, but the clerk, Sam, says the policy bars refunds after opening the box. A line is forming behind you. The receipt in your hand clearly shows a 30-day guarantee printed at the bottom.",
+      "firstThought": "This is ridiculous. They're stonewalling me, and I'm not leaving without my money.",
+      "reframes": [
+        "Is the clerk the one making the policy, or just the one stuck enforcing it?",
+        "Sam probably wants to help but is following a rule that seems wrong here.",
+        "We both want this resolved so the line can move.",
+        "Sam may not have seen the defect line on this receipt.",
+        "My heat rising tells me I care about being treated fairly.",
+        "From Sam's side, a rule-bender gets blamed and an angry customer gets worn out."
+      ],
+      "phrases": [
+        "I know you didn't write the policy. Can we look at this receipt together?",
+        "This line at the bottom says thirty days for defects. Does that apply here?",
+        "What would you suggest, since it broke after two days?",
+        "Is there someone who can approve a defect exception? I'd appreciate it.",
+        "I'm happy with a replacement if a refund isn't possible. What can you do?",
+        "Here's the defect line on the receipt. Could a manager take a look?"
+      ],
+      "roleplay": {
+        "partner": "Sam, the store clerk",
+        "opening": "Sorry, ma'am, opened items can't be refunded. It's store policy, there's nothing I can do.",
+        "partnerReply": "Oh, you're right, that's the defect guarantee. I missed it. Let me grab my supervisor so I can approve a swap or a refund. Just give me a minute."
+      },
+      "takeaway": "Speak up, kindly: the receipt backs you up."
+    }
+  ]
+}

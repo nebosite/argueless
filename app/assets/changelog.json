@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "versions": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-10",
+      "changes": [
+        "First version of ArgueLess.",
+        "Daily practice: brainstorm reframes and phrases, compare with suggestions, rate yourself, and role-play your favourite.",
+        "Four subjects with eight scenarios each: letting go of being right, confusion as a signal, noticing the feeling, and when to push back.",
+        "Daily reflection on the last 24 hours, with a progress chart over two or twelve weeks.",
+        "Streaks, idea counts, and an about page with this version history."
+      ]
+    }
+  ]
+}

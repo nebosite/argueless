@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "scale": [
+    { "value": 1, "label": "Not yet" },
+    { "value": 2, "label": "Getting there" },
+    { "value": 3, "label": "Solid" },
+    { "value": 4, "label": "Nailed it" }
+  ],
+  "rubrics": {
+    "reframe": {
+      "title": "How did your reframes do?",
+      "criteria": [
+        { "id": "curious", "label": "Curious", "prompt": "My ideas wonder what I might not know yet." },
+        { "id": "generous", "label": "Generous", "prompt": "I gave them a reasonable, decent motive." },
+        { "id": "shared", "label": "Shared ground", "prompt": "I looked for what we both want." },
+        { "id": "variety", "label": "Variety", "prompt": "My ideas came at it from different angles." }
+      ]
+    },
+    "phrases": {
+      "title": "How did your phrases do?",
+      "criteria": [
+        { "id": "open", "label": "Opens the door", "prompt": "My phrases invite them to say more." },
+        { "id": "owned", "label": "Owns my part", "prompt": "I speak for myself, not about them." },
+        { "id": "warm", "label": "Warm", "prompt": "The tone stays friendly, even where I disagree." },
+        { "id": "natural", "label": "Sounds like me", "prompt": "I could say these out loud without cringing." }
+      ]
+    }
+  },
+  "subjects": [
+    {
+      "id": "letting-go",
+      "title": "Letting go of being right",
+      "tagline": "Trade the win for the conversation.",
+      "brief": "Moments when you feel the pull to correct someone or take over the conversation. Generous thinking questions your own assumptions, asks for clarity, and makes room for another view.",
+      "color": "0xFF2E7DD7",
+      "icon": "balance",
+      "scenarioFile": "letting_go.json"
+    },
+    {
+      "id": "confusion",
+      "title": "Confusion is a signal",
+      "tagline": "Not getting it? Get curious.",
+      "brief": "The feeling of not understanding is an invitation to slow down, listen, and learn, rather than dismiss, bluff, or tune out.",
+      "color": "0xFF8E44AD",
+      "icon": "help",
+      "scenarioFile": "confusion.json"
+    },
+    {
+      "id": "emotion",
+      "title": "Noticing the feeling",
+      "tagline": "Spot the spark before it's a fire.",
+      "brief": "Become aware of triggers in yourself and others, and practise surfacing them without starting a conflict.",
+      "color": "0xFFE0663A",
+      "icon": "favorite",
+      "scenarioFile": "emotion.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "noticing", "label": "Noticing", "prompt": "I named the feeling, mine or theirs, without blame." },
+            { "id": "generous", "label": "Generous", "prompt": "I gave them a reasonable, decent motive." },
+            { "id": "curious", "label": "Curious", "prompt": "I wondered what is underneath the feeling." },
+            { "id": "shared", "label": "Shared ground", "prompt": "I looked for what we both want." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rebuttal",
+      "title": "When to push back",
+      "tagline": "Disagree like a teammate.",
+      "brief": "Healthy conversations sometimes need another point of view. Learn to notice when a rebuttal helps, when it can wait, and how to offer it so it lands as a contribution, not an attack.",
+      "color": "0xFF1E9E6A",
+      "icon": "forum",
+      "scenarioFile": "rebuttal.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "discerning", "label": "Discerning", "prompt": "I weighed whether speaking up would help right now." },
+            { "id": "curious", "label": "Curious", "prompt": "I wanted to understand their view before offering mine." },
+            { "id": "generous", "label": "Generous", "prompt": "I gave them a reasonable, decent motive." },
+            { "id": "shared", "label": "Shared ground", "prompt": "I framed my view as serving what we both want." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "earned", "label": "Listened first", "prompt": "I showed I understood them before I disagreed." },
+            { "id": "owned", "label": "Owns my part", "prompt": "I offered my view as mine, not as the truth." },
+            { "id": "warm", "label": "Warm", "prompt": "The tone stays friendly while I disagree." },
+            { "id": "natural", "label": "Sounds like me", "prompt": "I could say these out loud without cringing." }
+          ]
+        }
+      }
+    }
+  ]
+}

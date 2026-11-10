@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "confusion",
+  "scenarios": [
+    {
+      "id": "cf-01",
+      "title": "Alphabet Soup",
+      "setting": "Work · team meeting",
+      "difficulty": 1,
+      "situation": "In the Monday meeting, a new colleague says, \"We should pivot the ICP before the GTM kickoff and loop in RevOps.\" Everyone nods. You have no idea what two of those words mean, and your coffee has gone cold.",
+      "firstThought": "Everyone else gets this, and I'll look foolish. Maybe I'll just nod along.",
+      "reframes": [
+        "If I'm lost, someone else probably is too. My question might help them.",
+        "They're excited and used to these words. They aren't trying to shut anyone out.",
+        "We both want this kickoff to go well, and that needs everyone on the same page.",
+        "Maybe these terms are new to the team, and nobody has asked yet.",
+        "My confusion is useful information: the message isn't landing yet.",
+        "From their side, a quick explanation costs ten seconds and saves a mix-up later."
+      ],
+      "phrases": [
+        "Can you unpack ICP for me? I want to make sure I follow the plan.",
+        "I'm missing a piece. What does RevOps do on this one?",
+        "Quick check so I'm on the same page: what's the pivot, exactly?",
+        "I know the goal, but not the acronyms. Can you give me the plain-English version?",
+        "Could you walk me through what changes for my part?",
+        "I'd rather ask now than guess later. What does GTM stand for here?"
+      ],
+      "roleplay": {
+        "partner": "Priya, the new colleague",
+        "opening": "So once we pivot the ICP, the GTM kickoff basically writes itself. Any thoughts?",
+        "partnerReply": "Oh, sorry, I'm drowning in acronyms myself lately. ICP is just our ideal customer profile. Honestly, thanks for asking. I bet half the room wanted to."
+      },
+      "takeaway": "Asking what a word means is a gift to the whole room."
+    },
+    {
+      "id": "cf-02",
+      "title": "No Cap, Dad",
+      "setting": "Family · kitchen at dinner time",
+      "difficulty": 1,
+      "situation": "You offer your fifteen-year-old a bowl of your famous chili. They glance at it and say, \"Nah, that's kinda mid, no cap.\" Then they grin, and you can't tell if you've just been insulted or complimented.",
+      "firstThought": "Did my own kid just insult my cooking? Speak English, please.",
+      "reframes": [
+        "I don't know this word, so I shouldn't assume it's rude. Let me find out.",
+        "They're being playful and comfortable with me. That grin isn't hostile.",
+        "We both want a nice dinner together, and a little curiosity helps with that.",
+        "Language moves fast. I probably missed what this phrase means right now.",
+        "My flash of hurt tells me I care how they see me, and that's okay.",
+        "To them, it's a casual word. They might be surprised it landed badly."
+      ],
+      "phrases": [
+        "I'm going to need a translation. What does mid mean, exactly?",
+        "Okay, teach me. Is that good, bad, or somewhere in the middle?",
+        "I can't tell if I got roasted or complimented. Help me out?",
+        "What would make it not mid? I'm genuinely curious.",
+        "I love learning your words. What does no cap mean?",
+        "Honest question, no hurt feelings: what's missing from the chili?"
+      ],
+      "roleplay": {
+        "partner": "Jamie, your teenager",
+        "opening": "Nah, it's just kinda mid, no cap. Like, it's fine. It's not bad.",
+        "partnerReply": "Mid means, like, average. No cap means I'm not lying. Okay, it's actually pretty good, just needs more kick. Can I put hot sauce on it?"
+      },
+      "takeaway": "Unfamiliar words are an invitation, not an insult."
+    },
+    {
+      "id": "cf-03",
+      "title": "Make It Pop-ish",
+      "setting": "Work · chat message from the boss",
+      "difficulty": 1,
+      "situation": "Your boss messages at 3 p.m.: \"Can you make the report pop and get it to the client soonish? Thanks!\" She's in back-to-back meetings. You read it three times and still can't tell what pop means or when soonish is.",
+      "firstThought": "This is impossible to do right. I'll just guess and hope she's happy.",
+      "reframes": [
+        "If I guess wrong, we both lose time. A quick question protects us both.",
+        "She's busy and dashed this off, not trying to set me up to fail.",
+        "We both want a report the client loves, delivered on time.",
+        "Maybe pop means something specific to her that I haven't seen yet.",
+        "My unease says the target is blurry. That's worth clearing up.",
+        "From her side, she assumed it was obvious because it's clear in her head."
+      ],
+      "phrases": [
+        "Happy to help. What does pop look like to you: visuals, a tighter summary, something else?",
+        "By soonish, do you mean today, or by tomorrow morning?",
+        "Quick question so I get this right: which section matters most to the client?",
+        "Could you point me to a report you think pops? I'll match that.",
+        "I want to hit what you have in mind. What's the one thing you'd change?",
+        "I'll get started. Can I check my plan with you in ten minutes?"
+      ],
+      "roleplay": {
+        "partner": "Dana, your manager",
+        "opening": "Oh, right. Did I say pop? Ha. Um, what do you need from me?",
+        "partnerReply": "Good catch, I was rushing. I mostly want the summary page sharper and a chart up front. Tomorrow at ten is fine. Thanks for checking instead of guessing."
+      },
+      "takeaway": "A clarifying question now beats a redo later."
+    },
+    {
+      "id": "cf-04",
+      "title": "The Vanishing Project",
+      "setting": "Work · hallway after an announcement",
+      "difficulty": 2,
+      "situation": "Your team spent four months on a new scheduling tool. This morning, leadership announced it's cancelled. You run into your director, Marcus, by the coffee machine, and the decision still makes no sense to you.",
+      "firstThought": "That's a ridiculous call. They wasted four months of our work and don't care.",
+      "reframes": [
+        "I only see part of the picture. There may be reasons I haven't heard.",
+        "Leaders usually make hard calls for a reason, even ones that sting.",
+        "We both want the team's work to count for something.",
+        "Maybe something changed in the budget or the market that I can't see.",
+        "My frustration shows how much I cared about this project. That matters.",
+        "From his side, announcing this probably wasn't fun, and he may be bracing for pushback."
+      ],
+      "phrases": [
+        "I'm still wrapping my head around it. Can you help me understand what changed?",
+        "I put a lot into this, so I'd like to understand the thinking. What drove the decision?",
+        "What did leadership see that we didn't?",
+        "Is there anything from our work we can reuse somewhere else?",
+        "I'm disappointed, honestly. Can you walk me through how this was decided?",
+        "What would help the team most over the next few weeks?"
+      ],
+      "roleplay": {
+        "partner": "Marcus, your director",
+        "opening": "I know the news landed hard this morning. I wanted to catch you. How are you doing?",
+        "partnerReply": "Fair question. The short version is a budget shift we couldn't announce earlier. I disagreed, too. The scheduling work isn't wasted, though. Want to hear where I think it could go?"
+      },
+      "takeaway": "A decision that makes no sense usually has a story behind it."
+    },
+    {
+      "id": "cf-05",
+      "title": "The Silent Sofa",
+      "setting": "Partner · living room, Sunday evening",
+      "difficulty": 2,
+      "situation": "Your partner has been quiet since lunch with their sister. When you ask what's wrong, they say \"Nothing,\" and rearrange the cushions with more force than cushions require. You honestly can't think what you did.",
+      "firstThought": "I haven't done anything. If they won't tell me, how am I supposed to know?",
+      "reframes": [
+        "Not seeing the reason doesn't mean there isn't one. Something happened that I can't see.",
+        "They may be hurt or tired, not angry at me. It might not be about me at all.",
+        "We both want a calm evening, and they might need a little room first.",
+        "I might be missing what happened at lunch. Asking gently is better than guessing.",
+        "My defensiveness is telling me I feel blamed, even though nobody has said so.",
+        "From their side, saying it out loud may feel harder than staying quiet."
+      ],
+      "phrases": [
+        "I can tell something's weighing on you. I don't need details, but I'm here.",
+        "I'm a bit lost on what's going on. Would you like to talk or have some space?",
+        "How was lunch with your sister? I'd love to hear.",
+        "I don't want to guess wrong. Is there something I can do to help?",
+        "No pressure. If you want to tell me later, I'm listening.",
+        "I noticed you seem quiet. Want a cup of tea and a sofa buddy?"
+      ],
+      "roleplay": {
+        "partner": "Sam, your partner",
+        "opening": "I'm fine. Really. It's just been a long day, okay?",
+        "partnerReply": "Sorry, I'm not mad at you. My sister made a comment about my job and it's been stuck in my head. I didn't want to dump it on you. Thanks for asking."
+      },
+      "takeaway": "When you can't see why someone's upset, ask kindly and listen."
+    },
+    {
+      "id": "cf-06",
+      "title": "The Hedge Dispute",
+      "setting": "Neighbours · over the garden fence",
+      "difficulty": 2,
+      "situation": "Your neighbour Mrs. Okafor knocks on your door, visibly upset, about your new garden lights. They're small, solar and pointed at the ground. She says, \"This is just not acceptable,\" and you can't see what the problem could be.",
+      "firstThought": "They're tiny lights on my own property. She's being unreasonable about nothing.",
+      "reframes": [
+        "Something about these lights matters to her, and I can't see what yet.",
+        "She might be worried about something real, like sleep or her garden.",
+        "We both want to be good neighbours for a long time.",
+        "Maybe the view from her window looks different than it does from mine.",
+        "My urge to defend my lights is a cue to listen first.",
+        "From her side, coming over to complain probably took some courage."
+      ],
+      "phrases": [
+        "I'd like to understand. What are you noticing from your side?",
+        "Thanks for telling me directly. Can you show me what you're seeing?",
+        "I didn't realize they'd bother anyone. What's the problem for you?",
+        "Tell me more. When do they bother you most?",
+        "I want us to both be comfortable. What would help?",
+        "Want to step over to your window and look together?"
+      ],
+      "roleplay": {
+        "partner": "Mrs. Okafor, your neighbour",
+        "opening": "Those lights of yours shine straight into my bedroom. It's been three nights of bad sleep.",
+        "partnerReply": "Oh, thank you for asking. I hate complaining. If you could just angle them down or switch them off by ten, that would honestly be enough. I'm grateful you're open to it."
+      },
+      "takeaway": "A complaint you don't understand is a story you haven't heard."
+    },
+    {
+      "id": "cf-07",
+      "title": "Baffling Comment Thread",
+      "setting": "Online · community forum",
+      "difficulty": 3,
+      "situation": "In your town's online forum, a stranger argues strongly against a bike lane you love, saying it will \"destroy the neighbourhood.\" Dozens of people agree. You can't see how anyone could feel that way about paint and a few posts.",
+      "firstThought": "These people are clueless or selfish. There's no sensible case against bike lanes.",
+      "reframes": [
+        "If dozens of ordinary people feel this way, there's probably something I'm not seeing.",
+        "Maybe they're protecting something they love, like parking, shops or their street.",
+        "We both want a neighbourhood that works well and feels safe.",
+        "I may be only hearing the loudest version of their view, not the real worry.",
+        "My irritation means this matters to me. I can care and still be curious.",
+        "From their side, a change near home can feel like it was done to them."
+      ],
+      "phrases": [
+        "Genuinely curious: what worries you most about the bike lane?",
+        "Can you tell me more about how this affects your street?",
+        "I'm on the other side, but I'd like to understand. What are you picturing?",
+        "I may be missing something. What would you want in a plan like this?",
+        "What's one thing about the lane that works for you, if any?",
+        "I'd like to hear how it's changed your day. Mind sharing?"
+      ],
+      "roleplay": {
+        "partner": "Walt, a forum neighbour",
+        "opening": "You people just don't get it. My shop depends on customers parking out front. This lane will kill us.",
+        "partnerReply": "Huh. Most replies here just call me names. Yes, it's the parking. Half my regulars are elderly and can't walk far. If there were drop-off spots, I'd honestly feel better."
+      },
+      "takeaway": "A view that baffles you often rests on a worry you can learn."
+    },
+    {
+      "id": "cf-08",
+      "title": "Computer Says No",
+      "setting": "Service · customer desk at the electronics store",
+      "difficulty": 3,
+      "situation": "You return a broken kettle with the receipt, but the clerk says he can't refund it because the box is missing. Your line is growing behind you. His rule seems pointless, and your voice is already getting sharp.",
+      "firstThought": "This policy is absurd. He's hiding behind a rule instead of using common sense.",
+      "reframes": [
+        "I don't know why this rule exists. There could be a reason I haven't heard.",
+        "He probably doesn't love this rule either. He's likely just doing his job.",
+        "We both want this to be solved quickly so the line moves on.",
+        "Maybe there's another option, like an exchange, that I haven't been offered.",
+        "My rising heat says I'm embarrassed and rushed. I can slow down first.",
+        "From his side, he's the face of a rule he didn't write."
+      ],
+      "phrases": [
+        "Help me understand the box rule. Why does it matter for refunds?",
+        "I'm not following the policy. What options do I have?",
+        "I'd like to solve this with you. What can you do for me today?",
+        "I appreciate you explaining. Is there someone who can make an exception?",
+        "Could we do an exchange or store credit instead?",
+        "Thanks for your patience. What would you do in my position?"
+      ],
+      "roleplay": {
+        "partner": "Tomas, the store clerk",
+        "opening": "I'm really sorry, sir. Without the original box, the system won't let me issue a refund.",
+        "partnerReply": "Honestly, I don't love this rule. The system flags it for fraud. But I can offer a full exchange, or ask my supervisor about a refund. She's usually reasonable. Want me to call her over?"
+      },
+      "takeaway": "Understanding a rule opens options that arguing never does."
+    }
+  ]
+}
