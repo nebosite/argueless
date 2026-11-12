@@ -16,7 +16,9 @@ void main() {
     await tester.pumpWidget(ArguelessApp(services: testServices(library)));
     await tester.pumpAndSettle();
 
-    await tester.tap(find.byTooltip('About ArgueLess'));
+    await tester.tap(find.byTooltip('Settings'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('About ArgueLess'));
     await tester.pumpAndSettle();
     final current = shippedChangelog.current;
     expect(find.text('Version $current'), findsOneWidget);

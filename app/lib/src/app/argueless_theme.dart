@@ -13,17 +13,22 @@ class ArguelessTheme {
 
   static const radius = 20.0;
 
-  static ThemeData light() => _themed(
+  /// The smallest comfortable tap target.
+  static const tapTarget = 48.0;
+
+  /// Light pages in the chosen theme [colour].
+  static ThemeData light([Color colour = violet]) => _themed(
     ColorScheme.fromSeed(
-      seedColor: violet,
-      primary: violet,
+      seedColor: colour,
+      primary: colour,
       tertiary: const Color(0xFFB35C00),
       surface: cream,
     ),
   );
 
-  static ThemeData dark() => _themed(
-    ColorScheme.fromSeed(seedColor: violet, brightness: Brightness.dark),
+  /// Dark pages, toned from the chosen theme [colour].
+  static ThemeData dark([Color colour = violet]) => _themed(
+    ColorScheme.fromSeed(seedColor: colour, brightness: Brightness.dark),
   );
 
   static ThemeData _themed(ColorScheme scheme) {

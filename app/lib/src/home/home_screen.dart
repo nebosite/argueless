@@ -1,12 +1,14 @@
 import 'package:argueless_core/argueless_core.dart';
 import 'package:flutter/material.dart';
 
-import '../about/about_screen.dart';
 import '../app/app_services.dart';
 import '../app/argueless_theme.dart';
 import '../practice/practice_launcher.dart';
 import '../progress/progress_screen.dart';
 import '../reflect/reflect_screen.dart';
+import '../reminders/reminder_coordinator.dart';
+import '../reminders/reminder_offer_dialog.dart';
+import '../settings/settings_screen.dart';
 import 'action_card.dart';
 import 'streak_chip.dart';
 import 'subject_card.dart';
@@ -44,6 +46,10 @@ class _HomeScreenState extends State<HomeScreen> {
       // Home must always open; the numbers just show as zero.
       debugPrint('ArgueLess: home load failed: ${e.runtimeType}');
     }
+    // A practice today moves the next reminder to tomorrow.
+    _services.reminders.sync().catchError((Object e) {
+      debugPrint('ArgueLess: reminder sync failed: ${e.runtimeType}');
+    });
     if (!mounted) return;
     setState(() {
       _stats = PracticeStats(records, today: _services.today);
@@ -52,8 +58,44 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _practise({String? subjectId}) async {
+    final before = _stats?.totalPractices ?? 0;
     await PracticeLauncher(_services).start(context, subjectId: subjectId);
     await _load();
+    if ((_stats?.totalPractices ?? 0) > before) await _offerReminders();
+  }
+
+  /// The offer is on screen; another is never stacked on it.
+  bool _offering = false;
+
+  /// After a finished practice, reminders are offered until answered.
+  Future<void> _offerReminders() async {
+    final reminders = _services.reminders;
+    if (_offering) return;
+    _offering = true;
+    try {
+      if (!await reminders.shouldOffer() || !mounted) return;
+      final answer = await ReminderOfferDialog.show(context);
+      if (answer == null) return;
+      if (!answer) {
+        await reminders.decline();
+        return;
+      }
+      final result = await reminders.setEnabled(true);
+      if (result == EnableResult.denied && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'Notifications are off for ArgueLess. You can allow them in '
+              "your phone's settings.",
+            ),
+          ),
+        );
+      }
+    } catch (e) {
+      debugPrint('ArgueLess: reminder offer failed: ${e.runtimeType}');
+    } finally {
+      _offering = false;
+    }
   }
 
   Future<void> _open(Widget screen) async {
@@ -90,9 +132,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 StreakChip(days: stats?.streak ?? 0),
                 IconButton(
-                  tooltip: 'About ArgueLess',
-                  icon: const Icon(Icons.info_outline_rounded),
-                  onPressed: () => _open(AboutScreen(services: _services)),
+                  tooltip: 'Settings',
+                  icon: const Icon(Icons.settings_rounded),
+                  onPressed: () => _open(SettingsScreen(services: _services)),
                 ),
               ],
             ),

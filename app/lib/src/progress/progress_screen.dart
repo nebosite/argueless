@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 
 import '../app/app_services.dart';
 import '../app/argueless_theme.dart';
+import 'ratings_section.dart';
 import 'reflection_chart.dart';
 import 'stat_tile.dart';
 
 /// Progress over time: the reflection chart, the share of moments that went
-/// generously, and practice totals.
+/// generously, practice totals, and self-ratings by rubric criterion.
 class ProgressScreen extends StatefulWidget {
   const ProgressScreen({super.key, required this.services});
 
@@ -20,6 +21,7 @@ class ProgressScreen extends StatefulWidget {
 class _ProgressScreenState extends State<ProgressScreen> {
   List<Reflection>? _reflections;
   PracticeStats? _stats;
+  RatingStats? _ratings;
   bool _weekly = false;
 
   @override
@@ -41,6 +43,11 @@ class _ProgressScreenState extends State<ProgressScreen> {
     setState(() {
       _reflections = reflections;
       _stats = PracticeStats(records, today: widget.services.today);
+      _ratings = RatingStats(
+        records,
+        library: widget.services.library,
+        today: widget.services.today,
+      );
     });
   }
 
@@ -52,7 +59,8 @@ class _ProgressScreenState extends State<ProgressScreen> {
     final theme = Theme.of(context);
     final reflections = _reflections;
     final stats = _stats;
-    if (reflections == null || stats == null) {
+    final ratings = _ratings;
+    if (reflections == null || stats == null || ratings == null) {
       return Scaffold(
         appBar: AppBar(title: const Text('Progress')),
         body: const Center(child: CircularProgressIndicator()),
@@ -147,6 +155,11 @@ class _ProgressScreenState extends State<ProgressScreen> {
                   style: theme.textTheme.titleMedium,
                 ),
               ),
+            const SizedBox(height: 28),
+            RatingsSection(
+              stats: ratings,
+              scale: widget.services.library.scale,
+            ),
           ],
         ),
       ),

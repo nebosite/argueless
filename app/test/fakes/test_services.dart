@@ -2,13 +2,17 @@ import 'dart:io';
 import 'dart:math';
 
 import 'package:argueless/src/app/app_services.dart';
+import 'package:argueless/src/reminders/reminder_coordinator.dart';
+import 'package:argueless/src/settings/app_settings_controller.dart';
 import 'package:argueless_core/argueless_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'fake_reminder_scheduler.dart';
 import 'fixed_clock.dart';
 import 'memory_practice_log.dart';
 import 'memory_reflection_log.dart';
+import 'memory_reminder_settings_store.dart';
 
 /// The real shipped content, read from disk (tests run in `app/`).
 Future<ContentLibrary> shippedLibrary() =>
@@ -21,7 +25,9 @@ final shippedChangelog = Changelog.parse(
 );
 
 /// Services over the shipped content, in-memory logs, a seeded picker and
-/// a fixed clock (Tuesday 10 November 2026, 8 am).
+/// a fixed clock (Tuesday 10 November 2026, 8 am), default settings, and
+/// reminders already answered (so none are offered) unless [reminderStore]
+/// says otherwise.
 /// Load [library] with [shippedLibrary] in `setUpAll`: real file reads
 /// do not complete inside `testWidgets`.
 AppServices testServices(
@@ -29,8 +35,12 @@ AppServices testServices(
   MemoryPracticeLog? practiceLog,
   MemoryReflectionLog? reflectionLog,
   FixedClock? clock,
+  AppSettingsController? settings,
+  FakeReminderScheduler? scheduler,
+  MemoryReminderSettingsStore? reminderStore,
 }) {
   final log = practiceLog ?? MemoryPracticeLog();
+  final time = clock ?? FixedClock(DateTime(2026, 11, 10, 8));
   return AppServices(
     library: library,
     scenarios: LibraryScenarioProvider(
@@ -40,8 +50,15 @@ AppServices testServices(
     ),
     practiceLog: log,
     reflectionLog: reflectionLog ?? MemoryReflectionLog(),
-    clock: clock ?? FixedClock(DateTime(2026, 11, 10, 8)),
+    clock: time,
     changelog: shippedChangelog,
+    settings: settings ?? AppSettingsController(),
+    reminders: ReminderCoordinator(
+      scheduler: scheduler ?? FakeReminderScheduler(),
+      store: reminderStore ?? MemoryReminderSettingsStore.answered(),
+      practiceLog: log,
+      clock: time,
+    ),
   );
 }
 

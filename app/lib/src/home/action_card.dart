@@ -27,7 +27,12 @@ class ActionCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final background = filled ? color : color.withValues(alpha: 0.14);
-    final ink = filled ? Colors.white : theme.colorScheme.onSurface;
+    // Filled: ink that reads on [color], which is light in dark mode.
+    final ink = !filled
+        ? theme.colorScheme.onSurface
+        : ThemeData.estimateBrightnessForColor(color) == Brightness.dark
+        ? Colors.white
+        : Colors.black;
     return Material(
       color: background,
       borderRadius: BorderRadius.circular(ArguelessTheme.radius),
@@ -41,7 +46,7 @@ class ActionCard extends StatelessWidget {
               CircleAvatar(
                 radius: 24,
                 backgroundColor: filled
-                    ? Colors.white.withValues(alpha: 0.2)
+                    ? ink.withValues(alpha: 0.15)
                     : color.withValues(alpha: 0.3),
                 child: Icon(icon, color: ink, size: 28),
               ),

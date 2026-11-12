@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "versions": [
     {
+      "version": "0.2.0",
+      "date": "2026-11-12",
+      "changes": [
+        "A gentle daily reminder to practise, at a time you choose, skipped on days you have already practised.",
+        "A settings page: reminders, light or dark pages, a theme colour, and text size.",
+        "Progress now shows how you rate yourself on each part of the rubrics, lately and before.",
+        "The today's practice card is easier to read in dark mode."
+      ]
+    },
+    {
       "version": "0.1.0",
       "date": "2026-11-10",
       "changes": [

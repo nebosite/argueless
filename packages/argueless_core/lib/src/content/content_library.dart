@@ -1,4 +1,5 @@
 import 'rubric.dart';
+import 'rubric_criterion.dart';
 import 'rubric_kind.dart';
 import 'scale_level.dart';
 import 'scenario.dart';
@@ -39,4 +40,19 @@ class ContentLibrary {
   /// The subject's own rubric of [kind] if it has one, else the library's.
   Rubric rubricFor(String subjectId, RubricKind kind) =>
       subject(subjectId)?.rubrics[kind] ?? _rubrics[kind]!;
+
+  /// Every criterion of [kind] in any rubric, once per id: the library's
+  /// own first, then those only subjects add, in subject order.
+  List<RubricCriterion> criteriaFor(RubricKind kind) {
+    final byId = <String, RubricCriterion>{};
+    for (final rubric in [
+      _rubrics[kind]!,
+      for (final s in subjects) ?s.rubrics[kind],
+    ]) {
+      for (final c in rubric.criteria) {
+        byId.putIfAbsent(c.id, () => c);
+      }
+    }
+    return byId.values.toList();
+  }
 }
