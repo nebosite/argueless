@@ -1,6 +1,6 @@
 import 'package:argueless_core/argueless_core.dart';
 
-/// Short English day labels for the chart, without a locale package.
+/// Short English day labels, without a locale package.
 class DayNames {
   const DayNames._();
 

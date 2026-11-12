@@ -2,7 +2,7 @@ name: argueless
 description: "Practise curiosity and cooperation, a few minutes a day."
 publish_to: 'none'
 
-version: 0.2.0+2
+version: 0.3.0+3
 
 environment:
   sdk: ^3.13.7
@@ -18,6 +18,7 @@ dependencies:
   flutter_timezone: 5.1.1
   argueless_core:
     path: ../packages/argueless_core
+  speech_to_text: 7.5.0
 
 dev_dependencies:
   flutter_test:

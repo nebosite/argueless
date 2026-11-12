@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "let-them-finish",
+  "scenarios": [
+    {
+      "id": "lf-01",
+      "title": "The Shady Garden Plan",
+      "setting": "Partner · kitchen table",
+      "difficulty": 1,
+      "situation": "Your partner spreads a hand-drawn garden plan across the kitchen table, coffee ring in one corner. The vegetable beds are along the north fence, which you know gets almost no sun. You are confused, and a few better layouts are already forming in your head.",
+      "firstThought": "Why would they put tomatoes in the shade? I can fix this layout in two minutes.",
+      "reframes": [
+        "Maybe I don't know yet what this garden is for.",
+        "They put hours into this drawing, and that effort deserves a full hearing.",
+        "We both want a garden we'll love spending time in.",
+        "I might be missing a reason the north fence matters to them.",
+        "My itch to fix this is telling me I care about the result.",
+        "From their side, an interrupted plan feels like a plan nobody wanted."
+      ],
+      "phrases": [
+        "Walk me through it. What do you picture when you're standing in this garden?",
+        "Tell me about the beds along the fence. What's the idea there?",
+        "So you want a spot for evenings and a spot for growing. Did I get that right?",
+        "What part of this are you most excited about?",
+        "I noticed a couple of things about sun. Can I share them, or do you want to keep going?",
+        "This is a lot of thought. What would make it feel finished for you?"
+      ],
+      "roleplay": {
+        "partner": "Sam, your partner",
+        "opening": "So, I put the beds along the north fence because that's where the hose is. What do you think? Be honest.",
+        "partnerReply": "Oh, the hose. Yes, that's the main reason. And honestly, I hadn't thought about the shade. Do you know how much sun that fence gets?"
+      },
+      "takeaway": "Ask about the dream first. The sunlight can wait a minute."
+    },
+    {
+      "id": "lf-02",
+      "title": "Candles By The Hundred",
+      "setting": "Friends · coffee shop",
+      "difficulty": 2,
+      "situation": "Over coffee, your friend lights up describing a plan to sell hand-poured candles at weekend markets. She keeps jumping between scents, packaging and a name you don't quite follow. Your mind is already listing the ways it could go wrong.",
+      "firstThought": "I can't even follow this, and there are so many problems already.",
+      "reframes": [
+        "Being confused just means I haven't heard the whole picture yet.",
+        "She may be jumping around because she's excited, not because it's unplanned.",
+        "We both want her to feel good about this idea, whatever happens next.",
+        "I might be missing what the candles mean to her.",
+        "My worry is telling me I care about her, which is a kind thing.",
+        "From her side, a list of problems before she's finished sounds like 'don't bother'."
+      ],
+      "phrases": [
+        "Slow down a little. I want to follow. What's the first thing that got you excited?",
+        "So the candles are the heart of it. What do you love about making them?",
+        "What would a really good market day look like for you?",
+        "Let me say back what I heard, and you tell me if I missed something.",
+        "Can I add a thought, or do you want to keep going?",
+        "Tell me more about the name. Where did that come from?"
+      ],
+      "roleplay": {
+        "partner": "Lena, a close friend",
+        "opening": "Okay, so I'm thinking lavender and cedar first, then maybe a seasonal line, and I'd stamp each lid by hand. Does that sound crazy?",
+        "partnerReply": "Not crazy to me, actually. I'm glad you asked about it. Honestly, I'm nervous too. Can I tell you the part I'm unsure about? Maybe you'll see something I don't."
+      },
+      "takeaway": "Let the whole idea land. Then your doubts can be useful."
+    },
+    {
+      "id": "lf-03",
+      "title": "Fails On Camera",
+      "setting": "Family · living room",
+      "difficulty": 1,
+      "situation": "Your fifteen-year-old son leans over the back of the sofa and says he wants to start a channel filming his friends' skateboard fails. You don't quite get why anyone would watch that. A lecture about safety and screen time is clearing its throat.",
+      "firstThought": "Filming people falling off skateboards? That sounds like a bad idea waiting to happen.",
+      "reframes": [
+        "Maybe I don't understand why people watch this, and that's okay to admit.",
+        "He's choosing to tell me, which says he wants me involved.",
+        "We both want him to enjoy something and be safe doing it.",
+        "I might be missing how much his friends are part of this.",
+        "My alarm is telling me I care about him, and that's useful.",
+        "From his side, a quick 'no' would end the whole conversation."
+      ],
+      "phrases": [
+        "Tell me more. What makes a fail video good?",
+        "Who would be in it with you?",
+        "What would the best possible version of this channel be?",
+        "So the funny part is the friends, not just the falls. Is that it?",
+        "I have a couple of thoughts about safety. Can I share them after you're done?",
+        "What's the first video you'd make?"
+      ],
+      "roleplay": {
+        "partner": "Jonah, your teenage son",
+        "opening": "It's not like, dangerous dangerous. It's just us at the park. People love this stuff. Can I at least try one video?",
+        "partnerReply": "Okay, so, we'd wear helmets, obviously. And I'd, like, show you the first one before it goes up? That's fair. Do you want to see the other videos I like?"
+      },
+      "takeaway": "Curiosity keeps the door open. Rules can come through it later."
+    },
+    {
+      "id": "lf-04",
+      "title": "The Shared Drive Overhaul",
+      "setting": "Work · one-on-one meeting",
+      "difficulty": 3,
+      "situation": "A colleague has a proposal to rename and reorganise every folder in the team's shared drive. As she explains it, you notice it would land in the same week as your biggest deadline. You also have your own, simpler idea, and it is nearly out of your mouth.",
+      "firstThought": "This is way too much work for no real gain. Mine is simpler.",
+      "reframes": [
+        "Maybe there's a reason behind this that I haven't heard yet.",
+        "She may be tired of losing files, which is a real problem.",
+        "We both want a drive where everyone can find things.",
+        "I might be missing what pushed her to bring this up now.",
+        "My urge to jump in with my own plan is telling me I want a say.",
+        "From her side, hearing my version before she finishes feels like being replaced."
+      ],
+      "phrases": [
+        "What's the problem you're most hoping this solves?",
+        "Take me through how a new person would find a file in your setup.",
+        "So the folders would be grouped by project, not by date. Did I catch that right?",
+        "What would you want to keep exactly as it is?",
+        "Can I add a thought on timing, or would you rather finish first?",
+        "When you're done, I'd like to share a worry about next week. Is that okay?"
+      ],
+      "roleplay": {
+        "partner": "Nadia, a colleague on your team",
+        "opening": "So that's the whole structure. I know it's a big change. I just keep losing files, and I thought we could fix it for good. Does it make sense?",
+        "partnerReply": "Yes, timing is the thing I didn't think about. Thanks for waiting until I finished. Could we talk about doing it in pieces? I'd like to hear your simpler idea too."
+      },
+      "takeaway": "Hear the whole proposal first. Then bring your real concern."
+    },
+    {
+      "id": "lf-05",
+      "title": "Silent Reading Night",
+      "setting": "Service · independent bookshop",
+      "difficulty": 1,
+      "situation": "While you pay for a paperback, the bookshop owner tells you about her plan for a silent reading night: lights low, tea provided, nobody allowed to talk. You think a bookshop party with no talking sounds odd. She is watching your face.",
+      "firstThought": "A party where nobody speaks? Who is that for? I can think of better events.",
+      "reframes": [
+        "Maybe this idea makes more sense than it sounds at first.",
+        "She's proud of it, and she took a chance telling a customer.",
+        "We both like books and a place where people feel at home.",
+        "I might be missing the kind of person this night is for.",
+        "My doubt is telling me I'd want something different, which is fine.",
+        "From her side, a flat reaction is a bit of a letdown."
+      ],
+      "phrases": [
+        "That's intriguing. What made you think of it?",
+        "What do you picture people feeling when they walk in?",
+        "Tell me about the tea. Would it be something special?",
+        "So it's a night to unwind with a book, together but quiet. Is that the idea?",
+        "Who do you hope comes?",
+        "I'd love to hear more. How would the evening start?"
+      ],
+      "roleplay": {
+        "partner": "Ruth, the bookshop owner",
+        "opening": "I know it sounds strange. People spend all week talking. I thought they might like a place to just sit near others and read. Would you come?",
+        "partnerReply": "Really? That's the best reaction I've had. Most people just say it sounds boring. I'm still working out the details. Do you have a favourite thing you'd want from a night like that?"
+      },
+      "takeaway": "A few honest questions can turn a polite nod into a conversation."
+    },
+    {
+      "id": "lf-06",
+      "title": "Mum Wants A Boat",
+      "setting": "Family · phone call",
+      "difficulty": 3,
+      "situation": "Your mother calls and says she is thinking of selling the family house and living on a small boat. She talks fast, sounding more alive than she has in months. You are confused, you're already thinking about money and winters, and a dozen questions are lined up.",
+      "firstThought": "A boat? At her age? She hasn't thought about money, winters, or anything real.",
+      "reframes": [
+        "Maybe I don't know what has been pulling at her lately.",
+        "She sounds happy, and I haven't heard that in a while.",
+        "We both want her to be safe and to be glad of her days.",
+        "I might be missing how long she has been thinking about this.",
+        "My worry is telling me how much I love her.",
+        "From her side, hearing my doubts first would feel like I'm treating her as fragile."
+      ],
+      "phrases": [
+        "Tell me about the boat. What does living there look like for you?",
+        "When did this dream start? I didn't know.",
+        "What do you love most about the idea?",
+        "So you want more freedom and fewer rooms to look after. Is that right?",
+        "I have a few practical questions. Can I ask them later, or now?",
+        "I'd like to help you think it through, whenever you want that."
+      ],
+      "roleplay": {
+        "partner": "Mum, your mother",
+        "opening": "I know what you're going to say. But I looked at one last weekend, and I stood on it, and I could just see my life there. Isn't that something?",
+        "partnerReply": "Oh, I'd love that. Nobody has asked me what it looked like yet. Yes, I know money and winters need working out. I'd like to go through it with you."
+      },
+      "takeaway": "Let her finish the dream. Questions about winter are still there afterwards."
+    },
+    {
+      "id": "lf-07",
+      "title": "The Intern's Pitch",
+      "setting": "Work · stand-up meeting",
+      "difficulty": 2,
+      "situation": "During stand-up, the newest person on the team suggests adding a dark mode toggle to your product. They stumble a little over the words. You have seen three similar ideas die in planning, and you want to jump in and explain why.",
+      "firstThought": "We tried this already. Let me save everyone some time before this goes anywhere.",
+      "reframes": [
+        "Maybe things have changed since the last time we tried this.",
+        "They spoke up in front of everyone, which takes some nerve.",
+        "We both want the product to be something people enjoy using.",
+        "I might be missing what they've seen from customers that I haven't.",
+        "My urge to shut it down is telling me I'm tired of old fights.",
+        "From their side, being cut off now might mean saying nothing next time."
+      ],
+      "phrases": [
+        "Say more about that. What made you think of it?",
+        "Who do you picture using it?",
+        "So the idea is that it's easier on the eyes at night. Did I get that?",
+        "That's a good start. What would you want to find out first?",
+        "I know a bit of history on this. Can I share it after you've finished?",
+        "What would make this idea easier to try?"
+      ],
+      "roleplay": {
+        "partner": "Theo, a new teammate",
+        "opening": "Sorry, I'm not sure this is a good idea. Some users asked for dark mode in the feedback form. Has anyone looked at it before?",
+        "partnerReply": "Oh, it came up before? Thanks for telling me. I'd like to hear what happened, and I think I can look at the feedback numbers. Maybe we could find a smaller version."
+      },
+      "takeaway": "An idea heard fully has a better chance of growing into something good."
+    },
+    {
+      "id": "lf-08",
+      "title": "The Midnight Podcast",
+      "setting": "Online · group chat",
+      "difficulty": 2,
+      "situation": "In your friends' group chat, one friend sends a long run of messages at 11 pm about starting a podcast. The messages keep coming, a bit scrambled. Two other friends have already replied with a thumbs up. You have three tips ready and a feeling it won't last.",
+      "firstThought": "Another new project at midnight. Let me tell them how podcasts really work before they spend money.",
+      "reframes": [
+        "Maybe I don't yet understand what this idea is really about.",
+        "They might just be thinking out loud, and no decisions have been made.",
+        "We all want a friend who's excited about something.",
+        "I might be missing what's been going on in their life lately.",
+        "My eye-roll is telling me I'm tired, and that this isn't about them.",
+        "From their side, a pile of advice at midnight could deflate a good moment."
+      ],
+      "phrases": [
+        "Ooh, tell me more. What would it be about?",
+        "What got you thinking about this tonight?",
+        "So you'd talk with friends about things you care about. Is that the idea?",
+        "What would be the most fun part of making it?",
+        "I've got a couple of thoughts on gear. Want them now or later?",
+        "Keep going. I'm reading all of it."
+      ],
+      "roleplay": {
+        "partner": "Kai, a friend from the group chat",
+        "opening": "Sorry for the wall of text, haha. I just can't stop thinking about it. Does it sound dumb? Be honest, I can take it.",
+        "partnerReply": "Okay, that actually helps. I'd love to hear your gear thoughts. I mostly want to talk about food and old games with people I like. I'm glad you asked first."
+      },
+      "takeaway": "Ask what excites them first. Gear advice can wait until tomorrow."
+    }
+  ]
+}

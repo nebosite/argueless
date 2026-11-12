@@ -1,10 +1,13 @@
 import 'package:argueless_core/argueless_core.dart';
 import 'package:flutter/material.dart';
 
+import '../speech/dictation_button.dart';
+import '../speech/speech_input.dart';
 import 'idea_cheer.dart';
 import 'step_layout.dart';
 
-/// Brainstorm as many ideas as possible, one bullet at a time.
+/// Brainstorm as many ideas as possible, one bullet at a time, typed or
+/// spoken. The keyboard stays closed until the user taps the field.
 class BrainstormStep extends StatefulWidget {
   const BrainstormStep({
     super.key,
@@ -13,6 +16,7 @@ class BrainstormStep extends StatefulWidget {
     required this.prompt,
     required this.hint,
     required this.explainer,
+    required this.speech,
     required this.onChanged,
     required this.onContinue,
   });
@@ -22,6 +26,7 @@ class BrainstormStep extends StatefulWidget {
   final String prompt;
   final String hint;
   final String explainer;
+  final SpeechInput speech;
   final VoidCallback onChanged;
   final VoidCallback onContinue;
 
@@ -54,7 +59,6 @@ class _BrainstormStepState extends State<BrainstormStep> {
       _field.clear();
     });
     _sync();
-    _focus.requestFocus();
   }
 
   void _remove(int i) {
@@ -104,31 +108,47 @@ class _BrainstormStepState extends State<BrainstormStep> {
               ],
             ),
           ),
-        TextField(
-          key: const Key('idea-field'),
-          controller: _field,
-          focusNode: _focus,
-          autofocus: _ideas.isEmpty,
-          textCapitalization: TextCapitalization.sentences,
-          // Single-line input that still wraps: Enter adds the idea.
-          keyboardType: TextInputType.text,
-          textInputAction: TextInputAction.done,
-          minLines: 1,
-          maxLines: 3,
-          decoration: InputDecoration(
-            hintText: widget.hint,
-            suffixIcon: IconButton(
-              tooltip: 'Add idea',
-              icon: const Icon(Icons.add_circle_rounded),
-              onPressed: _add,
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(child: _ideaField()),
+            const SizedBox(width: 8),
+            DictationButton(
+              speech: widget.speech,
+              controller: _field,
+              onChanged: (_) => _sync(),
             ),
-          ),
-          onChanged: (_) => _sync(),
-          onSubmitted: (_) => _add(),
+          ],
         ),
         const SizedBox(height: 12),
         IdeaCheer(count: count),
       ],
     );
   }
+
+  Widget _ideaField() => TextField(
+    key: const Key('idea-field'),
+    controller: _field,
+    focusNode: _focus,
+    textCapitalization: TextCapitalization.sentences,
+    // Single-line input that still wraps: Enter adds the idea.
+    keyboardType: TextInputType.text,
+    textInputAction: TextInputAction.done,
+    minLines: 1,
+    maxLines: 3,
+    decoration: InputDecoration(
+      hintText: widget.hint,
+      suffixIcon: IconButton(
+        tooltip: 'Add idea',
+        icon: const Icon(Icons.add_circle_rounded),
+        onPressed: _add,
+      ),
+    ),
+    onChanged: (_) => _sync(),
+    onSubmitted: (_) {
+      _add();
+      // Enter closes the keyboard; keep it open for the next idea.
+      _focus.requestFocus();
+    },
+  );
 }

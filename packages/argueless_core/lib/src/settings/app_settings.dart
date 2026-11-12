@@ -29,8 +29,8 @@ class AppSettings {
   }
 
   static const defaultThemeColor = 0xFF5B4BDB; // AppPalette.themeColors.first
-  static const defaultTextPercent = 100;
-  static const textPercentRange = (min: 80, max: 150);
+  static const defaultTextPercent = 70;
+  static const textPercentRange = (min: 50, max: 150);
 
   final Appearance appearance;
 

@@ -46,4 +46,14 @@ void main() {
     expect(stats.totalIdeas, 8);
     expect(stats.practisedIn('one'), 2);
   });
+
+  test('ideas today go by local day, even for records saved in UTC', () {
+    final stats = PracticeStats([
+      testRecord('a', 'one', DateTime(2026, 11, 9, 23, 59).toUtc(), ideas: 5),
+      testRecord('a', 'one', DateTime(2026, 11, 10, 0, 1).toUtc(), ideas: 3),
+      testRecord('a', 'one', on(10, 20), ideas: 0),
+    ], today: today);
+    expect(stats.ideasToday, 3);
+    expect(stats.totalIdeas, 8);
+  });
 }

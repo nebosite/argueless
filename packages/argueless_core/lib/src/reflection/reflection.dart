@@ -1,10 +1,15 @@
 import '../time/local_day.dart';
 
-/// The user's look back over the last 24 hours, saved on [day]: how many
-/// tricky moments went each way.
+/// The user's journal entry for [day]: free-form notes on what they noticed
+/// over the last day.
+///
+/// Before 0.3.0 the reflection was three counts of tricky moments. Old
+/// entries keep their counts, and saving writes them back, so nothing the
+/// user recorded is lost; the app no longer asks for them.
 class Reflection {
   const Reflection({
     required this.day,
+    this.note = '',
     this.automatic = 0,
     this.recovered = 0,
     this.conflict = 0,
@@ -13,6 +18,7 @@ class Reflection {
   /// Throws if [json] is not a reflection (the log skips it).
   factory Reflection.fromJson(Map<String, dynamic> json) => Reflection(
     day: LocalDay.parse(json['day'] as String),
+    note: json['note'] is String ? json['note'] as String : '',
     automatic: json['automatic'] as int? ?? 0,
     recovered: json['recovered'] as int? ?? 0,
     conflict: json['conflict'] as int? ?? 0,
@@ -20,32 +26,33 @@ class Reflection {
 
   final LocalDay day;
 
-  /// Moments where generous thinking came automatically.
+  /// What the user wrote.
+  final String note;
+
+  /// Counts from before 0.3.0: moments that went generously at once...
   final int automatic;
 
-  /// Moments that started defensive but turned generous before replying.
+  /// ...that started defensive but turned around...
   final int recovered;
 
-  /// Moments that turned into conflict.
+  /// ...and that turned into conflict.
   final int conflict;
 
-  int get total => automatic + recovered + conflict;
+  /// Whether this is an entry from before 0.3.0 that only has counts.
+  bool get hasOnlyCounts =>
+      note.trim().isEmpty && automatic + recovered + conflict > 0;
 
-  /// The share of moments that went generously (automatic or recovered),
-  /// or null if there were none.
-  double? get generousShare =>
-      total == 0 ? null : (automatic + recovered) / total;
-
-  Reflection copyWith({int? automatic, int? recovered, int? conflict}) =>
-      Reflection(
-        day: day,
-        automatic: automatic ?? this.automatic,
-        recovered: recovered ?? this.recovered,
-        conflict: conflict ?? this.conflict,
-      );
+  Reflection copyWith({String? note}) => Reflection(
+    day: day,
+    note: note ?? this.note,
+    automatic: automatic,
+    recovered: recovered,
+    conflict: conflict,
+  );
 
   Map<String, dynamic> toJson() => {
     'day': day.toJson(),
+    'note': note,
     'automatic': automatic,
     'recovered': recovered,
     'conflict': conflict,

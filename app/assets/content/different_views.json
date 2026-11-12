@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "different-views",
+  "scenarios": [
+    {
+      "id": "dv-01",
+      "title": "Pass the Potatoes",
+      "setting": "Family · holiday dinner",
+      "difficulty": 2,
+      "situation": "At the holiday table, your uncle Ray, who always carves the turkey, says public services need much more funding and that cuts hurt real people. You think taxes are too high and plenty of it gets wasted, and your jaw tightens as the gravy goes round.",
+      "firstThought": "Here we go again. If he'd look at where the money actually ends up, he'd see.",
+      "reframes": [
+        "Do I really know what's behind his view, or am I filling in the blanks?",
+        "Ray probably thinks of the neighbours and families who lean on those services.",
+        "We both want money spent well and families to be okay.",
+        "He may have seen up close what happens when a service runs short.",
+        "My tight jaw tells me this matters to me, and that's allowed.",
+        "From his side, I might be one more person lecturing him about what people need."
+      ],
+      "phrases": [
+        "What got you feeling that way about it, Ray?",
+        "I hear that you worry about people who rely on those services. Tell me more.",
+        "We see it differently, and I still love sitting at this table with you.",
+        "I worry about how much gets wasted, but I'd like to hear what you've seen.",
+        "Seems like we both want money spent wisely. Where have you seen it help most?",
+        "Can we call a truce until pie? I'd rather hear how your week went."
+      ],
+      "roleplay": {
+        "partner": "Ray, your uncle",
+        "opening": "Honestly, when the library and the clinic run short, people in this town pay for it. Don't you ever see that?",
+        "partnerReply": "I remember the clinic nearly closing last winter, and it stuck with me. That's all it is. Anyway, pass me some pie and tell me about your week."
+      },
+      "takeaway": "You can disagree about taxes and still love the person."
+    },
+    {
+      "id": "dv-02",
+      "title": "The Yard Sign",
+      "setting": "Neighbours · front yard",
+      "difficulty": 1,
+      "situation": "You're getting the mail when you notice a new sign on your neighbour Carol's lawn asking for stronger gun laws. You own a hunting rifle and think the laws are strict enough already. Carol waves from her porch, where she's watering her tomatoes.",
+      "firstThought": "Great, she probably thinks people like me are the problem.",
+      "reframes": [
+        "I'm guessing at what Carol thinks of me. I haven't actually asked her.",
+        "She may care about safety, the same way I do when I handle my rifle.",
+        "We both want our street and our kids to be safe.",
+        "Something in her life may have shaped this view that I don't know about.",
+        "My stomach dropping tells me I want to be seen as a decent person.",
+        "From her side, a sign is a quiet way of saying what she cares about."
+      ],
+      "phrases": [
+        "Hi Carol. Your tomatoes look amazing this year.",
+        "I saw your sign. What got you into caring about that?",
+        "I see this one differently, and I'd still rather be good neighbours.",
+        "I know we want the same thing, a safe street. That matters to me too.",
+        "You've always looked out for this block. I appreciate that about you.",
+        "Want a few of my zucchini? I've got far too many."
+      ],
+      "roleplay": {
+        "partner": "Carol, your neighbour",
+        "opening": "Oh, hi! Don't mind the sign, I know it's not everyone's view. I just felt I had to do something.",
+        "partnerReply": "Thanks, I appreciate that. I won't pretend I understand your side, but I'd like to. And yes, I'll never turn down zucchini. Come see my tomatoes."
+      },
+      "takeaway": "A yard sign is a view, not the whole neighbour."
+    },
+    {
+      "id": "dv-03",
+      "title": "Lunchroom Remark",
+      "setting": "Work · break room",
+      "difficulty": 2,
+      "situation": "Over sandwiches, your colleague Dev says the country should be much stricter about who it lets in. You believe in welcoming more newcomers, and your own grandmother arrived with one suitcase. Two others at the table go quiet.",
+      "firstThought": "That's not how I see it. Do I say something, or let it go?",
+      "reframes": [
+        "I don't yet know what Dev means or where the view comes from.",
+        "He may be worried about jobs, housing or fairness, which are real things.",
+        "We both want a country that works for the people living in it.",
+        "I might learn something about his life that explains why he feels this way.",
+        "My heat rising tells me my grandmother's story is close to my heart.",
+        "From his side, he may just be saying something he's been thinking about."
+      ],
+      "phrases": [
+        "That's a big topic, Dev. What's behind it for you?",
+        "Sounds like you care about things being fair. Say more about that.",
+        "My view is a bit different, partly because of my family. Happy to swap stories sometime.",
+        "I don't want to turn lunch into a debate. I do like working with you.",
+        "What worries you most about it? I'd like to understand.",
+        "That's not one I want to get into over lunch. How was your weekend?"
+      ],
+      "roleplay": {
+        "partner": "Dev, your colleague",
+        "opening": "I'm just saying, we need to be a lot stricter. It's about fairness for people already here. You disagree, don't you?",
+        "partnerReply": "I didn't know about your grandmother. My dad lost his job when his plant closed, so jobs and fairness are personal for me. Maybe we won't agree, but I'm glad you asked."
+      },
+      "takeaway": "Staying curious is not agreeing, and you can skip the topic."
+    },
+    {
+      "id": "dv-04",
+      "title": "Faith in the Feed",
+      "setting": "Friends · online post",
+      "difficulty": 3,
+      "situation": "Your old college roommate Mina posts that faith should have a voice in public decisions, because it's where many people learn what is right. You don't share her faith and think public decisions should rest on reasons everyone can weigh. The post has a lot of likes from people you both know. You haven't talked in months.",
+      "firstThought": "She thinks people without faith can't be trusted, and she doesn't even know my life.",
+      "reframes": [
+        "Is the post about me, or about her own experience with religion?",
+        "Mina may have seen her faith carry her through something hard.",
+        "We both want people to be treated with fairness and dignity.",
+        "I might be missing the specific thing she's reacting to.",
+        "That sting tells me I care about public life being fair to people of every belief.",
+        "It may not be aimed at me, and I can still feel the sting."
+      ],
+      "phrases": [
+        "Hey Mina, I saw your post. What's been on your mind about this?",
+        "I see it differently, but I'd really like to hear what shaped yours.",
+        "I miss you. Can we catch up, no debates required?",
+        "What mattered most to you when you wrote that?",
+        "We see this differently, and you matter more to me than winning this.",
+        "Remember our terrible apartment? Tell me how life is going."
+      ],
+      "roleplay": {
+        "partner": "Mina, your old roommate",
+        "opening": "Oh, you saw that. I was a bit worried you'd take it personally. Honestly, I wasn't sure whether to post it.",
+        "partnerReply": "Thank you for asking instead of arguing. My faith got me through a hard year, so it's hard to keep it out of how I think. I'm not against you at all. I really have missed you. Coffee soon?"
+      },
+      "takeaway": "A post is a view. The friend is still the friend."
+    },
+    {
+      "id": "dv-05",
+      "title": "Dad's Car Radio",
+      "setting": "Family · car ride",
+      "difficulty": 1,
+      "situation": "You're driving your dad to his appointment when a news story comes on about tougher climate rules. He grumbles that they're killing small businesses like his old hardware store. You think strong action is urgent, and your hands tighten on the wheel.",
+      "firstThought": "He just doesn't take the problem seriously, and I'm stuck in a car with it.",
+      "reframes": [
+        "Maybe I'm assuming he doesn't care, when he may care about different things.",
+        "Dad probably remembers real people losing their livelihoods, and that matters to him.",
+        "We both want a good future for my kids and his grandkids.",
+        "He might know something about how those rules land on small shops.",
+        "My tight hands tell me I'm worried, and worry is what's driving me.",
+        "From his side, the shop was his life's work, so this feels personal."
+      ],
+      "phrases": [
+        "Tell me more about that, Dad. What did you see happen to the shop owners?",
+        "I think we both care about the future. We just worry about different parts.",
+        "I hear that small businesses can get squeezed. That's a real concern.",
+        "I do see it a little differently, but I'd rather hear your story today.",
+        "What would you want to protect first?",
+        "Should I turn it off? I'd rather talk about your shop."
+      ],
+      "roleplay": {
+        "partner": "Dad, your father",
+        "opening": "Rules, rules. They don't ask the guys running the shops. You think that's sensible?",
+        "partnerReply": "I remember Hal losing everything over paperwork. I care about the grandkids too, and that's why it bugs me. Tell me what you're worried about. I'll listen."
+      },
+      "takeaway": "Worry for the future can wear two different coats."
+    },
+    {
+      "id": "dv-06",
+      "title": "Kitchen After the News",
+      "setting": "Partner · kitchen",
+      "difficulty": 3,
+      "situation": "Over dishes, your partner Jordan says they'd like to see much more funding for the police in your area. You think the money would do more good elsewhere. Both of you are tired, and the dish towel is getting twisted in your hands.",
+      "firstThought": "How can we share a life if we can't agree on something this basic?",
+      "reframes": [
+        "One disagreement doesn't undo everything else we share and love.",
+        "Jordan may be thinking about a time they felt unsafe or helpless.",
+        "We both want our neighbourhood and each other to be safe.",
+        "I might not know what experience sits underneath this for them.",
+        "My fear of distance tells me how much I value being close to Jordan.",
+        "From their side, they're sharing a worry, not starting a fight."
+      ],
+      "phrases": [
+        "Tell me what's behind that for you. I want to hear it.",
+        "I see this a bit differently, and I really want to understand yours first.",
+        "It sounds like safety matters a lot to you. It does to me too.",
+        "I love that you care about this. Can we leave it unsolved tonight?",
+        "What happened that made this feel so important?",
+        "I'll finish the dishes. Do you want tea and a quiet minute?"
+      ],
+      "roleplay": {
+        "partner": "Jordan, your partner",
+        "opening": "I just think we need more officers out there. Do you think I'm wrong to want that?",
+        "partnerReply": "Thanks for not jumping on me. It's partly from the night my car was broken into and nobody came. I know we disagree. I'm glad we can talk without it getting ugly."
+      },
+      "takeaway": "A disagreement is a topic, not a verdict on us."
+    },
+    {
+      "id": "dv-07",
+      "title": "Big Ideas at Dinner",
+      "setting": "Family · dinner table",
+      "difficulty": 2,
+      "situation": "Your daughter Maya, nineteen, says at dinner that the economy is tilted toward people who already have money and that big changes are needed. You believe change should come slowly, and you've worked hard to build what you have. Your fork stops halfway to your mouth.",
+      "firstThought": "I worked for all of this, and she's telling me it's unfair.",
+      "reframes": [
+        "I don't know yet what has made her see it this way.",
+        "Maya may be thinking about her own future and her friends'.",
+        "We both want her to have a fair shot at a good life.",
+        "Maybe things look different from where she's standing than they did from my start.",
+        "My bristling tells me I'm proud of what I built and I want that respected.",
+        "From her side, she's sharing something she cares about with someone she trusts."
+      ],
+      "phrases": [
+        "What made you start seeing it that way, Maya?",
+        "Tell me what you've noticed. I'd like to understand how it looks to you.",
+        "I see some of it differently, but I like that you care this much.",
+        "What would fairer look like to you? Paint me the picture.",
+        "I worked hard for what we have, and I'm also listening.",
+        "I'm glad you tell me what you think. Keep going."
+      ],
+      "roleplay": {
+        "partner": "Maya, your daughter",
+        "opening": "Dad, I just think the economy is tilted. People like my friends can't even afford an apartment. Don't you see that?",
+        "partnerReply": "I know you worked hard for what we have. I just see friends working just as hard and still not getting ahead. Can I tell you about Lila's rent?"
+      },
+      "takeaway": "A view that matters to someone is worth hearing out."
+    },
+    {
+      "id": "dv-08",
+      "title": "Barbershop Banter",
+      "setting": "Service · barbershop",
+      "difficulty": 1,
+      "situation": "Your barber Sam, who has cut your hair for years, says over the buzz of the clippers that the country needs a stronger safety net, because anyone can hit a rough patch. You believe people should earn their benefits. His hand holds the clippers near your ear.",
+      "firstThought": "I think help means more when people put something in first, and that seems fair to everyone.",
+      "reframes": [
+        "I've known Sam for years and he's been kind to me every visit.",
+        "He may be thinking of someone who fell on hard times, and that stuck with him.",
+        "We both want people to stand on their own feet and be okay.",
+        "I could learn what he actually means by a stronger safety net.",
+        "I notice some heat in my chest, and I can let it be there.",
+        "From his side, this is small talk, not a challenge to me."
+      ],
+      "phrases": [
+        "What's got you thinking about that, Sam?",
+        "I hear you want people to have something to fall back on. That's a kind value.",
+        "I look at it a bit differently, but I like talking with you.",
+        "Who did you see it help? I'd like to hear.",
+        "We probably both want people to land on their feet.",
+        "Keep the sides short, please. And tell me about your kids."
+      ],
+      "roleplay": {
+        "partner": "Sam, your barber",
+        "opening": "Anybody can get knocked down, that's all I'm saying. A good safety net catches people. Right?",
+        "partnerReply": "It's my brother-in-law that gets me going, after his layoff. Anyway, sides short, and my daughter just made the team."
+      },
+      "takeaway": "You can leave a view alone and still stay warm."
+    }
+  ]
+}

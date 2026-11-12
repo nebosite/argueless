@@ -93,6 +93,180 @@
           ]
         }
       }
+    },
+    {
+      "id": "hear-it",
+      "title": "Hear it, don't fix it",
+      "tagline": "Notice the hurt before the help.",
+      "brief": "When someone brings you a hurt, the pull is to fix it or judge how they handled it. Practise noticing the feeling and letting them be heard.",
+      "color": "0xFFC2477A",
+      "icon": "hearing",
+      "scenarioFile": "hear_it.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "noticing", "label": "Noticing", "prompt": "I noticed the feeling under their story." },
+            { "id": "unhurried", "label": "No rush to fix", "prompt": "I didn't rush to solve it or judge how they handled it." },
+            { "id": "curious", "label": "Curious", "prompt": "I wondered what they need from me right now." },
+            { "id": "shared", "label": "Shared ground", "prompt": "I looked for what we both want." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "heard", "label": "Hears the feeling", "prompt": "My phrases reflect their feeling before anything else." },
+            { "id": "open", "label": "Opens the door", "prompt": "My phrases invite them to say more." },
+            { "id": "gentle", "label": "Gentle", "prompt": "The tone stays soft and unhurried." },
+            { "id": "natural", "label": "Sounds like me", "prompt": "I could say these out loud without cringing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "let-them-finish",
+      "title": "Let their idea land",
+      "tagline": "Listen all the way to the end.",
+      "brief": "When someone shares an idea, confusion and critique can turn into taking over. Practise staying curious until their idea has fully landed.",
+      "color": "0xFF0E8C9B",
+      "icon": "pause",
+      "scenarioFile": "let_them_finish.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "curious", "label": "Curious", "prompt": "I got curious about their idea before judging it." },
+            { "id": "generous", "label": "Generous", "prompt": "I gave them a reasonable, decent motive." },
+            { "id": "room", "label": "Room for them", "prompt": "I let their idea stay theirs, not a draft of mine." },
+            { "id": "variety", "label": "Variety", "prompt": "My ideas came at it from different angles." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "open", "label": "Opens the door", "prompt": "My phrases invite them to say more." },
+            { "id": "room", "label": "Room for them", "prompt": "My words help their idea grow before mine join in." },
+            { "id": "warm", "label": "Warm", "prompt": "The tone stays friendly, even where I disagree." },
+            { "id": "natural", "label": "Sounds like me", "prompt": "I could say these out loud without cringing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "different-views",
+      "title": "Different views, same table",
+      "tagline": "Hold your view and your people.",
+      "brief": "Someone you care about sees politics or the world very differently. Practise staying curious and warm without giving up what you believe or needing to win.",
+      "color": "0xFF6E7A1F",
+      "icon": "diversity",
+      "scenarioFile": "different_views.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "person", "label": "Whole person", "prompt": "I saw the whole person, not just the view." },
+            { "id": "curious", "label": "Curious", "prompt": "I wondered how they came to see it that way." },
+            { "id": "secure", "label": "Steady in my view", "prompt": "My beliefs stay mine without needing to win." },
+            { "id": "shared", "label": "Shared ground", "prompt": "I looked for the values we share underneath." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "earned", "label": "Listened first", "prompt": "I showed I understood them before I disagreed." },
+            { "id": "owned", "label": "Owns my part", "prompt": "I offered my view as mine, not as the truth." },
+            { "id": "warm", "label": "Warm", "prompt": "The tone stays friendly, even where I disagree." },
+            { "id": "natural", "label": "Sounds like me", "prompt": "I could say these out loud without cringing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "both-parts",
+      "title": "Both parts are welcome",
+      "tagline": "Hold both without forcing either.",
+      "brief": "When part of you wants to get on and part of you is still feeling something, you get stuck. Practise holding both with calm curiosity.",
+      "color": "0xFF5C6BC0",
+      "icon": "self",
+      "scenarioFile": "both_parts.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "self-noticing", "label": "Noticing", "prompt": "I named what I feel without judging it." },
+            { "id": "self-curious", "label": "Curious about me", "prompt": "I wondered what this part of me needs." },
+            { "id": "kind", "label": "Kind", "prompt": "I thought about myself the way I'd think about a friend." },
+            { "id": "allowing", "label": "Room for it all", "prompt": "I let the feeling be here instead of pushing it away." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "kind", "label": "Kind", "prompt": "My words sound like a good friend, not a coach." },
+            { "id": "honest", "label": "Honest", "prompt": "My words are true, not just cheerful." },
+            { "id": "steady", "label": "Steady", "prompt": "I stay with it instead of rushing to fix it." },
+            { "id": "self-natural", "label": "Sounds like me", "prompt": "I could say these to myself without cringing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kinder-mirror",
+      "title": "A kinder mirror",
+      "tagline": "See yourself with honest kindness.",
+      "brief": "An unkind thought arrives when you see yourself. Practise looking with curiosity and compassion instead of judgement, without forcing cheerfulness.",
+      "color": "0xFFB86E00",
+      "icon": "spa",
+      "scenarioFile": "kinder_mirror.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "self-noticing", "label": "Noticing", "prompt": "I named what I feel without judging it." },
+            { "id": "self-curious", "label": "Curious about me", "prompt": "I wondered what this part of me needs." },
+            { "id": "kind", "label": "Kind", "prompt": "I thought about myself the way I'd think about a friend." },
+            { "id": "allowing", "label": "Room for it all", "prompt": "I let the feeling be here instead of pushing it away." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "kind", "label": "Kind", "prompt": "My words sound like a good friend, not a coach." },
+            { "id": "honest", "label": "Honest", "prompt": "My words are true, not just cheerful." },
+            { "id": "steady", "label": "Steady", "prompt": "I stay with it instead of rushing to fix it." },
+            { "id": "self-natural", "label": "Sounds like me", "prompt": "I could say these to myself without cringing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "turning-toward",
+      "title": "Turning toward the feeling",
+      "tagline": "Notice the urge to go numb.",
+      "brief": "When a feeling is hard, it's tempting to scroll it away. Practise noticing the pull and meeting the feeling underneath with kindness.",
+      "color": "0xFF8D6E63",
+      "icon": "waves",
+      "scenarioFile": "turning_toward.json",
+      "rubrics": {
+        "reframe": {
+          "title": "How did your reframes do?",
+          "criteria": [
+            { "id": "self-noticing", "label": "Noticing", "prompt": "I named what I feel without judging it." },
+            { "id": "self-curious", "label": "Curious about me", "prompt": "I wondered what this part of me needs." },
+            { "id": "kind", "label": "Kind", "prompt": "I thought about myself the way I'd think about a friend." },
+            { "id": "allowing", "label": "Room for it all", "prompt": "I let the feeling be here instead of pushing it away." }
+          ]
+        },
+        "phrases": {
+          "title": "How did your phrases do?",
+          "criteria": [
+            { "id": "kind", "label": "Kind", "prompt": "My words sound like a good friend, not a coach." },
+            { "id": "honest", "label": "Honest", "prompt": "My words are true, not just cheerful." },
+            { "id": "steady", "label": "Steady", "prompt": "I stay with it instead of rushing to fix it." },
+            { "id": "self-natural", "label": "Sounds like me", "prompt": "I could say these to myself without cringing." }
+          ]
+        }
+      }
     }
   ]
 }

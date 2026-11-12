@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'fakes/failing_practice_log.dart';
+import 'fakes/fake_speech_input.dart';
 import 'fakes/fixed_clock.dart';
 import 'fakes/memory_practice_log.dart';
 import 'fakes/test_services.dart';
@@ -233,5 +234,74 @@ void main() {
     await tester.tap(find.widgetWithText(ListTile, 'An idea'));
     await tester.pumpAndSettle();
     expect(find.text('My words'), findsOneWidget);
+  });
+
+  testWidgets('ideas can be spoken, and the keyboard starts hidden', (
+    tester,
+  ) async {
+    useTallScreen(tester);
+    final speech = FakeSpeechInput();
+    await tester.pumpWidget(
+      ArguelessApp(services: testServices(library, speech: speech)),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('today')));
+    await tester.pumpAndSettle();
+    expect(
+      FocusManager.instance.primaryFocus?.context?.widget,
+      isNot(isA<EditableText>()),
+    );
+    expect(tester.testTextInput.isVisible, isFalse);
+
+    await tester.tap(find.byKey(const Key('mic')));
+    await tester.pump();
+    speech.say('They might be tired');
+    speech.finish();
+    await tester.pump();
+    expect(find.text('They might be tired'), findsOneWidget);
+    expect(tester.testTextInput.isVisible, isFalse, reason: 'still hidden');
+    await tester.tap(find.byTooltip('Add idea'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Show me suggestions'));
+    await tester.pumpAndSettle();
+    expect(find.text('They might be tired'), findsOneWidget);
+    expect(find.text('Yours (1)'), findsOneWidget);
+  });
+
+  testWidgets('the role-play shows their line before the choice of reply', (
+    tester,
+  ) async {
+    useTallScreen(tester);
+    await tester.pumpWidget(ArguelessApp(services: testServices(library)));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('today')));
+    await tester.pumpAndSettle();
+    final scenario = current(tester);
+    for (var round = 0; round < 2; round++) {
+      expect(
+        find.textContaining(round == 0 ? 'How else' : 'or to yourself'),
+        findsWidgets,
+      );
+      await addIdea(tester, 'An idea');
+      await tester.tap(find.text('Show me suggestions'));
+      await tester.pumpAndSettle();
+      expect(find.textContaining('ring true and bring up a softer'), findsOne);
+      await rateEverything(tester);
+      await tester.tap(find.text('Next'));
+      await tester.pumpAndSettle();
+    }
+    final opening = find.text(scenario.roleplay.opening);
+    expect(opening, findsOneWidget, reason: 'shown before choosing');
+    expect(
+      tester.getTopLeft(opening).dy,
+      lessThan(tester.getTopLeft(find.text('Pick your reply')).dy),
+    );
+    expect(find.byKey(const Key('reply-field')), findsNothing);
+    await tester.tap(find.text('An idea'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const Key('send-reply')));
+    await tester.pumpAndSettle();
+    expect(find.text('Pick your reply'), findsNothing, reason: 'chat reads on');
+    expect(find.text(scenario.roleplay.partnerReply), findsOneWidget);
   });
 }

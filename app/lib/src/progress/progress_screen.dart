@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 
 import '../app/app_services.dart';
 import '../app/argueless_theme.dart';
+import 'journal_entry_card.dart';
 import 'ratings_section.dart';
-import 'reflection_chart.dart';
 import 'stat_tile.dart';
 
-/// Progress over time: the reflection chart, the share of moments that went
-/// generously, practice totals, and self-ratings by rubric criterion.
+/// Progress over time: practice totals, self-ratings by rubric criterion,
+/// and the journal, newest first.
 class ProgressScreen extends StatefulWidget {
   const ProgressScreen({super.key, required this.services});
 
@@ -22,7 +22,6 @@ class _ProgressScreenState extends State<ProgressScreen> {
   List<Reflection>? _reflections;
   PracticeStats? _stats;
   RatingStats? _ratings;
-  bool _weekly = false;
 
   @override
   void initState() {
@@ -51,9 +50,6 @@ class _ProgressScreenState extends State<ProgressScreen> {
     });
   }
 
-  static String _percent(double? share) =>
-      share == null ? '–' : '${(share * 100).round()}%';
-
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -66,54 +62,16 @@ class _ProgressScreenState extends State<ProgressScreen> {
         body: const Center(child: CircularProgressIndicator()),
       );
     }
-    final today = widget.services.today;
-    final series = ReflectionSeries(reflections);
-    final buckets = _weekly
-        ? series.weekly(end: today)
-        : series.daily(end: today);
-    final weeks = series.weekly(end: today, count: 2);
+    final journal = [
+      for (final r in reflections.reversed)
+        if (r.note.trim().isNotEmpty || r.hasOnlyCounts) r,
+    ];
     return Scaffold(
       appBar: AppBar(title: const Text('Progress')),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(ArguelessTheme.gutter),
           children: [
-            Text(
-              'How tricky moments went',
-              style: theme.textTheme.titleLarge?.copyWith(
-                fontWeight: FontWeight.w800,
-              ),
-            ),
-            const SizedBox(height: 12),
-            SegmentedButton<bool>(
-              segments: const [
-                ButtonSegment(value: false, label: Text('2 weeks')),
-                ButtonSegment(value: true, label: Text('12 weeks')),
-              ],
-              selected: {_weekly},
-              onSelectionChanged: (s) => setState(() => _weekly = s.first),
-            ),
-            const SizedBox(height: 16),
-            ReflectionChart(buckets: buckets, weekly: _weekly),
-            const SizedBox(height: 20),
-            Row(
-              children: [
-                Expanded(
-                  child: StatTile(
-                    value: _percent(weeks.last.generousShare),
-                    label: 'went generously\nthis week',
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: StatTile(
-                    value: _percent(weeks.first.generousShare),
-                    label: 'went generously\nlast week',
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 28),
             Text(
               'Practice',
               style: theme.textTheme.titleLarge?.copyWith(
@@ -160,6 +118,20 @@ class _ProgressScreenState extends State<ProgressScreen> {
               stats: ratings,
               scale: widget.services.library.scale,
             ),
+            const SizedBox(height: 28),
+            Text(
+              'Your journal',
+              style: theme.textTheme.titleLarge?.copyWith(
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 12),
+            if (journal.isEmpty)
+              Text(
+                'What you write in the journal will show here.',
+                style: theme.textTheme.bodyMedium,
+              ),
+            for (final entry in journal) JournalEntryCard(entry: entry),
           ],
         ),
       ),

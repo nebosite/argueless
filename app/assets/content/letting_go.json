@@ -241,6 +241,126 @@
         "partnerReply": "Honestly, it's the pinging that gets me. If I picked my own time, I'd probably just do it. Can we try that for a week?"
       },
       "takeaway": "Listening first can turn a lecture into a plan."
+    },
+    {
+      "id": "lg-09",
+      "title": "The Trivia Dispute",
+      "setting": "Friends · pub quiz night",
+      "difficulty": 1,
+      "situation": "Your team is stuck on a question about which planet has the most moons. Your friend Jo writes down an answer you are fairly sure is outdated. The pencil is already moving.",
+      "firstThought": "She is wrong, and we will lose the point if I stay quiet.",
+      "reframes": [
+        "I might be remembering an old fact too. I could check my own source first.",
+        "Jo probably wrote it because she read it somewhere recent.",
+        "We both want the point, so we can sort it out together.",
+        "The number may have changed since I last looked.",
+        "The itch to jump in says I care about this team more than the answer.",
+        "From her side, my interruption could feel like she is being overruled."
+      ],
+      "phrases": [
+        "Hang on, where did you see that one? I want to compare notes.",
+        "I might be out of date. Can we look it up together?",
+        "I remember a different answer. Want to hear it, or go with yours?",
+        "Which one are you more sure about? I am only about sixty percent.",
+        "Tell me what made you pick that. I may learn something.",
+        "Either way, it is a fun question. Shall we vote?"
+      ],
+      "roleplay": {
+        "partner": "Jo, your teammate",
+        "opening": "I am pretty sure it is this one. I read it last month. Why, did you have another?",
+        "partnerReply": "Oh, really? I read it in an article, but it might have been old. Let us check it on my phone. Good thing you asked rather than just crossing it out."
+      },
+      "takeaway": "A quick question beats a quiet correction."
+    },
+    {
+      "id": "lg-10",
+      "title": "The Shortcut Lecture",
+      "setting": "Work · shared desk",
+      "difficulty": 2,
+      "situation": "A new hire, Mina, is showing you how she files expense reports, and it takes eleven clicks. You know a shortcut that takes three. She is only on step four and looks proud of her system.",
+      "firstThought": "This is painful to watch. I should just tell her the faster way.",
+      "reframes": [
+        "She may have a reason for each step that I do not know yet.",
+        "Maybe my shortcut skips a check that matters to her.",
+        "Mina probably wants to look capable and be quick, same as me.",
+        "What I am feeling is impatience, and it is about me, not her.",
+        "I could ask her what she would change, and she may find the shortcut herself.",
+        "If I were new, a quiet tip later would feel better than being fixed mid-step."
+      ],
+      "phrases": [
+        "That is clear, thanks. What is the slowest part for you?",
+        "I have a shortcut I like. Want it now or later?",
+        "Walk me through why you do that step. I am curious.",
+        "I learned a trick for this once. Can I show you when you are done?",
+        "What would you change about this process if you could?",
+        "Careful is good. I tend to rush and miss things."
+      ],
+      "roleplay": {
+        "partner": "Mina, a new colleague",
+        "opening": "Almost done. It is a lot of clicks, I know, but I always double check the totals along the way.",
+        "partnerReply": "Oh, that would be great. I did wonder if there was a faster way, but I did not want to skip a check. Show me after, and tell me if I am missing something."
+      },
+      "takeaway": "Ask before fixing, and the help gets received."
+    },
+    {
+      "id": "lg-11",
+      "title": "Grandpa and the Weather",
+      "setting": "Family · Sunday lunch",
+      "difficulty": 3,
+      "situation": "Your grandfather insists his knee aching means rain is coming, and he says it with great authority. The forecast on your phone says clear skies all week. The rest of the table is nodding politely.",
+      "firstThought": "The forecast says otherwise. Someone should respect facts here.",
+      "reframes": [
+        "Does this need to be settled at all? Nobody is making a decision on it.",
+        "He may be telling me something about his knee, not the sky.",
+        "What we both want is a pleasant lunch.",
+        "I could be missing what this ritual means to him.",
+        "I notice a small urge to win, and I can let it pass.",
+        "From his side, decades of weather experience deserve a little respect."
+      ],
+      "phrases": [
+        "How long has your knee been your barometer?",
+        "You may be right. We will see Tuesday. Pass the potatoes?",
+        "Tell me about the worst storm your knee ever called.",
+        "I am curious, how accurate has it been?",
+        "I love that you have your own forecast. Does it beat the app?",
+        "Let us make a bet. Loser does the dishes."
+      ],
+      "roleplay": {
+        "partner": "Grandpa Walt, your grandfather",
+        "opening": "Mark my words, rain by Thursday. My knee has not been wrong since nineteen seventy-eight.",
+        "partnerReply": "Ha. Well, nineteen seventy-eight was a big flood, that is the one I remember. Ask your grandmother about it. And do not think the dishes bet slipped by me."
+      },
+      "takeaway": "Some points are better left standing, and enjoyed."
+    },
+    {
+      "id": "lg-12",
+      "title": "Half Right About the Fridge",
+      "setting": "Home · kitchen",
+      "difficulty": 2,
+      "situation": "Your housemate Priya is sure the milk is off and you are equally sure it is fine, since you bought it yesterday. She is holding it at arm length like a lab sample. You are both already speaking in your \"I told you so\" voices.",
+      "firstThought": "I bought it yesterday. She is being dramatic, and I am right.",
+      "reframes": [
+        "I should smell it myself before I decide I am right.",
+        "Priya may have noticed something I did not, like a date or a smell.",
+        "We both want not to drink bad milk.",
+        "I could be right about the day and wrong about the milk.",
+        "This heat in my voice is about being doubted, not the milk.",
+        "From her side, a sour surprise is a lot worse than a wasted splash."
+      ],
+      "phrases": [
+        "Fair enough, let me smell it too. Two noses are better than one.",
+        "What is making you think it is off?",
+        "I might be wrong about the date. Can we check the carton?",
+        "I would rather be wrong than unwell. Let us test it.",
+        "You noticed something. Tell me what.",
+        "I bought it yesterday, so I was sure. Want to look together?"
+      ],
+      "roleplay": {
+        "partner": "Priya, your housemate",
+        "opening": "It just smells a bit sour to me. Maybe the fridge door was left open overnight. Did you check the date?",
+        "partnerReply": "Oh, I did not think about the door. Okay, it does smell a little off. Fair call. I will get more on my way home and we can both stop squinting."
+      },
+      "takeaway": "Checking together beats arguing about who is right."
     }
   ]
 }

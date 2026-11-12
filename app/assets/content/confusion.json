@@ -241,6 +241,126 @@
         "partnerReply": "Honestly, I don't love this rule. The system flags it for fraud. But I can offer a full exchange, or ask my supervisor about a refund. She's usually reasonable. Want me to call her over?"
       },
       "takeaway": "Understanding a rule opens options that arguing never does."
+    },
+    {
+      "id": "cf-09",
+      "title": "The Mystery Pronoun",
+      "setting": "Family · phone call",
+      "difficulty": 1,
+      "situation": "Your daughter is telling you about her week and keeps saying \"they\" did something, and \"they\" want her to join in. You do not know whether \"they\" is her friends, her team or her landlord. She is already on to the next thing.",
+      "firstThought": "I have lost the thread and it is too late to ask now.",
+      "reframes": [
+        "Being lost is just a cue to ask who \"they\" is.",
+        "She probably assumes I know, because she has been telling the story in her head.",
+        "We both want me to follow her week.",
+        "I might be missing something she mentioned earlier.",
+        "The little flush of embarrassment tells me I care about keeping up.",
+        "From her side, being asked would be proof I am listening."
+      ],
+      "phrases": [
+        "Wait, who is \"they\" here? I lost track.",
+        "I want to follow this. Can you start at the beginning?",
+        "Say more about that part. Who asked you to join?",
+        "I am a bit lost and I do not want to miss it. Who is this?",
+        "Hold on, let me catch up. What happened after that?",
+        "Tell me about \"they\" like I have never met them."
+      ],
+      "roleplay": {
+        "partner": "Zoe, your adult daughter",
+        "opening": "Oh, sorry, I mean the group from my climbing class. They want me to do a weekend trip. Did I not say?",
+        "partnerReply": "Oh, that is so nice that you asked. It is a group of about six of us, and I am nervous because I am the newest. Can I tell you the whole thing properly?"
+      },
+      "takeaway": "Admitting I am lost lets the other person find me."
+    },
+    {
+      "id": "cf-10",
+      "title": "The Contractor Estimate",
+      "setting": "Home · living room",
+      "difficulty": 3,
+      "situation": "A contractor has handed you a quote with line items like \"rough-in\" and \"contingency allowance\", and a total higher than you expected. He is standing by the door, in a hurry, waiting for a yes.",
+      "firstThought": "This looks padded. I will just nod and say I will think about it.",
+      "reframes": [
+        "Not knowing these terms is not the same as being cheated.",
+        "He probably uses these words every day and forgets they are jargon.",
+        "We both want the job to go well and fairly.",
+        "I might be missing what contingency covers.",
+        "My wariness tells me I need more information before I decide.",
+        "From his side, a customer who asks questions is easier than one who goes quiet."
+      ],
+      "phrases": [
+        "Can you walk me through what rough-in covers? I want to understand it.",
+        "What is the contingency for, and what happens if we do not use it?",
+        "I am not familiar with these terms, and I want to get this right.",
+        "Which line items could change the most?",
+        "Can you show me where the biggest part of the cost is?",
+        "I am not in a rush. Can I come back with questions?"
+      ],
+      "roleplay": {
+        "partner": "Dale, a contractor",
+        "opening": "That is the full quote. Rough-in, finish, contingency. Let me know when you are ready to move forward.",
+        "partnerReply": "Sure, happy to. Rough-in is the pipes and wires behind the walls, and contingency covers surprises in there. If we do not use it, you do not pay it. Anything else you want me to explain?"
+      },
+      "takeaway": "Not knowing the words is a reason to ask, not to guess."
+    },
+    {
+      "id": "cf-11",
+      "title": "Why Did He Quit",
+      "setting": "Work · break room",
+      "difficulty": 2,
+      "situation": "A colleague everybody likes has just resigned to open a bakery, leaving a very good salary. The team is shaking their heads and whispering that it is a bad idea. You feel something like disbelief.",
+      "firstThought": "Quitting a great job for a bakery makes no sense. He is making a mistake.",
+      "reframes": [
+        "It makes no sense to me, which tells me I am missing something.",
+        "He may want something from his days that I cannot see.",
+        "We probably both want a life that feels like ours.",
+        "I might be assuming money is what matters most to everyone.",
+        "My disbelief could be hiding a little envy.",
+        "From his side, this may be a dream he has had for years."
+      ],
+      "phrases": [
+        "Congratulations, I think. Tell me what made you decide.",
+        "I am curious, what is it about baking that pulled you?",
+        "Help me understand what you are hoping for.",
+        "Did you think about this for long?",
+        "I do not get it yet, and I would like to. What am I missing?",
+        "What is the first thing you will bake on opening day?"
+      ],
+      "roleplay": {
+        "partner": "Theo, a colleague",
+        "opening": "So, I guess you heard. I am leaving to open a bakery. People think I am crazy.",
+        "partnerReply": "Thanks for asking instead of telling me what I should do. I have been getting up at four in the morning to bake for two years. It is the first thing that has ever felt like mine."
+      },
+      "takeaway": "Disbelief is a doorway to what someone cares about."
+    },
+    {
+      "id": "cf-12",
+      "title": "The Group Chat Meme",
+      "setting": "Friends · group chat",
+      "difficulty": 1,
+      "situation": "Your friends are sending a rapid series of memes and abbreviations that you do not understand, and everyone is laughing. You type \"ha\" a few times to blend in. It is starting to feel lonely.",
+      "firstThought": "I will just pretend I get it. Admitting I do not would be embarrassing.",
+      "reframes": [
+        "Not getting it is just not having the backstory yet.",
+        "They are not leaving me out on purpose, they are caught up in the joke.",
+        "We all want to laugh together.",
+        "I might be missing a context that would make it funny.",
+        "The lonely feeling tells me I want in.",
+        "From their side, explaining a joke is a way of including me."
+      ],
+      "phrases": [
+        "I am lost on this one. Someone explain it to me?",
+        "Okay, I need the backstory. What is this from?",
+        "I am laughing at you laughing. Fill me in?",
+        "Explain it like I am five, and I will laugh properly.",
+        "What is the origin of this one? I want to join in.",
+        "I do not get it, and I want to. Go."
+      ],
+      "roleplay": {
+        "partner": "Marcus, a friend",
+        "opening": "Ha, did you see that last one? The cat one? Classic.",
+        "partnerReply": "Oh, you have never seen it? It is from this video a few years back. Hold on, I will send it. Okay, now the whole chat will make more sense. Welcome in."
+      },
+      "takeaway": "Saying \"I do not get it\" is the quickest way in."
     }
   ]
 }

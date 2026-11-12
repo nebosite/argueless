@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and earlier: what the phone's backup (the user's Google
+     account) copies. Same four files as data_extraction_rules.xml. -->
+<full-backup-content>
+    <include domain="root" path="app_flutter/practice_log.json" />
+    <include domain="root" path="app_flutter/reflections.json" />
+    <include domain="root" path="app_flutter/settings.json" />
+    <include domain="root" path="app_flutter/reminders.json" />
+</full-backup-content>

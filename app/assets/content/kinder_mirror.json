@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "kinder-mirror",
+  "scenarios": [
+    {
+      "id": "km-01",
+      "title": "Morning Bathroom Light",
+      "setting": "Home · bathroom mirror",
+      "difficulty": 1,
+      "situation": "It is 7:10 and the bathroom light is harsh. You lean toward the mirror and see the puffy eyes and the crease from the pillow still printed on your cheek. Your toothbrush is dripping in your hand.",
+      "firstThought": "I look exhausted. Honestly, I look worse every single morning.",
+      "reframes": [
+        "I notice a sting when I see my face first thing. That's allowed.",
+        "This light and this hour are not my most flattering, and I know that.",
+        "A good friend would just say, you look like you slept. And smile.",
+        "The part of me that judges may be trying to get me ready for the day.",
+        "This face has just woken up after a whole night of doing its job.",
+        "In a wider view of my life, this is one ordinary minute."
+      ],
+      "phrases": [
+        "Good morning, face. You look like you slept. That's what faces do.",
+        "I notice I'm being sharp with myself. What's that about?",
+        "This is early light and a pillow crease. Nothing more is happening.",
+        "I can look for a moment without deciding anything about it.",
+        "What would I say if a friend stood here with this face?",
+        "Something stings a little. I can stay with it while I brush."
+      ],
+      "roleplay": {
+        "partner": "The critical part, a part of you",
+        "opening": "Look at those eyes. You can't go out looking like that. Fix it or hide it.",
+        "partnerReply": "Okay. I just don't want anyone to think we're falling apart. It's a lot to carry, watching out for how we look. Fine, I'll ease off for now."
+      },
+      "takeaway": "I can look at my own face the way I'd look at a friend's."
+    },
+    {
+      "id": "km-02",
+      "title": "Tagged In A Photo",
+      "setting": "Friends · group photo online",
+      "difficulty": 2,
+      "situation": "A friend posts photos from the weekend barbecue and tags you. In one of them you are mid-laugh, your chin is tucked and your eyes are half shut. Your thumb hovers over the screen while the kettle clicks off behind you.",
+      "firstThought": "Why would anyone post that? I look ridiculous and everyone has seen it.",
+      "reframes": [
+        "A hot flush of embarrassment just arrived, and I can name it.",
+        "My friend probably chose this photo because everyone looks happy in it.",
+        "I'm judging a thirtieth of a second, not the whole afternoon.",
+        "The part of me that cringes may be trying to protect me from being laughed at.",
+        "That laugh was real, and I was having a good time.",
+        "People looking at the photo are likely scanning for themselves, not me."
+      ],
+      "phrases": [
+        "That's a split second of me laughing. I was having a good time.",
+        "Hey, embarrassed part. I see you. What are you worried about?",
+        "I don't have to love it. I can let it be a photo.",
+        "What do I notice about the others in the picture? Do I judge them like this?",
+        "If my friend were in this photo, I'd say she looks like she's enjoying herself.",
+        "I can take a breath before I decide what to do about it."
+      ],
+      "roleplay": {
+        "partner": "The embarrassed part, a part of you",
+        "opening": "Ugh, everyone is seeing that. Ask her to take it down right now. Or at least untag us.",
+        "partnerReply": "I just don't want to be the one people laugh at. Maybe it isn't as bad as it feels. Can we wait a minute before we do anything?"
+      },
+      "takeaway": "A caught moment is a moment, not a verdict on my face."
+    },
+    {
+      "id": "km-03",
+      "title": "Me On The Video Call",
+      "setting": "Work · video call",
+      "difficulty": 2,
+      "situation": "Five minutes into a team call you notice your own tile in the corner. Your face looks tired and a bit lopsided, and your hair is doing something odd. The agenda is still on screen, but you can't stop looking at yourself.",
+      "firstThought": "I look awful. Everyone must be wondering why I look this tired.",
+      "reframes": [
+        "I'm feeling self-conscious, and that feeling is pulling my attention away.",
+        "Everyone else is probably watching their own tile, just like me.",
+        "A camera adds odd angles. This isn't how people see me in a room.",
+        "The critic may be trying to keep me from being judged by the team.",
+        "This face has been in plenty of good conversations and will be in more.",
+        "A kind friend would just want me to be here with them."
+      ],
+      "phrases": [
+        "I'm watching myself instead of the call. I can gently bring my eyes back.",
+        "Tired face, I see you. We can be here as we are.",
+        "I wonder what the critic is protecting me from right now.",
+        "People on this call care more about the answer than the angle.",
+        "I could hide my own tile for twenty minutes, and that's a fine choice.",
+        "Something in me feels exposed. I can keep it company."
+      ],
+      "roleplay": {
+        "partner": "The self-conscious part, a part of you",
+        "opening": "Everyone can see how tired we look. Turn the camera off. Nobody should see us like this.",
+        "partnerReply": "Maybe. It's just that being looked at feels risky when we're tired. If we hide our tile and stay on mute, that might help. Thanks for asking."
+      },
+      "takeaway": "My own tile is the one nobody else is watching."
+    },
+    {
+      "id": "km-04",
+      "title": "The Shop Window Stranger",
+      "setting": "Out and about · shop window",
+      "difficulty": 1,
+      "situation": "Walking past a shoe shop on a grey afternoon you catch your reflection in the glass. A stooped, slightly crumpled person with a tote bag looks back. For a second you don't recognise them, and then you do.",
+      "firstThought": "Is that really how I walk? I look so tired and worn out.",
+      "reframes": [
+        "I felt a small jolt, and I can notice it without making it bigger.",
+        "I was caught mid-stride on an ordinary day, not posed for anything.",
+        "The part of me that judges may be wanting me to stand tall and be safe.",
+        "A good friend would see someone carrying a heavy bag and a long day.",
+        "This body has walked me to a thousand places, including this one.",
+        "In a wider view, I'm one person on one pavement."
+      ],
+      "phrases": [
+        "That's me, mid-stride, carrying a heavy bag. Hello.",
+        "Something in me flinched. I'm curious what it was about.",
+        "I can look at that person the way I'd look at a friend.",
+        "What does this body need right now? Maybe just a gentle walk home.",
+        "I don't have to feel good about it to be kind about it.",
+        "Okay, judge-voice, I hear you. I'm going to keep walking."
+      ],
+      "roleplay": {
+        "partner": "The judging part, a part of you",
+        "opening": "Did you see that? Slouching along like that. Stand up straight and look like you've got it together.",
+        "partnerReply": "I just don't like being caught off guard. I want us to look okay out here. But I suppose a long day looks like a long day. I'll stop staring."
+      },
+      "takeaway": "A tired reflection is one frame, and I am the whole film."
+    },
+    {
+      "id": "km-05",
+      "title": "My Voice On Playback",
+      "setting": "Home · voice message",
+      "difficulty": 2,
+      "situation": "You record a voice note for your sister and press play to check it. The voice that comes out sounds higher and more nasal than you expected, with a little wobble on the last word. Your finger hangs over the delete button.",
+      "firstThought": "That is not how I sound, is it? I sound so annoying.",
+      "reframes": [
+        "I'm cringing, and I can name that without acting on it.",
+        "Everyone hears their own voice differently from how it comes across in a recording.",
+        "My sister likes my voice because it's mine, not because it's polished.",
+        "The part of me that cringes may be protecting me from being disliked.",
+        "That wobble is just a person talking to someone they care about.",
+        "From a wider view, this voice has told stories and said I love you."
+      ],
+      "phrases": [
+        "That's strange to hear. It's also my voice, and it's been through a lot.",
+        "Hey, cringing part. What would help right now? A breath, maybe.",
+        "My sister loves hearing from me. That's the point of the message.",
+        "I can feel awkward and still send it.",
+        "What if I played it back as if it were a friend's voice?",
+        "Something in me wants to hide. I'm not going to rush it."
+      ],
+      "roleplay": {
+        "partner": "The cringing part, a part of you",
+        "opening": "Delete it. That wobble is embarrassing. Nobody wants to listen to that. Record it again until it's perfect.",
+        "partnerReply": "It's just that I want her to like hearing from us. I guess she's heard that wobble for years and still calls. Okay. Maybe one more listen, kindly."
+      },
+      "takeaway": "My voice is the one the people I love already know."
+    },
+    {
+      "id": "km-06",
+      "title": "Knees On The Stairs",
+      "setting": "Home · stairwell",
+      "difficulty": 2,
+      "situation": "You carry a laundry basket up the stairs and your knees creak at every step. At the landing you catch sight of yourself in the hall mirror, one hand on the rail, slightly out of breath. You notice a deeper line by your mouth that wasn't there last year.",
+      "firstThought": "When did I get so old? I'm falling apart, one creak at a time.",
+      "reframes": [
+        "A pang of sadness just came up, and I can let it be there.",
+        "These creaks and lines are what years of use look and sound like.",
+        "A good friend would say, you've done a lot of stairs, and that's something.",
+        "The part of me worried about ageing may be trying to prepare me for the unknown.",
+        "I can be tender about getting older and still enjoy this afternoon.",
+        "This body and face have carried me through everything so far."
+      ],
+      "phrases": [
+        "That's a lot of stairs these knees have done. Thank you, knees.",
+        "I notice some sadness about time passing. I can stay with it a minute.",
+        "What is the worried part afraid of, exactly?",
+        "I can say, it's tender to get older, and still carry on up the stairs.",
+        "A deeper line means I've smiled and squinted for a good while.",
+        "Take your time. There's no rush on this landing."
+      ],
+      "roleplay": {
+        "partner": "The part that feels old, a part of you",
+        "opening": "Listen to those knees. And look at that line. Everything's slipping and nobody's even noticing.",
+        "partnerReply": "It scares me, a bit, how fast the years go. I'm not sure what to do with that. It helps that you stopped and asked. Maybe I can sit down for a minute."
+      },
+      "takeaway": "Every creak and line is a record of where I've been."
+    },
+    {
+      "id": "km-07",
+      "title": "Spilled At The Table",
+      "setting": "Friends · dinner party",
+      "difficulty": 3,
+      "situation": "At a friend's dinner you reach for the salt and knock a full glass of water across the table. It runs toward the host's lap and everyone jumps up with napkins. Your ears are burning and your legs are heavy as you stand there holding the empty salt shaker.",
+      "firstThought": "I'm such a klutz. Everyone must think I'm a mess who can't be taken anywhere.",
+      "reframes": [
+        "My face is hot and my chest is tight. That's embarrassment, plainly.",
+        "Everyone at that table has spilled something at some point.",
+        "The host cares more about the evening than the glass.",
+        "The part of me that cringes may be trying to keep me from being rejected.",
+        "A good friend would say it was an accident and hand me a napkin.",
+        "One fumbled moment sits beside many easy ones with these same people."
+      ],
+      "phrases": [
+        "That was a splash. I'll grab more napkins. I'm fine, just a bit red.",
+        "I feel embarrassed, and I'm going to breathe through it.",
+        "Spills happen to hands. It's not a report on the whole of me.",
+        "What would I say to a friend who did this? Probably, no harm done.",
+        "Okay, clumsy-feeling part. I can hear you. Stay with me through dessert.",
+        "Sorry about your lap. Let me get that cleaned up with you."
+      ],
+      "roleplay": {
+        "partner": "The mortified part, a part of you",
+        "opening": "Everyone's staring. We should go home right now. We ruin everything. Why did we even come?",
+        "partnerReply": "I wanted so badly for this evening to go well. I'm scared they'll write us off. Maybe it's not as huge as it feels. Could you stay close to me for a bit?"
+      },
+      "takeaway": "A spilled glass is a small moment, and I am still welcome."
+    },
+    {
+      "id": "km-08",
+      "title": "The Odd One Out",
+      "setting": "Work · networking event",
+      "difficulty": 3,
+      "situation": "You step into a crowded room at a work event and see a glass wall reflecting you in your plain jacket among everyone's sharp, bright clothes. Conversations hum around you, and you feel like a smudge on the picture. Your hand tightens around the name badge.",
+      "firstThought": "I don't belong here. Everyone looks put together and I'm the one who sticks out.",
+      "reframes": [
+        "I feel out of place, and that feeling is real even if it isn't the whole story.",
+        "Many people in this room are likely having the same thought about themselves.",
+        "The part of me that compares may be trying to help me fit in and be safe.",
+        "A good friend would stand next to me and say, you're just as welcome.",
+        "I got invited because of who I am and what I do, not because of my jacket.",
+        "Zooming out, this is one evening, and my life is much bigger than this room."
+      ],
+      "phrases": [
+        "I feel like I stick out. That makes sense in a new crowd.",
+        "Hey, comparing part. What are you hoping I'll avoid tonight?",
+        "I can stand here a minute and just look around before I speak to anyone.",
+        "Others here might feel just as unsure. I can be curious about that.",
+        "I belong here as I am. I'm still working on believing it.",
+        "Something in me wants to run for the door. I can hold its hand a bit."
+      ],
+      "roleplay": {
+        "partner": "The out-of-place part, a part of you",
+        "opening": "Look at everyone else. We don't fit in here. Let's hover by the wall and leave early.",
+        "partnerReply": "I just don't want to be seen as the odd one. It's tiring being on guard. If you stay with me, maybe I can say hi to one person and see how it goes."
+      },
+      "takeaway": "Feeling out of place doesn't mean I am out of place."
+    }
+  ]
+}

@@ -13,6 +13,7 @@ class ReviewStep extends StatelessWidget {
     required this.round,
     required this.scale,
     required this.suggestionsTitle,
+    required this.heartHint,
     required this.onChanged,
     required this.onContinue,
   });
@@ -21,6 +22,9 @@ class ReviewStep extends StatelessWidget {
   final BrainstormRound round;
   final List<ScaleLevel> scale;
   final String suggestionsTitle;
+
+  /// What tapping a heart means here.
+  final String heartHint;
   final VoidCallback onChanged;
   final VoidCallback onContinue;
 
@@ -60,11 +64,7 @@ class ReviewStep extends StatelessWidget {
           ),
         const SizedBox(height: 20),
         Text(suggestionsTitle, style: heading),
-        Text(
-          'Tap the heart on any you like. Liked phrases join your '
-          'choices for the role-play.',
-          style: theme.textTheme.bodySmall,
-        ),
+        Text(heartHint, style: theme.textTheme.bodySmall),
         const SizedBox(height: 8),
         for (final (i, suggestion) in round.suggestions.indexed)
           SuggestionTile(

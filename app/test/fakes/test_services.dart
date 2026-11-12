@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'fake_reminder_scheduler.dart';
+import 'fake_speech_input.dart';
 import 'fixed_clock.dart';
 import 'memory_practice_log.dart';
 import 'memory_reflection_log.dart';
@@ -38,6 +39,7 @@ AppServices testServices(
   AppSettingsController? settings,
   FakeReminderScheduler? scheduler,
   MemoryReminderSettingsStore? reminderStore,
+  FakeSpeechInput? speech,
 }) {
   final log = practiceLog ?? MemoryPracticeLog();
   final time = clock ?? FixedClock(DateTime(2026, 11, 10, 8));
@@ -59,6 +61,7 @@ AppServices testServices(
       practiceLog: log,
       clock: time,
     ),
+    speech: speech ?? FakeSpeechInput(),
   );
 }
 

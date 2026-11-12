@@ -191,7 +191,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
         hint: 'A new way to think about it…',
         explainer:
             'List as many reframes as you can: thoughts that would invite '
-            'a better conversation instead of a defensive one.',
+            'a curious, kinder response instead of a defensive one.',
+        speech: _services.speech,
         onChanged: () => setState(() {}),
         onContinue: _advance,
       ),
@@ -201,6 +202,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
         round: _session.reframes,
         scale: _services.library.scale,
         suggestionsTitle: 'Reframes others came up with',
+        heartHint:
+            'Tap the heart on any that ring true and bring up a softer '
+            "feeling. It's fine if none do.",
         onChanged: () => setState(() {}),
         onContinue: _advance,
       ),
@@ -211,8 +215,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
         prompt: 'What could you actually say?',
         hint: 'Words you would say out loud…',
         explainer:
-            'Now turn the new thinking into practical phrases. Questions, '
-            '"I" statements, and playing back what you heard all count.',
+            'Now turn the new thinking into words: what you would say to '
+            'them or to yourself. Questions, "I" statements, and playing '
+            'back what you heard all count.',
+        speech: _services.speech,
         onChanged: () => setState(() {}),
         onContinue: _advance,
       ),
@@ -222,12 +228,17 @@ class _PracticeScreenState extends State<PracticeScreen> {
         round: _session.phrases,
         scale: _services.library.scale,
         suggestionsTitle: 'Phrases to borrow',
+        heartHint:
+            'Tap the heart on any that ring true and bring up a softer '
+            "feeling. It's fine if none do. Hearted ones join your choices "
+            'for the role-play.',
         onChanged: () => setState(() {}),
         onContinue: _advance,
       ),
       PracticeStep.roleplay => RoleplayStep(
         key: key,
         session: _session,
+        speech: _services.speech,
         onChanged: () => setState(() {}),
         onContinue: _advance,
       ),

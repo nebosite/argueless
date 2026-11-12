@@ -38,6 +38,9 @@ class PracticeStats {
     return (total.inSeconds / 60).round();
   }
 
+  /// Ideas written in today's practices.
+  int get ideasToday => _todays.fold(0, (sum, r) => sum + r.ideaCount);
+
   /// Every idea the user has written, across all practices.
   int get totalIdeas => _records.fold(0, (sum, r) => sum + r.ideaCount);
 

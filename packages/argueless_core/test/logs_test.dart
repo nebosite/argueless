@@ -109,5 +109,58 @@ void main() {
       expect(today.recovered, 1);
       expect(await log.on(const LocalDay(2026, 1, 1)), isNull);
     });
+
+    test('a journal note is saved and read back', () async {
+      final log = JsonFileReflectionLog(file('reflections.json'));
+      await log.save(const Reflection(day: day, note: 'Noticed the heat.'));
+      final saved = await JsonFileReflectionLog(
+        file('reflections.json'),
+      ).on(day);
+      expect(saved!.note, 'Noticed the heat.');
+      expect(saved.hasOnlyCounts, isFalse);
+    });
+
+    test('an entry from before the journal keeps its counts', () async {
+      await file('reflections.json').writeAsString(
+        jsonEncode({
+          'schemaVersion': 1,
+          'reflections': [
+            {
+              'day': '2026-11-10',
+              'automatic': 2,
+              'recovered': 1,
+              'conflict': 1,
+            },
+          ],
+        }),
+      );
+      final log = JsonFileReflectionLog(file('reflections.json'));
+      final old = (await log.on(day))!;
+      expect(old.hasOnlyCounts, isTrue);
+      expect(old.note, '');
+      await log.save(old.copyWith(note: 'Added later.'));
+      final both = (await JsonFileReflectionLog(
+        file('reflections.json'),
+      ).on(day))!;
+      expect(both.note, 'Added later.');
+      expect([both.automatic, both.recovered, both.conflict], [2, 1, 1]);
+    });
+  });
+
+  test('a damaged note reads as empty and keeps the counts', () async {
+    await file('reflections.json').writeAsString(
+      jsonEncode({
+        'schemaVersion': 1,
+        'reflections': [
+          {'day': '2026-11-10', 'note': 123, 'automatic': 2},
+        ],
+      }),
+    );
+    final entry = (await JsonFileReflectionLog(
+      file('reflections.json'),
+    ).on(const LocalDay(2026, 11, 10)))!;
+    expect(entry.note, '');
+    expect(entry.automatic, 2);
+    expect(entry.hasOnlyCounts, isTrue);
   });
 }

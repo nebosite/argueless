@@ -17,13 +17,18 @@ What follows from it:
 - **Small and daily.** A practice takes about five minutes; a day's goal is
   5 to 15. Nothing should make a session longer without a reason.
 - **Fun and kind.** Playful, warm, never preachy. Self-ratings and the
-  conflict count must never feel like a grade or a scolding.
-- **Real life is the scoreboard.** The daily reflection (automatic,
-  turned around, conflict) is the measure that matters; streaks and idea
-  counts only keep the user coming back to it.
+  journal must never feel like a grade or a scolding.
+- **Real life is the scoreboard.** The daily journal (what the user
+  noticed over the last day) is where the change shows; streaks and idea
+  counts only keep the user coming back to it. The journal is free text on
+  purpose (counting moments felt too heavy). Trends will come later from an
+  AI reading the journal, not from tallies the user keeps.
 - **Private by default.** Ideas, replies and reflections are personal. They
   stay on the device, in app-private storage. Nothing is uploaded, shared or
-  analysed.
+  analysed. The microphone button hands speech to the phone's speech
+  service (Google on Android, Apple on iOS), which may process it on its
+  servers, as the keyboard mic does; the About page says so. The app has no
+  internet permission in release and never sees the audio.
 - **Not therapy.** Scenarios never involve abuse, violence or situations
   where cooperating would be unsafe. The app practises everyday friction.
 
@@ -54,7 +59,7 @@ What follows from it:
 A deployment is anything that puts a build in someone else's hands.
 
 1. Everything in the check-in list.
-2. `fred` walks a full practice, a reflection and the progress chart on an
+2. `fred` walks a full practice, a journal entry and progress on an
    emulator and a real device, and confirms the data survives a restart.
 3. **Run the Release readiness crew** → `vera`: ship, ship with stated risks,
    or hold.
@@ -88,9 +93,9 @@ Give each agent a model per the global rules: `haiku` for mechanical checks,
   - `practice/`: `PracticeSession` (the step machine, with two
     `BrainstormRound`s), `PracticeRecord`, `PracticeLog` and
     `JsonFilePracticeLog`, `ScenarioPicker`, `PracticeStats`.
-  - `reflection/`: `Reflection`, `ReflectionLog` and
-    `JsonFileReflectionLog`, `ReflectionSeries` (daily and weekly buckets
-    for the chart).
+  - `reflection/`: `Reflection` (one journal entry a day; entries from
+    before 0.3.0 also hold three counts, kept on save), `ReflectionLog` and
+    `JsonFileReflectionLog`.
   - `storage/AtomicJsonFile`, `time/LocalDay`.
 - **The seams for a future AI backend** are `ContentSource` (where the
   library comes from) and `ScenarioProvider` (what to practise next; today
@@ -98,8 +103,9 @@ Give each agent a model per the global rules: `haiku` for mechanical checks,
   not change. See `docs/content/README.md`.
 - `app/` is the Flutter app. Under `lib/src/`: `app/` holds the shell,
   services, theme and `Clock`; `home/` the home screen; `practice/` the
-  practice flow (one widget per step); `reflect/` the daily reflection;
-  `progress/` the chart (a `CustomPainter`) and totals.
+  practice flow (one widget per step); `reflect/` the journal;
+  `progress/` totals, self-ratings and journal entries; `speech/` the
+  microphone button behind `SpeechInput` (fake: `FakeSpeechInput`).
 - **Code style:** object-oriented, one class per file, YAGNI. Platform and
   time stay behind small interfaces so tests use fakes (`app/test/fakes/`).
   State is plain Flutter (`setState`); there is no state library.
@@ -136,11 +142,17 @@ record is saved once, on reaching `done`. Leaving mid-practice asks first
 - An entry that cannot be parsed is skipped when reading but **kept** in the
   file when writing. A file that is not JSON at all is moved aside to
   `<name>.unreadable`, never deleted.
-- One reflection per local day; saving again replaces it. Times are saved in
+- One journal entry per local day; saving again replaces it. Times are saved in
   UTC; days are local (`LocalDay`).
-- Nothing leaves the device. There is no network permission use, analytics
-  or backup configuration yet: Android auto-backup is on by default and would
-  copy these files to the user's Google backup. Decide before release.
+- The app itself sends nothing: no network permission in release, no
+  analytics. Dictation goes through the phone's speech service (above).
+- **Backups are the phone's, declared on the About page.** Android backs up
+  exactly the four data files (`practice_log.json`, `reflections.json`,
+  `settings.json`, `reminders.json` in `app_flutter/`) to the user's Google
+  account and in phone-to-phone transfer: `res/xml/data_extraction_rules.xml`
+  (Android 12+) and `res/xml/backup_rules.xml` (older). iOS backs up the
+  Documents folder to iCloud or a computer. ArgueLess keeps no copies of its
+  own. A new data file must be added to both XML files.
 
 ## Platform gotchas
 

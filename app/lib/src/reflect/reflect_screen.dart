@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 
 import '../app/app_services.dart';
 import '../app/argueless_theme.dart';
-import 'moment_counter.dart';
+import '../speech/dictation_button.dart';
 
-/// The daily look back over the last 24 hours: how many tricky moments
-/// went each way. One reflection per day; opening it again edits it.
+/// The daily journal: a few free-form lines about what the user noticed
+/// over the last day, typed or spoken. One entry per day; opening it again
+/// edits it. The keyboard stays closed until the user taps the page.
 class ReflectScreen extends StatefulWidget {
   const ReflectScreen({super.key, required this.services});
 
@@ -18,7 +19,9 @@ class ReflectScreen extends StatefulWidget {
 
 class _ReflectScreenState extends State<ReflectScreen> {
   late final LocalDay _day = widget.services.today;
+  final _note = TextEditingController();
   Reflection? _reflection;
+  bool _saving = false;
 
   @override
   void initState() {
@@ -26,37 +29,37 @@ class _ReflectScreenState extends State<ReflectScreen> {
     _load();
   }
 
+  @override
+  void dispose() {
+    _note.dispose();
+    super.dispose();
+  }
+
   Future<void> _load() async {
     Reflection? saved;
     try {
       saved = await widget.services.reflectionLog.on(_day);
     } catch (e) {
-      // Start from zero; saving replaces only today's entry.
-      debugPrint('ArgueLess: reflection load failed: ${e.runtimeType}');
+      // Start empty; saving replaces only today's entry.
+      debugPrint('ArgueLess: journal load failed: ${e.runtimeType}');
     }
     if (!mounted) return;
-    setState(() => _reflection = saved ?? Reflection(day: _day));
-  }
-
-  void _step(Reflection Function(Reflection current) change) {
     setState(() {
-      final next = change(_reflection!);
-      final counts = [next.automatic, next.recovered, next.conflict];
-      final inRange = counts.every((c) => c >= 0 && c <= MomentCounter.max);
-      if (inRange) _reflection = next;
+      _reflection = saved ?? Reflection(day: _day);
+      _note.text = _reflection!.note;
     });
   }
-
-  bool _saving = false;
 
   Future<void> _save() async {
     if (_saving) return;
     _saving = true;
     try {
-      await widget.services.reflectionLog.save(_reflection!);
+      await widget.services.reflectionLog.save(
+        _reflection!.copyWith(note: _note.text.trim()),
+      );
       if (mounted) Navigator.of(context).pop();
     } catch (e) {
-      debugPrint('ArgueLess: reflection save failed: ${e.runtimeType}');
+      debugPrint('ArgueLess: journal save failed: ${e.runtimeType}');
       _saving = false;
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
@@ -72,60 +75,56 @@ class _ReflectScreenState extends State<ReflectScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final r = _reflection;
     return Scaffold(
-      appBar: AppBar(title: const Text('Look back')),
-      body: r == null
+      appBar: AppBar(title: const Text('Journal')),
+      body: _reflection == null
           ? const Center(child: CircularProgressIndicator())
           : SafeArea(
               child: ListView(
                 padding: const EdgeInsets.all(ArguelessTheme.gutter),
                 children: [
                   Text(
-                    'Think back over the last 24 hours. How many tricky '
-                    'moments did you have, and how did each one go?',
-                    style: theme.textTheme.bodyLarge,
+                    'What did you notice over the last day?',
+                    style: theme.textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
-                  const SizedBox(height: 20),
-                  MomentCounter(
-                    key: const Key('automatic'),
-                    icon: Icons.wb_sunny_rounded,
-                    color: const Color(0xFF1BAF7A),
-                    title: 'Generous right away',
-                    subtitle: 'Curiosity came first, without trying.',
-                    value: r.automatic,
-                    onStep: (d) =>
-                        _step((r) => r.copyWith(automatic: r.automatic + d)),
+                  const SizedBox(height: 4),
+                  Text(
+                    'A tricky moment, how it went, what you felt, or '
+                    'anything at all. Type, or tap the microphone and talk.',
+                    style: theme.textTheme.bodyMedium,
                   ),
-                  const SizedBox(height: 12),
-                  MomentCounter(
-                    key: const Key('recovered'),
-                    icon: Icons.u_turn_left_rounded,
-                    color: const Color(0xFF2A78D6),
-                    title: 'Caught it and turned it around',
-                    subtitle:
-                        'Started defensive, switched to generous before you '
-                        'replied.',
-                    value: r.recovered,
-                    onStep: (d) =>
-                        _step((r) => r.copyWith(recovered: r.recovered + d)),
+                  const SizedBox(height: 16),
+                  TextField(
+                    key: const Key('journal-field'),
+                    controller: _note,
+                    minLines: 6,
+                    maxLines: null,
+                    keyboardType: TextInputType.multiline,
+                    textCapitalization: TextCapitalization.sentences,
+                    decoration: const InputDecoration(
+                      hintText: 'Yesterday I noticed…',
+                    ),
+                    onChanged: (_) => setState(() {}),
                   ),
                   const SizedBox(height: 12),
-                  MomentCounter(
-                    key: const Key('conflict'),
-                    icon: Icons.bolt_rounded,
-                    color: const Color(0xFFEB6834),
-                    title: 'Turned into conflict',
-                    subtitle: 'It happens. Noticing it is the practice.',
-                    value: r.conflict,
-                    onStep: (d) =>
-                        _step((r) => r.copyWith(conflict: r.conflict + d)),
-                  ),
-                  const SizedBox(height: 24),
-                  FilledButton(
-                    key: const Key('save-reflection'),
-                    onPressed: _save,
-                    child: const Text('Save'),
+                  Row(
+                    children: [
+                      DictationButton(
+                        speech: widget.services.speech,
+                        controller: _note,
+                        onChanged: (_) => setState(() {}),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: FilledButton(
+                          key: const Key('save-reflection'),
+                          onPressed: _note.text.trim().isEmpty ? null : _save,
+                          child: const Text('Save'),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),

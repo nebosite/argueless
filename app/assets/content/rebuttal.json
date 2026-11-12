@@ -241,6 +241,126 @@
         "partnerReply": "Oh, you're right, that's the defect guarantee. I missed it. Let me grab my supervisor so I can approve a swap or a refund. Just give me a minute."
       },
       "takeaway": "Speak up, kindly: the receipt backs you up."
+    },
+    {
+      "id": "rb-09",
+      "title": "The Burnt Fuse Box",
+      "setting": "Home · basement",
+      "difficulty": 3,
+      "situation": "Your landlord is showing you a fuse box that has a scorch mark and a loose wire, and saying it is fine for another year. You work with electrics and know it is not. He is friendly and clearly means well.",
+      "firstThought": "He owns the place and he is nice. Who am I to argue about wiring?",
+      "reframes": [
+        "This is a safety matter, so speaking up matters more than being polite.",
+        "He may not have seen the scorch mark up close.",
+        "We both want the house to be safe and not burn down.",
+        "What I know from my work is worth sharing, not hiding.",
+        "My unease is telling me that this is not a small thing.",
+        "From his side, a fix now is cheaper than a fire."
+      ],
+      "phrases": [
+        "I work with electrics. Can I show you something on this panel?",
+        "That scorch mark worries me. Can we look at it together?",
+        "I know you want this safe. I think this wire needs fixing before it gets worse.",
+        "Poke holes in this: if that wire sparks, what is our plan?",
+        "I would hate for anyone to get hurt. Can an electrician take a look?",
+        "If we can't sort it between us, I'd want an inspector to take a look."
+      ],
+      "roleplay": {
+        "partner": "Frank, your landlord",
+        "opening": "It has been like that for years. Never had a problem. Are you sure it is serious?",
+        "partnerReply": "Hm, I did not notice the scorch until you pointed. If it is a risk, I would rather know. I will have an electrician out this week. Thank you for telling me straight."
+      },
+      "takeaway": "Speak up: a scorch mark is a safety issue, and you can take it further."
+    },
+    {
+      "id": "rb-10",
+      "title": "The Eulogy Edit",
+      "setting": "Family · funeral planning",
+      "difficulty": 1,
+      "situation": "Your aunt is drafting the eulogy for your grandmother and has written that she \"never had a bad word to say\". You remember she had plenty, mostly about the neighbours. Your aunt is tearful and proud of the line.",
+      "firstThought": "That is not true. Somebody should correct it before it is read out.",
+      "reframes": [
+        "Does this matter on a day like this? Probably not.",
+        "She is grieving, and the line is a gift, not a record.",
+        "We both want to honour Gran well.",
+        "I might be missing what that sentence means to her.",
+        "My urge to correct might be partly my own grief.",
+        "From her side, a soft memory is what she needs right now."
+      ],
+      "phrases": [
+        "That is a lovely line. Tell me more about what you remember.",
+        "She would have loved hearing that. What else do you want to say?",
+        "I like how warm this is. Can I help you read it through?",
+        "Tell me about your favourite memory of her.",
+        "I can hear how much you loved her in every line.",
+        "Do you want me to be your first listener?"
+      ],
+      "roleplay": {
+        "partner": "Aunt Carol, your aunt",
+        "opening": "I just want it to feel right. Do you think it sounds like her?",
+        "partnerReply": "Thank you. I have been staring at it all evening. I think I needed someone to tell me it was good. Would you sit with me while I read it aloud?"
+      },
+      "takeaway": "Let this one go."
+    },
+    {
+      "id": "rb-11",
+      "title": "Four Hundred for a Logo",
+      "setting": "Work · project call",
+      "difficulty": 2,
+      "situation": "A teammate, Ben, proposes spending a big chunk of the small project budget on a logo redesign. The decision is due at the end of this call. You think the money should go to testing, but you do not know what Ben is picturing.",
+      "firstThought": "It is a waste, and I should say no before we commit.",
+      "reframes": [
+        "I should find out why he wants the logo before I object.",
+        "Ben probably thinks the logo will help the project land.",
+        "We both want the project to succeed.",
+        "I might be missing a client request.",
+        "My hesitation is about the budget, and that is worth saying.",
+        "From his side, I could have an idea that serves him too."
+      ],
+      "phrases": [
+        "Can you tell me more about what the logo does for us?",
+        "I see how a good logo helps. I wonder if testing could get the same result.",
+        "What if we split it? I want both things to work.",
+        "My worry is the budget. Can we look at the numbers together?",
+        "I might be missing something. Is the client asking for it?",
+        "Tell me if this does not fit, but I would suggest testing first."
+      ],
+      "roleplay": {
+        "partner": "Ben, a teammate",
+        "opening": "The logo looks dated and it hurts us in pitches. I figure we do it now. Does anyone object?",
+        "partnerReply": "Fair. I had not thought about testing. The logo was just bugging me because of the pitch. Can we look at both and see what fits in the budget before the end of the call?"
+      },
+      "takeaway": "Ask first, then offer your view as yours."
+    },
+    {
+      "id": "rb-12",
+      "title": "The Gift List Opinion",
+      "setting": "Friends · wedding reception",
+      "difficulty": 1,
+      "situation": "At a friend's wedding, an older guest tells the table that couples should never register for gifts. You think registries are handy. The couple is dancing across the room, and the table is merry.",
+      "firstThought": "That is outdated. I should set the record straight.",
+      "reframes": [
+        "It is a celebration, and this opinion costs nobody anything.",
+        "He may be sharing a custom from his own wedding.",
+        "We all want a fun night.",
+        "I might be missing his story behind it.",
+        "The itch to correct is about me, not the party.",
+        "From his side, I am sharing a table, not a debate."
+      ],
+      "phrases": [
+        "Interesting. What was your wedding like?",
+        "I had not thought of it that way. Why do you think so?",
+        "Funny, I like registries. Each to their own, though. More cake?",
+        "Tell me about your own wedding gifts.",
+        "That is a fun take. Shall we dance?",
+        "Different times, different habits. What was the best gift you got?"
+      ],
+      "roleplay": {
+        "partner": "Uncle Roy, a wedding guest",
+        "opening": "In my day we took what we were given and said thank you. All these lists, I do not know.",
+        "partnerReply": "Ha, well, that is a gracious way to do it too. We got a toaster and an electric blanket. Both still going. Did you ever get something unexpected?"
+      },
+      "takeaway": "Let this one go, and enjoy the cake."
     }
   ]
 }

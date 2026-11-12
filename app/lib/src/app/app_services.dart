@@ -2,6 +2,7 @@ import 'package:argueless_core/argueless_core.dart';
 
 import '../reminders/reminder_coordinator.dart';
 import '../settings/app_settings_controller.dart';
+import '../speech/speech_input.dart';
 import 'clock.dart';
 
 /// The long-lived services the screens share.
@@ -14,6 +15,7 @@ class AppServices {
     required this.changelog,
     required this.settings,
     required this.reminders,
+    required this.speech,
     this.clock = const Clock(),
   });
 
@@ -35,6 +37,9 @@ class AppServices {
 
   /// The daily practice reminder.
   final ReminderCoordinator reminders;
+
+  /// Speaking instead of typing.
+  final SpeechInput speech;
 
   LocalDay get today => LocalDay.of(clock.now());
 }

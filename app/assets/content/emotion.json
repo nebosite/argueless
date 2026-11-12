@@ -241,6 +241,126 @@
         "partnerReply": "Oh, thank you for being nice about it. Honestly, you're the first person this morning who didn't snap at me. Give me thirty seconds and I'll make it right, and it's on me."
       },
       "takeaway": "A kind word to a stressed stranger costs me almost nothing."
+    },
+    {
+      "id": "em-09",
+      "title": "The Eye Roll",
+      "setting": "Work · team meeting",
+      "difficulty": 2,
+      "situation": "You share a suggestion in the meeting and notice a colleague, Raj, glance at the ceiling and exhale through his nose. Your face goes warm. The meeting has already moved on to the next topic.",
+      "firstThought": "He thinks my idea is stupid. I knew I should have stayed quiet.",
+      "reframes": [
+        "My face is hot, and I feel embarrassed, which I can notice without acting on.",
+        "Raj may have been thinking about something else entirely.",
+        "He might be tired or stressed, and it spilled out.",
+        "I could be reading a lot into one glance.",
+        "We both want the meeting to produce good ideas.",
+        "From his side, he might have a concern with the idea and not know how to say it."
+      ],
+      "phrases": [
+        "Raj, I caught a look during my idea. Did I miss something?",
+        "I felt a bit self-conscious just now. Can I check if you had a concern?",
+        "I would love to hear what you think of that suggestion.",
+        "Was there a problem with that approach? I am open.",
+        "I may be wrong, but I thought you had a reaction. Want to talk after?",
+        "What would make that idea better, in your view?"
+      ],
+      "roleplay": {
+        "partner": "Raj, a colleague",
+        "opening": "Oh, that. Sorry, I was not reacting to you. I was thinking about the budget thing from this morning. Your idea actually had me thinking.",
+        "partnerReply": "Honestly, I was thinking how the timing might clash with the release. I should have said so, instead of sighing. Can we look at it after the meeting?"
+      },
+      "takeaway": "A glance is not a verdict. Ask before concluding."
+    },
+    {
+      "id": "em-10",
+      "title": "The Tight Chest at Pickup",
+      "setting": "Family · school gate",
+      "difficulty": 1,
+      "situation": "You are ten minutes late to pick up your son, and the teacher at the gate says, \"Third time this month.\" You feel your chest tighten and your voice get ready to defend itself. Your son is watching from the steps.",
+      "firstThought": "Who is she to count? I am doing my best here.",
+      "reframes": [
+        "My chest is tight and I feel defensive. I can notice that before I answer.",
+        "She may be tired and trying to get everyone home.",
+        "She likely wants my son to feel safe and not left waiting.",
+        "Maybe I am also feeling a bit guilty.",
+        "We both want him to be happy and picked up on time.",
+        "From her side, a child waiting alone is a worry, not a judgement of me."
+      ],
+      "phrases": [
+        "I'm sorry about the delay. Thanks for waiting with him. Can we work out what would help?",
+        "I can hear it has been a lot for you. Thank you for waiting with him.",
+        "I am feeling a bit tense. Can we figure out what helps?",
+        "Is there a time that works best for you?",
+        "I am sorry, it has been a hard month. Thanks for looking after him.",
+        "Did it bother you? I would like to know."
+      ],
+      "roleplay": {
+        "partner": "Ms. Okafor, a teacher",
+        "opening": "I know it is not easy. It is just that he gets a bit worried when he is the last one waiting.",
+        "partnerReply": "Thanks for saying that kindly. He does not say anything, but I notice. If you can text me at three if I am running late, I will make sure someone is here."
+      },
+      "takeaway": "A defensive chest can soften with one honest sentence."
+    },
+    {
+      "id": "em-11",
+      "title": "Dad Goes Quiet",
+      "setting": "Family · dinner table",
+      "difficulty": 3,
+      "situation": "Your father has been telling a story about his old job, and you have said \"you told us that one\" without thinking. He puts down his fork and goes silent. The room has that stretched feeling.",
+      "firstThought": "It is a story I have heard ten times. It is not my fault if he is sensitive.",
+      "reframes": [
+        "I feel a bit bad and a bit defensive. Both can be true.",
+        "Dad may have felt dismissed, and the quiet is hurt.",
+        "He probably tells the story because it matters to him.",
+        "Maybe I said it out of tiredness, not unkindness.",
+        "We both want to feel close at this table.",
+        "From his side, being cut off after all these years of telling it might sting."
+      ],
+      "phrases": [
+        "Dad, that came out sharper than I meant. Sorry. Tell me the story again.",
+        "I think I hurt you just now. Was that it?",
+        "I am sorry I cut you off. Can I hear it properly this time?",
+        "What do you love most about that story?",
+        "I noticed you went quiet. Did I miss something?",
+        "I like hearing you tell it. Please keep going."
+      ],
+      "roleplay": {
+        "partner": "Dad, your father",
+        "opening": "No, it is fine. It is just an old story. I did not mean to go on.",
+        "partnerReply": "Well. It was my first real job, you know. I was nineteen and terrified. I suppose I like telling it because I remember who I was. Do you want the part with the boss and the ladder?"
+      },
+      "takeaway": "A quick sorry opens the door that a defense closes."
+    },
+    {
+      "id": "em-12",
+      "title": "The Cold Reply All",
+      "setting": "Work · email",
+      "difficulty": 2,
+      "situation": "You get an email that is addressed to the whole team and reads \"As per my previous message, the deadline is Friday.\" You did not see a previous message. Your jaw is set and you are drafting a reply in your head.",
+      "firstThought": "Previous message? I never got it. They are making me look careless in front of everyone.",
+      "reframes": [
+        "I am annoyed and a bit embarrassed. I can name that first.",
+        "The sender may be rushed and typing in shorthand.",
+        "They probably did not mean it as a dig at me.",
+        "Maybe the earlier message never reached me.",
+        "We both want the deadline met.",
+        "From their side, repeating themselves may feel frustrating too."
+      ],
+      "phrases": [
+        "Thanks for the nudge. I did not see the earlier message. Can you resend it?",
+        "I want to be sure I have it right. Is Friday end of day?",
+        "I may have missed an email. Can we confirm the details in a quick call?",
+        "Happy to hit Friday. Could you point me to the earlier note?",
+        "Quick check, is there anything else I may have missed?",
+        "Got it, and thanks. Anything I should prioritise first?"
+      ],
+      "roleplay": {
+        "partner": "Linda, a project lead",
+        "opening": "Oh, sorry. I thought I had sent it to everyone. It was just the details for the Friday handover. I will forward it now.",
+        "partnerReply": "Thanks for flagging it. It sounded sharper than I meant, I was juggling three deadlines. Let me know if Friday is a stretch and we can look at it together."
+      },
+      "takeaway": "A sharp email is often a stressed person, not a verdict."
     }
   ]
 }

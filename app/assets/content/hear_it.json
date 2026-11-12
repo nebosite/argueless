@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "hear-it",
+  "scenarios": [
+    {
+      "id": "hf-01",
+      "title": "Cancelled Again",
+      "setting": "Friends · phone call",
+      "difficulty": 1,
+      "situation": "Your friend Maya calls while you are stirring pasta. She had tickets to a show with her college roommate, and the roommate cancelled an hour before. Her voice is flat and she keeps saying it's no big deal.",
+      "firstThought": "She should just find someone else to go with. Why let it ruin her night?",
+      "reframes": [
+        "My urge to solve this fast might be my own discomfort with her disappointment.",
+        "Her flat voice tells me it does matter, even if she says it doesn't.",
+        "She probably isn't asking for a plan, just for company in the letdown.",
+        "I don't know the history with her roommate, so I can't judge the cancelling.",
+        "We both want her to feel less alone with this, and listening can do that.",
+        "If it were me, I'd want someone to say \"that stings\" before offering fixes."
+      ],
+      "phrases": [
+        "That sounds disappointing. You were looking forward to this.",
+        "Do you want ideas, or do you just need me to hear this?",
+        "An hour before, that's rough. How are you feeling about it?",
+        "I'm sorry. Tell me more about how the day went.",
+        "It's okay if it's a bit of a big deal. Want to talk it through?",
+        "I've got time. Start wherever you like."
+      ],
+      "roleplay": {
+        "partner": "Maya, your friend",
+        "opening": "She cancelled an hour before, after I'd been counting down all week. It's fine. I'm fine. It's whatever.",
+        "partnerReply": "Yeah. Honestly it hurt more than I expected. I was really looking forward to it. Thanks for not telling me to just go alone. I think I just needed to say that out loud."
+      },
+      "takeaway": "Sometimes the kindest help is just saying that sounds hard."
+    },
+    {
+      "id": "hf-02",
+      "title": "Whose Idea Was That",
+      "setting": "Work · coffee break",
+      "difficulty": 2,
+      "situation": "Over coffee, your colleague Tomas tells you that their manager presented his analysis at the leadership meeting as the team's idea. He is stirring his cup much longer than the sugar needs. Your own manager is a good one, so you can't quite see why he's so wound up.",
+      "firstThought": "It's probably an honest mix-up. He should just email the manager and clear it up.",
+      "reframes": [
+        "Under the story I hear hurt: he worked hard and feels unseen.",
+        "I'm defending the manager before I've heard what it was like for him.",
+        "Maybe he doesn't need a plan yet, just someone who gets it.",
+        "I don't know the whole picture, and I don't have to settle it now.",
+        "We both want him to feel his work counts.",
+        "If my work were swallowed up like that, I'd want to be heard first."
+      ],
+      "phrases": [
+        "That sounds frustrating. It was your work and you didn't get to hear it called yours.",
+        "You put real effort into that analysis. It makes sense you feel overlooked.",
+        "What was it like, sitting there while it was presented?",
+        "Do you want to vent, or do you want to think through next steps?",
+        "I'm listening. Take your time.",
+        "That would sting me too. What part bothered you most?"
+      ],
+      "roleplay": {
+        "partner": "Tomas, a colleague",
+        "opening": "She presented my analysis as \"the team's thinking.\" Two weeks of evenings, and I'm a bullet point. I know, I know, it's petty.",
+        "partnerReply": "It's not petty to you, is it? Thanks. Everyone keeps telling me to email her, and I will. I just wanted someone to say it was a real thing that happened. That helps."
+      },
+      "takeaway": "Hear the hurt first. The email can wait until he asks."
+    },
+    {
+      "id": "hf-03",
+      "title": "The Borrowed Ladder",
+      "setting": "Partner · kitchen after dinner",
+      "difficulty": 2,
+      "situation": "Your partner Jordan comes in and drops onto a chair. The neighbour borrowed their good ladder two months ago, never mentioned it again, and today bought a new one without a word. Jordan is rinsing the same plate twice.",
+      "firstThought": "Just knock on the door and ask for it back. It's a ladder, not a crisis.",
+      "reframes": [
+        "I notice I'm shrinking this down because their upset makes me uneasy.",
+        "The ladder may be the small part and feeling brushed aside the big part.",
+        "Jordan may have trusted this neighbour, and that trust just wobbled.",
+        "I haven't heard everything, so I can't judge how they handled it.",
+        "We both want a home where Jordan feels settled, and being heard helps.",
+        "If I felt taken for granted, I'd want someone to stay with that first."
+      ],
+      "phrases": [
+        "That sounds really annoying. And a bit hurtful, honestly.",
+        "You trusted them with it. No wonder it stings.",
+        "Do you want ideas, or just someone to be mad with?",
+        "Tell me what bugged you most about it.",
+        "I'm on your side tonight. What happened when you saw the new ladder?",
+        "I won't jump to fixes. I'd like to just hear it."
+      ],
+      "roleplay": {
+        "partner": "Jordan, your partner",
+        "opening": "He bought a brand-new ladder and never said a word about mine. Is that rude, or am I being ridiculous?",
+        "partnerReply": "Okay, thanks for not saying I'm being ridiculous. It's not even the ladder. It's that I thought we were friendly. Maybe I'll ask him about it this weekend. Not tonight, though."
+      },
+      "takeaway": "When the story is small and the feeling is big, listen to the feeling."
+    },
+    {
+      "id": "hf-04",
+      "title": "Left Off the Invite",
+      "setting": "Family · sister's visit",
+      "difficulty": 1,
+      "situation": "Your sister Nell stops by with a bag of lemons from her tree. She mentions, lightly, that a group of her friends held a birthday dinner and she heard about it only from a photo. She laughs a little too quickly.",
+      "firstThought": "Maybe they thought she was busy. She should just ask them about it.",
+      "reframes": [
+        "Her quick laugh tells me this hurt and she's covering it.",
+        "I'm already explaining it away, and that might not help her feel heard.",
+        "She may want company in the sting, not a theory about her friends.",
+        "I don't know why she wasn't invited, and I don't have to guess.",
+        "We both want her to feel she belongs somewhere.",
+        "Finding out from a photo would hurt me too."
+      ],
+      "phrases": [
+        "Oh, Nell. Seeing it in a photo must have hurt.",
+        "That laugh sounded a bit like it stung. Did it?",
+        "Do you want my ideas, or should I just listen?",
+        "How did it feel when you saw it?",
+        "I'm glad you told me. Want a cup of tea while you talk?",
+        "No fixing from me yet. I'd like to hear how you're really doing."
+      ],
+      "roleplay": {
+        "partner": "Nell, your sister",
+        "opening": "It's nothing, really. They just had a birthday dinner and I found out from a photo. I'm sure it's fine.",
+        "partnerReply": "It did sting, actually. Thanks for asking. I kept telling myself it's nothing. I might reach out to one of them later, but right now I just wanted somebody to know."
+      },
+      "takeaway": "A quick laugh can cover a real hurt. Gently ask about it."
+    },
+    {
+      "id": "hf-05",
+      "title": "No Word After the Interview",
+      "setting": "Family · call with a grown child",
+      "difficulty": 2,
+      "situation": "Your grown son Theo calls on his lunch break. He had a final-round interview nine days ago and the company has gone silent. He says he's been refreshing his email in the stairwell, and you can hear the echo of his voice.",
+      "firstThought": "He should email them today. Waiting around never gets anyone anywhere.",
+      "reframes": [
+        "I want to rescue him, and that urge is mine, not necessarily his need.",
+        "Under the story I hear worry and a bit of being let down.",
+        "He is an adult who has probably thought of emailing already.",
+        "I'm judging how he handled the wait, and he didn't ask for a review.",
+        "We both want him to feel steady, and being heard may do more than advice.",
+        "If I'd been left hanging for nine days, I'd want someone to just get it."
+      ],
+      "phrases": [
+        "Nine days of silence sounds draining. How are you holding up?",
+        "That kind of waiting is hard. Tell me what it's been like.",
+        "Do you want ideas, or just to be heard?",
+        "I hear that you're worried. I'm right here.",
+        "It makes sense you keep checking. That's a lot of hope to hold.",
+        "I'm not going anywhere. What's the hardest part today?"
+      ],
+      "roleplay": {
+        "partner": "Theo, your grown son",
+        "opening": "Nine days, Mom. I keep checking my email in the stairwell. I really wanted this one.",
+        "partnerReply": "Thanks. Honestly, I thought you'd tell me to email them. I might still, but it helps that you just said it sounds hard. I needed somebody to hear that I really want it."
+      },
+      "takeaway": "He may already know what to do. He may just need company."
+    },
+    {
+      "id": "hf-06",
+      "title": "Dad's Old Friend",
+      "setting": "Family · dad's kitchen",
+      "difficulty": 2,
+      "situation": "You are helping your dad sort his mail when he mentions that his oldest friend Walt missed his birthday this year, no call, no card. Dad says it flatly while squaring the envelopes into a very neat stack.",
+      "firstThought": "Walt's probably just forgetful. Dad should call him and not be so sensitive.",
+      "reframes": [
+        "I'm calling my dad sensitive when what I could notice is that he's hurt.",
+        "That neat stack of envelopes might be where he's putting a sad feeling.",
+        "I don't know Walt's side, and I don't need to defend him.",
+        "He may not want a plan, just someone beside him in this.",
+        "We both want him to feel valued by the people who matter to him.",
+        "If a friend of fifty years went quiet on my birthday, it would hurt."
+      ],
+      "phrases": [
+        "That must have hurt, Dad. Walt has been around for so long.",
+        "You were hoping to hear from him.",
+        "Do you want my ideas, or would you rather just tell me about it?",
+        "How did it feel when the day went by with nothing?",
+        "I'm sorry. I'd like to hear about you and Walt, if you feel like talking.",
+        "It's okay to be bothered. I'm not going to hurry you."
+      ],
+      "roleplay": {
+        "partner": "Dad, your father",
+        "opening": "Walt didn't call on my birthday. Fifty years. Probably nothing. Don't make a fuss, I'm just mentioning it.",
+        "partnerReply": "Well, it did sit with me. Fifty years is a long time. I won't make a fuss, but I'm glad you asked. Maybe I'll call him Sunday. Let me tell you how we met, though."
+      },
+      "takeaway": "An offhand mention can carry a lot. Stay and hear it."
+    },
+    {
+      "id": "hf-07",
+      "title": "Pulled From the Project",
+      "setting": "Work · hallway after a meeting",
+      "difficulty": 3,
+      "situation": "Your close colleague Anika catches you at the water cooler. Her manager just moved her off the project she pitched, and she says she lost her cool and said something sharp in the meeting. Her eyes are red-rimmed but her voice is steady.",
+      "firstThought": "If she hadn't snapped in the meeting, this probably wouldn't have gotten worse.",
+      "reframes": [
+        "I'm reviewing how she handled it, and she came to me hurting, not for notes.",
+        "Under the sharp words I hear disappointment and a feeling of being cut out.",
+        "She may already be telling herself she shouldn't have snapped.",
+        "I wasn't in that moment, so I can't know how it felt.",
+        "We both want her to feel respected, and being heard is a start.",
+        "If it were my project, I might have snapped too."
+      ],
+      "phrases": [
+        "That sounds awful. You built that project from your own pitch.",
+        "I can hear how much it hurts. Take your time.",
+        "Do you want ideas, or do you just need me to hear this?",
+        "What was the hardest part of that meeting for you?",
+        "I'm not going to grade how you handled it. I'm just glad you told me.",
+        "I'm glad you told me. Take your time. How did it go?"
+      ],
+      "roleplay": {
+        "partner": "Anika, a close colleague",
+        "opening": "They gave my project to someone else and I said something sharp in front of everyone. I'm so embarrassed. I probably blew it, didn't I?",
+        "partnerReply": "Thanks for not telling me what I should have said. I've been replaying it all morning. I was just really hurt, and I needed somebody to know that. I'll think about what to do next later."
+      },
+      "takeaway": "Skip the review of what she should have said. Hear how it hurt."
+    },
+    {
+      "id": "hf-08",
+      "title": "The Text He Regrets",
+      "setting": "Friends · porch, evening",
+      "difficulty": 3,
+      "situation": "Your friend Ravi sits down on your porch step and shows you a text he sent his brother about the family cabin. The brother hasn't replied in two days, and Ravi says he was probably too blunt. He keeps scrolling back up to read it again.",
+      "firstThought": "Yeah, that text was too harsh. He should have waited and said it differently.",
+      "reframes": [
+        "I'm grading his text, and he didn't come here to be graded.",
+        "Under the story I hear fear that he's damaged things with his brother.",
+        "He may already be hard on himself, and my verdict would add weight.",
+        "I only see one side of this, so I can hold off on judging.",
+        "We both want Ravi to feel less alone with the worry.",
+        "If I had sent something blunt and gotten silence, I'd feel sick too."
+      ],
+      "phrases": [
+        "Two days of silence from your brother sounds really hard.",
+        "You sound worried you've hurt him. That's tough to sit with.",
+        "Do you want my opinion on the text, or do you just want to talk about how you feel?",
+        "What's it been like, waiting?",
+        "I'm not going to judge the text. I'm just here with you.",
+        "It matters to you because he's your brother. Tell me about him."
+      ],
+      "roleplay": {
+        "partner": "Ravi, your friend",
+        "opening": "I think I messed up. I sent my brother a text and he hasn't answered in two days. Read it. Was it too much?",
+        "partnerReply": "I think I really needed somebody to not tell me it was too much. I'm already thinking that. I'm scared I broke something. Maybe I'll call him tomorrow, but right now I'm glad you're here."
+      },
+      "takeaway": "He didn't ask for a review of the text. He asked to be heard."
+    }
+  ]
+}

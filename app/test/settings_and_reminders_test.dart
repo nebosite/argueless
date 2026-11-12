@@ -378,13 +378,17 @@ void main() {
       expect(settings.value.themeColor, 0xFF00796B);
       expect(app().theme!.colorScheme.primary, const Color(0xFF00796B));
 
+      // Text starts smaller than the phone's own size.
+      expect(find.text('70%'), findsOneWidget);
+      double scaled() =>
+          MediaQuery.of(tester.element(find.text('Text size'))).textScaler
+              .scale(10);
+      expect(scaled(), closeTo(7, 0.01));
       await tester.tap(find.byTooltip('More'));
       await tester.pumpAndSettle();
-      expect(settings.value.textPercent, 110);
-      expect(find.text('110%'), findsOneWidget);
-      final scaler = MediaQuery.of(tester.element(find.text('Text size')))
-          .textScaler;
-      expect(scaler.scale(10), closeTo(11, 0.01));
+      expect(settings.value.textPercent, 80);
+      expect(find.text('80%'), findsOneWidget);
+      expect(scaled(), closeTo(8, 0.01));
     });
   });
 

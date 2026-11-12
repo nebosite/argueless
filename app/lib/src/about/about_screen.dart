@@ -48,8 +48,24 @@ class AboutScreen extends StatelessWidget {
             Text('Your data', style: heading),
             const SizedBox(height: 4),
             Text(
-              'Your ideas, replies and reflections stay on this phone. '
-              'Nothing is uploaded or shared.',
+              'Your ideas, replies and journal stay on this phone. '
+              'ArgueLess uploads and shares nothing. When you tap the '
+              "microphone, your phone's speech service (Google on Android, "
+              'Apple on iPhone) turns your voice into words and may use '
+              "its servers to do it, just as the keyboard's microphone "
+              'does.',
+              style: theme.textTheme.bodyMedium,
+            ),
+            const SizedBox(height: 20),
+            Text('Backups', style: heading),
+            const SizedBox(height: 4),
+            Text(
+              "ArgueLess keeps no copies of its own. Your phone's backup "
+              'includes your practices, journal and settings, so they move '
+              'with you to a new phone: on Android, the backup in your '
+              'Google account or a phone-to-phone transfer; on iPhone, '
+              'iCloud or a backup to your computer. To leave them out, turn '
+              'off backup on Android, or iCloud backup on iPhone.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 20),

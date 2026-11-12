@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "turning-toward",
+  "scenarios": [
+    {
+      "id": "tt-01",
+      "title": "One More Episode",
+      "setting": "Home · couch, evening",
+      "difficulty": 1,
+      "situation": "The credits roll and the next episode starts a five-second countdown. Your tea has gone cold on the armrest. Your thumb is already drifting toward the remote, though you have felt uneasy since the afternoon.",
+      "firstThought": "Just one more. I really don't want to think about today.",
+      "reframes": [
+        "I notice a pull toward the next episode, and noticing it is enough for now.",
+        "The part reaching for the remote is trying to help me, not trick me.",
+        "Something from today is still sitting with me. I wonder what it is.",
+        "A good friend would ask what's wrong before offering another episode.",
+        "One part wants comfort and another wants to feel the day. Both are welcome.",
+        "This is one evening in a long life. I can pause for a minute."
+      ],
+      "phrases": [
+        "Hey. What are we running from right now?",
+        "I see you reaching for the remote. I'm not mad. What's up?",
+        "Something from today is still here. I can stay with it a minute.",
+        "Let's pause the show for one minute and just notice what's underneath.",
+        "You wanted a break, and that's fair. What else do you need?",
+        "I'm here. You don't have to push this feeling away alone."
+      ],
+      "roleplay": {
+        "partner": "The comfort-seeking part, a part of you",
+        "opening": "Just let it play. It's easy, it's warm, and I really don't want to feel today right now.",
+        "partnerReply": "Okay. It's just that this afternoon's meeting stung and I didn't want to look at it. Having you sit here helps. Maybe the next episode can wait a few minutes."
+      },
+      "takeaway": "Noticing the pull is already turning toward the feeling."
+    },
+    {
+      "id": "tt-02",
+      "title": "Midnight Drawer",
+      "setting": "Home · kitchen, late night",
+      "difficulty": 2,
+      "situation": "It is nearly midnight and you are on your knees sorting the junk drawer, rubber bands in one pile, batteries in another. Everyone else is asleep. Your chest feels oddly tight, and you can't quite remember why you started.",
+      "firstThought": "Keep moving. If I stop, that tight feeling will show up.",
+      "reframes": [
+        "My chest is tight. I can name that without needing it to be anything else.",
+        "Sorting the drawer is a part of me trying to settle things down.",
+        "I wonder what this part is keeping me from feeling.",
+        "A good friend would sit beside me on the floor, not hurry me.",
+        "One part wants to keep busy and another wants to be still. Both get a say.",
+        "The drawer will be there tomorrow. This feeling might want some attention tonight."
+      ],
+      "phrases": [
+        "Hey. You've been busy for a while. What's underneath it?",
+        "Thanks for trying to settle me. Can we sit for one minute?",
+        "My chest feels tight. I'm going to breathe and just notice it.",
+        "What are you worried would happen if we stopped?",
+        "You don't have to fix anything. I just want to listen.",
+        "The drawer can wait. I'd like to hear you first."
+      ],
+      "roleplay": {
+        "partner": "The busy part, a part of you",
+        "opening": "Don't stop now, the batteries are almost sorted. If we stop, that tight thing in the chest is going to show up.",
+        "partnerReply": "Fine, a minute. It's dread about Thursday's presentation. Keeping my hands busy was easier than feeling that. I'm still nervous, but it helps that you know."
+      },
+      "takeaway": "Busy hands can be a kind attempt to hold something. Ask what."
+    },
+    {
+      "id": "tt-03",
+      "title": "Refresh, Refresh",
+      "setting": "Work · desk, afternoon",
+      "difficulty": 2,
+      "situation": "You have refreshed the news page four times in ten minutes, though nothing has changed. A half-written document sits open in the next window. Your shoulders have crept up near your ears.",
+      "firstThought": "I have to keep checking, or something will catch me off guard.",
+      "reframes": [
+        "My shoulders are up near my ears. Something in me is bracing.",
+        "Refreshing is a part of me trying to keep me safe.",
+        "I wonder what feeling is underneath this need to check.",
+        "A friend would say, you seem on edge, what's going on?",
+        "One part wants to stay alert and another wants to be at ease. Both make sense.",
+        "In the wider view of my life, one minute of pausing costs very little."
+      ],
+      "phrases": [
+        "I notice you keep checking. What are you hoping to find?",
+        "You're trying to keep us safe. Thank you. What's the worry?",
+        "My shoulders are up by my ears. I'm going to let them drop.",
+        "Nothing new has come in. What feeling is looking for news?",
+        "I'm going to look away for a minute and see what shows up.",
+        "Whatever it is, you're not alone with it."
+      ],
+      "roleplay": {
+        "partner": "The watchful part, a part of you",
+        "opening": "One more refresh. If something happens and we miss it, we'll be unprepared, and that'll be on us.",
+        "partnerReply": "I guess I'm scared of being caught off guard, like I was last year. Checking feels like control. It's okay to say that out loud. I might still check later, but I can breathe now."
+      },
+      "takeaway": "Checking is often worry looking for a job. Ask the worry."
+    },
+    {
+      "id": "tt-04",
+      "title": "Bedtime Scroll",
+      "setting": "Home · in bed, night",
+      "difficulty": 1,
+      "situation": "The lights are off and your phone glows against the pillow. You are thumbing through strangers' holiday photos with heavy eyes. A friend cancelled Friday's plans this afternoon, and you haven't let yourself think about it.",
+      "firstThought": "Don't think about the cancelled plans. Just scroll until I'm sleepy.",
+      "reframes": [
+        "I felt a sting when the plans fell through, and I pushed it aside.",
+        "The scrolling part wants me to feel better, and that's a kind wish.",
+        "I wonder if it's loneliness or disappointment waiting underneath.",
+        "A good friend would say, that must have been a letdown.",
+        "One part wants distraction and another wants to be heard. Both can stay.",
+        "One cancelled evening doesn't define my friendships, and it can still hurt."
+      ],
+      "phrases": [
+        "Hey. That cancelled plan stung, didn't it? I noticed.",
+        "I can put the phone face down for a minute. Is that okay?",
+        "What are you feeling right now, underneath the scrolling?",
+        "It's fine to feel a bit lonely. I'm right here.",
+        "You were looking forward to that evening. Of course it hurts.",
+        "We can scroll again after. First, let's listen for a minute."
+      ],
+      "roleplay": {
+        "partner": "The lonely part, a part of you",
+        "opening": "Keep scrolling. If you stop, I'll have to admit I was looking forward to Friday, and now it's just another quiet night.",
+        "partnerReply": "Thanks for saying it out loud. I really was looking forward to it, and I felt a bit forgotten. I don't need fixing. Just don't hurry past me tonight."
+      },
+      "takeaway": "A small ache deserves one minute of company."
+    },
+    {
+      "id": "tt-05",
+      "title": "Tiles Between Calls",
+      "setting": "Work · home office, midday",
+      "difficulty": 3,
+      "situation": "Between two video calls you open a phone puzzle game and tap through level after level. Ten minutes ago a colleague's offhand comment about your report left you feeling flat. The next call starts in twelve minutes.",
+      "firstThought": "Don't think about the comment. Match the tiles, stay numb, move on.",
+      "reframes": [
+        "I felt flat after that comment, and that's a real feeling.",
+        "The game part is trying to cushion me before the next call.",
+        "I wonder if it's embarrassment, or worry that I missed something.",
+        "A good friend would say, that comment landed hard, didn't it?",
+        "One part wants to be ready for the call and another is still stung. Both matter.",
+        "One comment on one report is a small piece of a long working life."
+      ],
+      "phrases": [
+        "Hey. That comment on the report stayed with you, didn't it?",
+        "I'll finish this level, then take one minute with the sting.",
+        "What are you protecting me from right now?",
+        "It's okay to feel flat. I don't have to fix it in twelve minutes.",
+        "I notice I'm tapping fast. Let's slow down and breathe once.",
+        "You cared about that report. That's why it stung."
+      ],
+      "roleplay": {
+        "partner": "The stung part, a part of you",
+        "opening": "Just keep playing. If we think about that comment, we'll walk into the next call feeling small, so let's not.",
+        "partnerReply": "I guess I did feel small. I worked hard on that report. I don't need to solve it now. Knowing you heard me, I can go into the call a bit steadier."
+      },
+      "takeaway": "A feeling can ride along into the next call without running it."
+    },
+    {
+      "id": "tt-06",
+      "title": "The Dinner Photos",
+      "setting": "Friends · phone, evening",
+      "difficulty": 2,
+      "situation": "The group chat lights up with photos from a dinner you weren't invited to. You flick over to a video feed, then another, then another, thumb steady. Your face feels warm and you keep your eyes on the screen.",
+      "firstThought": "It's fine. I don't care. Just watch something funny and forget it.",
+      "reframes": [
+        "I'm saying I don't care, but my warm face says something else.",
+        "The scrolling part is trying to shield me from feeling left out.",
+        "I wonder if it's hurt, or just a wish to belong.",
+        "A good friend would say, that looks like it stung.",
+        "One part wants to shrug it off and another wants to be seen. Both belong.",
+        "In the whole of my life, this is one dinner among many friendships."
+      ],
+      "phrases": [
+        "Hey. You said you don't care, but I think it stung. Tell me.",
+        "Feeling left out is a real feeling. I'm not going to rush it.",
+        "What are you hoping the videos will take away?",
+        "I'm going to put the phone down for a minute and just feel this.",
+        "Part of you wants to belong. That's a lovely thing to want.",
+        "I'm here with you. We don't have to decide anything tonight."
+      ],
+      "roleplay": {
+        "partner": "The left-out part, a part of you",
+        "opening": "Don't make it a thing. Scroll something funny. I don't want to admit I wanted to be at that dinner.",
+        "partnerReply": "Thanks. I did want to be there. It hurt to see everyone laughing without me. I don't need a plan, just for you to stay with me a moment."
+      },
+      "takeaway": "I can say that hurt to myself before I say never mind."
+    },
+    {
+      "id": "tt-07",
+      "title": "Sunday Inbox",
+      "setting": "Home · laptop, Sunday evening",
+      "difficulty": 1,
+      "situation": "It is Sunday evening and you are clearing emails that don't need answers until Monday, one tidy reply at a time. The light outside has gone grey. A heavy feeling about tomorrow sits low in your stomach.",
+      "firstThought": "Keep clearing. If I stop, I'll just start dreading Monday.",
+      "reframes": [
+        "There's a heaviness in my stomach, and I can simply call it dread.",
+        "The inbox part is trying to ease tomorrow for me.",
+        "I wonder what about Monday this part is worried about.",
+        "A good friend would sit with me and ask what Monday feels like.",
+        "One part wants to prepare and another wants a gentle evening. Both are welcome.",
+        "Monday is one day in a whole week, and a whole life."
+      ],
+      "phrases": [
+        "Hey. There's a heavy feeling about Monday. Want to tell me about it?",
+        "You're trying to get ahead of it. Thank you. What are we afraid of?",
+        "I'll close the laptop for one minute and feel this.",
+        "It's okay to dread a bit. It doesn't mean something is wrong.",
+        "What would help tonight, besides more email?",
+        "I'm listening. No hurry."
+      ],
+      "roleplay": {
+        "partner": "The anxious part, a part of you",
+        "opening": "Keep answering. Every email we clear is one less thing Monday can throw at us. Please don't stop.",
+        "partnerReply": "It's the meeting with the new manager. I keep rehearsing it. I'm scared I'll sound unprepared. Thanks for asking. I might still clear the inbox, but I feel less alone with it."
+      },
+      "takeaway": "Dread softens a little when it has someone listening."
+    },
+    {
+      "id": "tt-08",
+      "title": "Skip That Song",
+      "setting": "Home · kitchen sink, evening",
+      "difficulty": 3,
+      "situation": "You are washing up with a video playlist running on the tablet, one clip rolling into the next. A song starts that your late grandmother used to hum. You reach with a wet hand to skip it and pick something louder.",
+      "firstThought": "Skip it. I can't do this right now, not in the middle of the dishes.",
+      "reframes": [
+        "My throat caught when that song began. That was a real moment.",
+        "Skipping the song is a part of me guarding something tender.",
+        "I wonder what missing her feels like right now.",
+        "A good friend would say, take your time, it's okay to feel her.",
+        "One part wants to keep going and another wants to listen. I can make room for both.",
+        "I carry her with me. A minute of missing her fits inside my life."
+      ],
+      "phrases": [
+        "Hey. That song caught you, didn't it? I noticed.",
+        "You skipped it fast. What were you worried would happen?",
+        "Missing her makes sense. I'm here.",
+        "I can play it again for one verse and see how it feels.",
+        "You don't have to be fine. We can stay with this a minute.",
+        "The dishes can wait. She's worth a minute."
+      ],
+      "roleplay": {
+        "partner": "The grieving part, a part of you",
+        "opening": "Skip the song. If I start crying over the sink, I won't stop, and then the evening is gone.",
+        "partnerReply": "I miss her so much. Hearing it felt like she was in the room. I don't know if I'll stop crying, but maybe a minute with it, and then we finish the dishes together."
+      },
+      "takeaway": "Missing someone is love with nowhere to go. Give it a minute."
+    }
+  ]
+}

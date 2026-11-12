@@ -10,6 +10,7 @@ import '../reminders/reminder_coordinator.dart';
 import '../reminders/reminder_offer_dialog.dart';
 import '../settings/settings_screen.dart';
 import 'action_card.dart';
+import 'idea_chip.dart';
 import 'streak_chip.dart';
 import 'subject_card.dart';
 
@@ -104,6 +105,8 @@ class _HomeScreenState extends State<HomeScreen> {
     await _load();
   }
 
+  bool get _wroteToday => _reflection?.note.trim().isNotEmpty ?? false;
+
   @override
   Widget build(BuildContext context) {
     final stats = _stats;
@@ -130,6 +133,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
+                IdeaChip(ideas: stats?.totalIdeas ?? 0),
+                const SizedBox(width: 6),
                 StreakChip(days: stats?.streak ?? 0),
                 IconButton(
                   tooltip: 'Settings',
@@ -150,8 +155,8 @@ class _HomeScreenState extends State<HomeScreen> {
               title: done == 0 ? "Today's practice" : 'One more?',
               subtitle: done == 0
                   ? 'One scenario, about 5 minutes.'
-                  : 'Done today: $done · ${stats!.minutesToday} min. '
-                        'Aim for 5 to 15.',
+                  : 'Done today: $done · ${stats!.minutesToday} min · '
+                        '${stats.ideasToday} ideas. Aim for 5 to 15 min.',
               color: theme.colorScheme.primary,
               filled: true,
               onTap: _practise,
@@ -159,14 +164,11 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 12),
             ActionCard(
               key: const Key('reflect'),
-              icon: Icons.wb_twilight_rounded,
-              title: _reflection == null
-                  ? 'Look back on the last day'
-                  : 'Reflected today',
-              subtitle: _reflection == null
-                  ? 'Count the tricky moments and how they went.'
-                  : '${_reflection!.automatic + _reflection!.recovered} '
-                        'went generously. Tap to change.',
+              icon: Icons.edit_note_rounded,
+              title: _wroteToday ? 'Journal written today' : 'Journal',
+              subtitle: _wroteToday
+                  ? 'Tap to read it or add more.'
+                  : 'What did you notice over the last day?',
               color: ArguelessTheme.sunshine,
               onTap: () => _open(ReflectScreen(services: _services)),
             ),
@@ -176,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: Icons.insights_rounded,
               title: 'Progress',
               subtitle: stats == null || stats.totalPractices == 0
-                  ? 'Your chart grows as you reflect.'
+                  ? 'Your ideas and journal gather here.'
                   : '${stats.totalPractices} practices, '
                         '${stats.totalIdeas} ideas so far.',
               color: theme.colorScheme.tertiary,

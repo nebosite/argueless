@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "both-parts",
+  "scenarios": [
+    {
+      "id": "bp-01",
+      "title": "Stuck After Nine",
+      "setting": "Work · desk, mid-morning",
+      "difficulty": 1,
+      "situation": "A tense chat with a colleague at nine o'clock is still replaying in your head. The report is open on your screen and the cursor blinks in the same empty line it has blinked in for twenty minutes.",
+      "firstThought": "Just get on with it. It was one conversation, and I'm wasting the whole morning.",
+      "reframes": [
+        "I'm feeling stung, and I can notice that without deciding if it's right or wrong.",
+        "The part that's still replaying the chat might be asking to be heard.",
+        "A good friend would say it makes sense I can't focus yet.",
+        "One part wants the report done, another needs a minute. Both want something fair.",
+        "Maybe the replaying is trying to protect me from a repeat of that moment.",
+        "In the whole week, ten minutes spent on a feeling is a small thing."
+      ],
+      "phrases": [
+        "I hear you want this report finished. I hear you're still bothered by nine o'clock.",
+        "Something stung this morning. I can give it five minutes, then come back.",
+        "What does the upset part want me to know right now?",
+        "Both of you are welcome here. Let's take it one at a time.",
+        "I'm not going to force the work or ignore the feeling. Let's find a middle.",
+        "Okay, five minutes with the feeling, and then I'll try one paragraph."
+      ],
+      "roleplay": {
+        "partner": "The stung part, a part of you",
+        "opening": "I can't write while that conversation is still going round and round. Can we please just look at it first?",
+        "partnerReply": "Thanks. I mostly wanted you to notice it. I think I was worried they now think badly of me. I can wait while you do one paragraph, if you'll check in after."
+      },
+      "takeaway": "Giving a feeling five minutes often frees up the next hour."
+    },
+    {
+      "id": "bp-02",
+      "title": "Yes, But Also Sofa",
+      "setting": "Friends · phone, Friday evening",
+      "difficulty": 1,
+      "situation": "A friend has invited you to a birthday get-together tonight. Your thumb hovers over the reply box. Across the room, the sofa has a blanket on it and the lamp is already glowing.",
+      "firstThought": "I should just go. Everyone else manages a Friday night without making a fuss about it.",
+      "reframes": [
+        "One part of me wants company and fun. Another wants a quiet night. Both are real.",
+        "I'm tired, and noticing that is information, not a failing.",
+        "My friend probably wants me there because they like me, not as a test.",
+        "The quiet part might be protecting some energy I'll want later this week.",
+        "A good friend of mine would ask what I actually need tonight.",
+        "This is one evening in a long friendship, and there's room for either choice."
+      ],
+      "phrases": [
+        "Part of me wants to see everyone. Part of me wants the sofa. What does each one need?",
+        "I'm not sure yet. Let me take two minutes to ask myself properly.",
+        "Quiet part, I hear you. Social part, I hear you too.",
+        "What would a friendly evening look like if I went for just one hour?",
+        "I can say yes to my friend and also tell them I might leave early.",
+        "I can say no kindly, and suggest a coffee next week instead."
+      ],
+      "roleplay": {
+        "partner": "The quiet part, a part of you",
+        "opening": "I've been holding it together all week. I really don't want to put on shoes and be bright tonight.",
+        "partnerReply": "You listened, so thank you. If we go, I'd like an easy exit and no big performance. If we stay, I'd like to actually rest, not feel guilty about it."
+      },
+      "takeaway": "Two wishes can both be heard before one of them decides."
+    },
+    {
+      "id": "bp-03",
+      "title": "The Unreturned Call",
+      "setting": "Friends · phone, Sunday afternoon",
+      "difficulty": 2,
+      "situation": "A friend left you a voicemail on Thursday. They forgot your birthday dinner last month, and it still smarts. You are holding the phone, looking at their name, and your stomach feels like a knot.",
+      "firstThought": "If they cared, they'd have remembered. Why should I be the one to call back?",
+      "reframes": [
+        "Part of me wants to reconnect, and part of me is still hurt. Both make sense.",
+        "The hurt part may be trying to protect me from being let down again.",
+        "My friend called, which might mean they care more than I'm assuming.",
+        "I can notice that it stung without deciding what it means about us.",
+        "What I want is probably to feel close to them again, and that matters too.",
+        "A kind friend to myself would not rush me, and would not let me hide forever."
+      ],
+      "phrases": [
+        "I want to call you back. I'm also still a bit hurt. Both are true.",
+        "Hurt part, what do you need before I dial?",
+        "I can call and say honestly that the birthday dinner stayed with me.",
+        "I don't have to fix everything in this call. I can just start it.",
+        "Part of me misses them. Part of me is guarded. I can bring both along.",
+        "Let me wait ten minutes, then call. I'm not avoiding it, I'm getting ready."
+      ],
+      "roleplay": {
+        "partner": "The hurt part, a part of you",
+        "opening": "I'll tell you plainly: I still feel left out about my birthday. I don't want to just pretend it was nothing.",
+        "partnerReply": "Okay. I think I just want it said out loud, in my own words, even gently. If they listen, I can relax a lot. I don't need a big speech, just to be heard."
+      },
+      "takeaway": "I can miss someone and still be hurt, both at once."
+    },
+    {
+      "id": "bp-04",
+      "title": "Feedback Aftershock",
+      "setting": "Work · laptop, after a review",
+      "difficulty": 2,
+      "situation": "Your manager's notes on your project were mostly fine, with one line about being \"a bit rushed\". The deadline for the next draft is tomorrow. You have reread that single line five times while the tea goes cold.",
+      "firstThought": "I'm clearly not good enough. I should stop fussing and just fix it all tonight.",
+      "reframes": [
+        "One part wants to fix it fast. Another part is still stinging. Neither is wrong.",
+        "That line felt bigger than it is. I can notice the sting without believing it.",
+        "My manager probably wrote it as a pointer, not a verdict on me.",
+        "The stung part might be protecting something I care about: doing good work.",
+        "A friend would say the notes were mostly fine, and also that it's okay to feel it.",
+        "Looking at the whole project, this is one line in a lot of good work."
+      ],
+      "phrases": [
+        "I hear you want this fixed by tomorrow. I hear you're stung. Let's do both gently.",
+        "That one line landed hard. I can feel that for a minute first.",
+        "Stung part, what is it you most want me to know?",
+        "Let's reread the notes once, calmly, and pick one thing to change.",
+        "I'm not going to force a rush tonight, and I'm not going to stew either.",
+        "Caring that it hurts shows how much I care about the work."
+      ],
+      "roleplay": {
+        "partner": "The stung part, a part of you",
+        "opening": "I read the word rushed and now every other sentence in the notes has gone blurry. Can you stay with me a second?",
+        "partnerReply": "Yes, that helps. I think I worried I'd let them down. I can let you edit now if you'll remember the rest of the notes were kind. Maybe a short break first."
+      },
+      "takeaway": "A stung feeling and a deadline can share one evening."
+    },
+    {
+      "id": "bp-05",
+      "title": "The Sunday Visit",
+      "setting": "Family · living room, Sunday",
+      "difficulty": 2,
+      "situation": "You said you would drive over to your parents' for lunch today. It is eleven, your keys are on the table, and your whole body wants to stay on the floor with a book. A small voice also says that they'd be disappointed.",
+      "firstThought": "What kind of person dreads seeing their own parents? I'm just being selfish.",
+      "reframes": [
+        "One part wants to go and be with them. Another needs a slow day. Both are welcome.",
+        "Dreading the drive doesn't mean I don't love them, it means I'm tired.",
+        "My parents likely want me there, not a perfect, cheerful version of me.",
+        "The part that wants to stay home might be asking for rest I haven't given it.",
+        "A kind friend would ask what I need, not call me selfish.",
+        "Across my whole life, one lunch of either kind won't define how much I care."
+      ],
+      "phrases": [
+        "I want to see them. I'm also worn out. Let's see what both of you need.",
+        "Tired part, I hear you. Loving part, I hear you too.",
+        "Maybe I can go for an hour and tell them I'm low on energy today.",
+        "I can call them instead and set up a proper visit next week.",
+        "Neither of you is selfish. You just want different things right now.",
+        "What would make the drive feel lighter, a podcast, a short stop, a smaller plan?"
+      ],
+      "roleplay": {
+        "partner": "The tired part, a part of you",
+        "opening": "I've given everyone my best all week. Please can today be the one day I don't have to be anywhere?",
+        "partnerReply": "Thank you for not scolding me. If we do go, I'd like to say I'm tired and leave a bit early. If we stay, I want to enjoy it, not spend it feeling guilty."
+      },
+      "takeaway": "Being tired and being loving can sit in the same room."
+    },
+    {
+      "id": "bp-06",
+      "title": "After the Goodbye",
+      "setting": "Home · hallway, evening",
+      "difficulty": 3,
+      "situation": "Your sister's visit ended an hour ago. The spare bed is stripped and the kettle is still warm. You have emails to answer and a pile of laundry, but you are standing in the hallway holding her scarf, not moving.",
+      "firstThought": "Pull yourself together. She lives two hours away, it's not like she moved abroad.",
+      "reframes": [
+        "I'm missing her, and I can notice that without arguing with it.",
+        "One part wants to get back to normal. Another wants to feel the quiet first.",
+        "The missing part might be showing me how much our time together mattered.",
+        "A good friend would let me stand here a minute and then offer a cup of tea.",
+        "I can care about the emails and care about this feeling in the same evening.",
+        "From a wider view, this is a short pause after something good."
+      ],
+      "phrases": [
+        "I miss her. That's allowed, and the emails will still be there in ten minutes.",
+        "Missing part, I'm here. What do you want me to notice?",
+        "Practical part, I know there's laundry. Can we do it after a short pause?",
+        "Both of you are welcome. I'm not choosing between you tonight.",
+        "I can hold her scarf for a minute and let myself feel the visit.",
+        "Maybe I'll message her a photo from the weekend. That could ease the quiet."
+      ],
+      "roleplay": {
+        "partner": "The missing part, a part of you",
+        "opening": "The flat is so quiet now. I don't want to start on the laundry yet. I just want to stand here and remember.",
+        "partnerReply": "That's what I needed. I'm not asking to be sad all night. A few minutes, and a message to her, and then I think the laundry can happen without me feeling flat."
+      },
+      "takeaway": "Missing someone is a kind of love, and it deserves a minute."
+    },
+    {
+      "id": "bp-07",
+      "title": "Apply or Stay Put",
+      "setting": "Work · kitchen table, evening",
+      "difficulty": 3,
+      "situation": "A job posting has been open in a browser tab for three days. Part of you reads it and your pulse picks up. Then you look at your steady, familiar workplace and your shoulders drop. Your tea is going lukewarm next to the laptop.",
+      "firstThought": "Stop being dramatic. Either apply or close the tab. You're just wasting energy going back and forth.",
+      "reframes": [
+        "One part is curious about something new. Another values what I already have. Both are real.",
+        "The nervous part might be protecting things I've worked hard to build.",
+        "The curious part might be pointing to something I want more of in my life.",
+        "I don't have to decide tonight. I can just listen to each part first.",
+        "A trusted friend would ask what each part hopes for, not rush me.",
+        "Looking at the long road, a few evenings of wondering is normal."
+      ],
+      "phrases": [
+        "Curious part, what excites you about this? Careful part, what are you protecting?",
+        "I hear you want a change. I hear you value what's steady. Both make sense.",
+        "I don't need to pick tonight. I'm just getting to know what each of you wants.",
+        "What would help the careful part feel safe if I did apply?",
+        "What would help the curious part feel heard if I didn't?",
+        "Let's write down what each one says, and look again in a couple of days."
+      ],
+      "roleplay": {
+        "partner": "The careful part, a part of you",
+        "opening": "I like our days here. I know the people. Why are you even looking at that tab?",
+        "partnerReply": "Okay, that's fair. I'm not against looking. I just don't want to lose what's good here without thinking. If we take it slowly and keep what matters in view, I can relax."
+      },
+      "takeaway": "Two parts can want different things and still be on my side."
+    },
+    {
+      "id": "bp-08",
+      "title": "Good News, Flat Feeling",
+      "setting": "Home · couch, late afternoon",
+      "difficulty": 3,
+      "situation": "Your promotion email arrived an hour ago. People have already sent congratulations, and you smiled at each one. Now you're sitting on the couch with the phone face down, feeling oddly flat and a little teary.",
+      "firstThought": "This is great news. What is wrong with me that I can't just enjoy it?",
+      "reframes": [
+        "One part is proud and glad. Another feels something quieter. Both belong here.",
+        "A flat feeling doesn't cancel the good news. They can sit side by side.",
+        "Maybe the teary part is noticing how much effort this took.",
+        "A good friend would ask what the quiet part is feeling, not tell it to cheer up.",
+        "The quiet part might be protecting me from rushing to the next thing.",
+        "In my whole life, one calm afternoon is a gentle way to take in a change."
+      ],
+      "phrases": [
+        "I'm glad about this. I also feel a bit flat. I can hold both.",
+        "Quiet part, what's going on for you? I'm listening.",
+        "Proud part, I see you. Quiet part, I see you too.",
+        "I don't have to feel the right thing. I can just notice what's here.",
+        "Maybe this afternoon is for taking it in slowly, not celebrating loudly.",
+        "I'll message one person who'd understand, and let the rest wait."
+      ],
+      "roleplay": {
+        "partner": "The quiet part, a part of you",
+        "opening": "Everyone is thrilled and I just want to sit here. I'm worried that means I'm not grateful enough.",
+        "partnerReply": "Thank you for not rushing me. I think I'm a bit tired and a bit nervous about what comes next. I'd like a quiet hour, and then I can enjoy it properly."
+      },
+      "takeaway": "Good news can arrive alongside quiet feelings, and both are welcome."
+    }
+  ]
+}

@@ -29,7 +29,8 @@ void main() {
 
     test('text size is clamped to its range', () {
       expect(AppSettings.fromJson({'textPercent': 500}).textPercent, 150);
-      expect(AppSettings.fromJson({'textPercent': 10}).textPercent, 80);
+      expect(AppSettings.fromJson({'textPercent': 10}).textPercent, 50);
+      expect(const AppSettings().textPercent, 70, reason: 'a smaller default');
       expect(AppSettings.fromJson({'textPercent': 109.6}).textPercent, 110);
     });
 

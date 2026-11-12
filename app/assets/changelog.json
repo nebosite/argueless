@@ -2,6 +2,20 @@
   "schemaVersion": 1,
   "versions": [
     {
+      "version": "0.3.0",
+      "date": "2026-11-12",
+      "changes": [
+        "The daily look back is now a journal: write freely about what you noticed, and read past entries in Progress.",
+        "A microphone button on every text box, so you can speak instead of type. The keyboard stays out of the way until you want it.",
+        "Six new subjects: hearing someone without fixing, letting an idea land, different political views, holding two parts of yourself, a kinder mirror, and turning toward a feeling instead of going numb.",
+        "Sixteen more scenarios in the first four subjects.",
+        "The role-play shows the other person's line before you choose your reply.",
+        "Your ideas are counted on the home screen.",
+        "Text starts smaller; change it in Settings.",
+        "The About page now says plainly where your data is backed up: only by your phone's own backup."
+      ]
+    },
+    {
       "version": "0.2.0",
       "date": "2026-11-12",
       "changes": [

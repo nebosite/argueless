@@ -21,7 +21,7 @@ be regenerated, extended, or used as the starting point for an AI backend.
     "id": "letting-go",            // permanent
     "title", "tagline", "brief",
     "color": "0xFF2E7DD7",         // ARGB, as a string
-    "icon": "balance",             // balance | help | favorite | forum (SubjectLook)
+    "icon": "balance",             // balance | help | favorite | forum | hearing | pause | diversity | self | spa | waves
     "scenarioFile": "letting_go.json",
     "rubrics": { "reframe": {...} } // optional: replaces the default for this subject
   }]
@@ -67,14 +67,18 @@ both versions.
 1. Open [prompts/scenario-batch.md](prompts/scenario-batch.md).
 2. Fill the placeholders for one subject: id, title and brief from
    `library.json`, the subject notes from the bottom of the prompt file, a
-   count, the id prefix (`lg`, `cf`, `em`, `rb`), and the titles of existing
+   count, the id prefix (`lg`, `cf`, `em`, `rb`, `hf`, `lf`, `dv`, `bp`, `km`, `tt`), and the titles of existing
    scenarios under `avoid`.
 3. Run it with a capable model and merge the returned scenarios into the
    subject's file, continuing the id numbering.
 4. Run the core tests, then read a few scenarios in the app.
 
 The first batch (eight per subject) was made this way with Claude Sonnet,
-one subagent per subject, using the prompt unchanged.
+one subagent per subject, using the prompt unchanged. The second batch
+(0.3.0) added six subjects of eight scenarios and four more scenarios to
+each of the first four subjects, the same way. Inner subjects (`both-parts`,
+`kinder-mirror`, `turning-toward`) have no other person: the role-play
+partner is a part of the user, named "The tired part, a part of you".
 
 ## Toward an AI backend
 

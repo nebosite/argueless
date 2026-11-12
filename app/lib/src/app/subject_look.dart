@@ -10,6 +10,12 @@ class SubjectLook {
     'help': Icons.help_outline_rounded,
     'favorite': Icons.favorite_border_rounded,
     'forum': Icons.forum_outlined,
+    'hearing': Icons.hearing_rounded,
+    'pause': Icons.pause_circle_outline_rounded,
+    'diversity': Icons.diversity_3_rounded,
+    'self': Icons.self_improvement_rounded,
+    'spa': Icons.spa_outlined,
+    'waves': Icons.waves_rounded,
   };
 
   static Color color(Subject subject) => Color(subject.color);

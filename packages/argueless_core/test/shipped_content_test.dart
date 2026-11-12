@@ -16,15 +16,33 @@ void main() {
     ).load();
   });
 
-  test('has the four subjects, each with scenarios', () {
+  test('has the ten subjects, each with at least eight scenarios', () {
     expect(library.subjects.map((s) => s.id), [
       'letting-go',
       'confusion',
       'emotion',
       'rebuttal',
+      'hear-it',
+      'let-them-finish',
+      'different-views',
+      'both-parts',
+      'kinder-mirror',
+      'turning-toward',
     ]);
     for (final subject in library.subjects) {
-      expect(library.scenariosFor(subject.id), isNotEmpty, reason: subject.id);
+      expect(
+        library.scenariosFor(subject.id).length,
+        greaterThanOrEqualTo(8),
+        reason: subject.id,
+      );
+    }
+  });
+
+  test('an inner subject role-plays with a part of the user', () {
+    for (final id in ['both-parts', 'kinder-mirror', 'turning-toward']) {
+      for (final s in library.scenariosFor(id)) {
+        expect(s.roleplay.partner, endsWith(', a part of you'), reason: s.id);
+      }
     }
   });
 

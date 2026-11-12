@@ -9,6 +9,7 @@ import 'src/app/argueless_app.dart';
 import 'src/reminders/local_notifications_scheduler.dart';
 import 'src/reminders/reminder_coordinator.dart';
 import 'src/settings/app_settings_controller.dart';
+import 'src/speech/phone_speech_input.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,6 +42,7 @@ Future<void> main() async {
           store: files.reminders(),
           practiceLog: practiceLog,
         ),
+        speech: PhoneSpeechInput(),
       ),
     ),
   );
